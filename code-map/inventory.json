@@ -1,0 +1,136 @@
+{
+  "note": "Public minified bundles are not included; char_offsets are character offsets in the UTF-8 decoded files.",
+  "apps": {
+    "agent_quant": [
+      {
+        "path": "chat-api-BkRzIk_k.js",
+        "bytes": 8645,
+        "sha256": "ce45f45d11c12c5868c4f2c1cb5a5267d5f6afb55ba2119eaa57aea152329a39",
+        "char_offsets": {
+          "/api/chat/runs": 4645,
+          "/api/chat/runs/{run_id}/retry": 4965,
+          "/api/chat/runs/{run_id}/cancel": 5868,
+          "/api/chat/conversations": 3311,
+          "strategy-create-approvals": 6017,
+          "strategy-run-approvals": 6477,
+          "strategy-mutation-approvals": 6676,
+          "strategy-version-approvals": 7223,
+          "factor-create-approvals": 7665,
+          "event_type": 1394,
+          "mutations": 1369,
+          "lastSequence": 1316,
+          "redis_stream_id": 1733
+        }
+      },
+      {
+        "path": "query-keys-hu8Y4jsT.js",
+        "bytes": 90101,
+        "sha256": "ba979e03f8b6b01e842116500e08358b8a1123463916fe6acd048c9cbe53567d",
+        "char_offsets": {
+          "/pandaApi/agent_quant": 1340,
+          "/api/auth/me": 86287,
+          "Authorization": 4327,
+          "/login": 1470,
+          "localStorage": 2602,
+          "token": 2340
+        }
+      },
+      {
+        "path": "auth-provider-C7ie0Npj.js",
+        "bytes": 3278,
+        "sha256": "dd71457e22a346ccfbee7ac5fabb82761cdf930c84d4dc295ed3a8f379bcc20f",
+        "char_offsets": {
+          "localStorage": 2847,
+          "storage": 2811,
+          "authenticated": 2302
+        }
+      },
+      {
+        "path": "input-BSBalGud.js",
+        "bytes": 503144,
+        "sha256": "ad8bec7bb01d8dbc79adb3e98f0bf757a1ae4ce5c8b214470d01e5b37876c517",
+        "char_offsets": {
+          "Java gateway": 49552,
+          "auth.requiredDescription": -1,
+          "chat": 48922
+        }
+      }
+    ],
+    "quantflow": [
+      {
+        "path": "Quantflow-CFbBdo_1.js",
+        "bytes": 328749,
+        "sha256": "16fac899070aec49e3d89a3d673a0ec5c43a354822d7fba4b28685cca1654187",
+        "char_offsets": {
+          "/pandaApi/quantflow/api/workflow-graph/stream": 146958,
+          "workflow_init": 149053,
+          "workflow_layout": 148925,
+          "workflow_generating": 148947,
+          "code_merged": 148973,
+          "workflow_structure_complete": 148991,
+          "workflow_complete_success": 149329,
+          "case\"END\"": 149460,
+          "node_desc_map": 151555,
+          "workflow_progress": 151170,
+          "revision_id": 140066,
+          "content_hash": 136660,
+          "sessions/checkpoint": 140002,
+          "serializeWorkflowData": 147043,
+          "setWorkflowDataFromSSE": 140156,
+          "/api/workflow/run/log": 278484,
+          "/api/workflow/run_with_store": 241225,
+          "/api/workflow/run/terminate_with_store": 242843
+        }
+      },
+      {
+        "path": "main-C0byxrRt.js",
+        "bytes": 13838062,
+        "sha256": "0f6cdc8aa5a255efd2e244c37c15ab7bdbd7662c5094d7adb2fc2d447bb95001",
+        "char_offsets": {
+          "responseBodyLooksLikeStreaming": 6632651,
+          "text/event-stream": 6642068,
+          "application/x-ndjson": 6642101
+        }
+      },
+      {
+        "path": "Workflow-CA6TBoMa.js",
+        "bytes": 3779,
+        "sha256": "6784ba8a406b28d18e68327f650e6c608b44b0dcd355a53111acc0e9925a7d08",
+        "char_offsets": {
+          "/workflow/editor": 2051
+        }
+      },
+      {
+        "path": "SidebarLayout-DQ6ickQk.js",
+        "bytes": 102060,
+        "sha256": "ce9405fb003b7211f2e8a4b8d5dfcc2c86e6b2113d620160c93b7ca474cbd718",
+        "char_offsets": {
+          "/pandaApi/quantflow/api/workflow/run/list": 93848
+        }
+      },
+      {
+        "path": "Header-ByqjsPNw.js",
+        "bytes": 87758,
+        "sha256": "7096de5527e16f0b1777a5bb8e479b3ffa5f476d5ec678e88cf7d16f9e294775",
+        "char_offsets": {
+          "/workflow/editor?key=": 11429,
+          "createquantflow": 2451
+        }
+      },
+      {
+        "path": "TqxHelpDocs-BdJkiJIa.js",
+        "bytes": 23376,
+        "sha256": "3de4bfcf115b6947fc2490d438ea3bae3a0c5499835cbbc5d5f3c266b7b84422",
+        "char_offsets": {
+          "SYSTEM_PROMPT_tqx.md": 15431,
+          "SKILLS_OVERVIEW_tqx.md": 15371,
+          "_build_prompt": 7546,
+          "<available_skills>": 7755,
+          "tqx_stock_market": 386,
+          "compute_python": 1048,
+          "agent_runtime/orchestrator.py": 12530
+        }
+      }
+    ]
+  }
+}

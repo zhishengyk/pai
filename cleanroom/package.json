@@ -1,0 +1,14 @@
+{
+  "name": "pandaaiquant-cleanroom",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Independent clean-room mock of the publicly observed Qube and QuantFlow protocols.",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

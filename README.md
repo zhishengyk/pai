@@ -1,28 +1,59 @@
-# PandaAI Agent 工作流逆向资料
+# PandaAI Agent Workflow Reverse Engineering
 
-本仓库是对 `https://www.pandaaiquant.com/` 公开前端与公开文档的独立分析，重点是：
+Independent analysis of the publicly accessible `https://www.pandaaiquant.com/`
+front end and docs, focused on:
 
-- **Qube**：`/agent_quant/` 的对话式量化 Agent（run 生命周期、审批、产物/版本、工具注册表）。
-- **QuantFlow**：`/quantflow/` 的可视化代码工作流（workflow JSON 图、节点代码、Notebook 同步、运行日志轮询、SSE 助手）。
-- **EVO / A2A**：公开文档层的产品与架构描述。
+- **Qube** (`/agent_quant/`): conversational quant agent with runs, approvals,
+  artifacts and versions.
+- **QuantFlow** (`/quantflow/`): visual code workflow with a workflow JSON graph,
+  node code, Notebook sync, run logs and output objects.
+- **EVO / A2A**: public documentation-level analysis.
 
-## 目录
+This repo contains four deliverables:
 
-- `pandaaiquant-agent-reverse/REPORT.zh-CN.md` — 完整逆向报告
-- `pandaaiquant-agent-reverse/research/qube_agent_tools.json` — Qube 101 个工具 + 47 个能力
-- `pandaaiquant-agent-reverse/research/qube_chat_endpoints.json` — Qube chat / approval / artifact 端点
-- `pandaaiquant-agent-reverse/research/quantflow_endpoints.json` — QuantFlow 公开端点分组
-- `pandaaiquant-agent-reverse/research/evidence-index.json` — 本地 REA 证据索引（不含证据本体）
-- `pandaaiquant-agent-reverse/tools/download_app_assets.py` — 公开静态资产下载脚本
+| Deliverable | Location | What it is |
+|---|---|---|
+| Reverse-engineering report | [`pandaaiquant-agent-reverse/REPORT.zh-CN.md`](pandaaiquant-agent-reverse/REPORT.zh-CN.md) | 1,158-line Chinese report: architecture, auth, run/approval lifecycle, tool catalog, QuantFlow stage machine, reconstruction notes, limitations |
+| Interoperability code map | [`code-map/`](code-map/README.md) | File/hash/symbol index, API + event contracts, short annotated excerpts from the public bundles |
+| Clean-room implementation | [`cleanroom/`](cleanroom/README.md) | Runnable Qube + QuantFlow mock: conversation/run/SSE/approval/artifact, workflow-graph stream/run/logs/output |
+| Client de-shelling / recovery | [`client-recovery/`](client-recovery/README.md) | REA + AST inventory of every public Qube/QuantFlow chunk: modules, API/route maps, components, import graph, prompt/tool docs, local formatted tree |
 
-## 未包含
+## Quick start (clean-room)
 
-- 目标站的 JS/CSS bundle、页面正文、抓取证据与截图。这些内容体积大，且包含第三方代码/内容，因此不随仓库分发。
-- 任何登录态、付费数据、密钥或业务 API 调用。
-- 目标站的后端实现、数据库结构、提示词与模型路由（公开客户端不可见）。
+```bash
+cd cleanroom
+npm start
+# http://localhost:8787
+```
 
-## 范围与声明
+No dependencies; Node 18+ (tested on Node 24). Run `npm test` for the smoke
+tests.
 
-本次分析只使用未登录可访问的公开页面、公开静态资源和公开文档；未绕过登录/付费墙，未调用 `/pandaApi` 业务接口，未抓取付费数据。
+The client-recovery analysis is static: it uses REA 6.8.0 and a Babel AST scan,
+and keeps the formatted third-party tree local-only. See
+[`client-recovery/README.md`](client-recovery/README.md) for the method and the
+[`manifest.json`](client-recovery/manifest.json) / [`api-map.md`](client-recovery/api-map.md)
+for the extracted inventory.
 
-本项目仅用于学习、互操作与安全研究。第三方商标、代码与内容版权归其各自所有者；本项目与 PandaAI 无关联。请勿将本仓库用于规避访问控制、抓取付费数据或侵犯第三方权利。详见 `NOTICE.md`。
+## Machine-readable research
+
+- [`research/qube_agent_tools.json`](pandaaiquant-agent-reverse/research/qube_agent_tools.json) — 101 tools + 47 capabilities
+- [`research/qube_chat_endpoints.json`](pandaaiquant-agent-reverse/research/qube_chat_endpoints.json) — 30 Qube endpoints
+- [`research/quantflow_endpoints.json`](pandaaiquant-agent-reverse/research/quantflow_endpoints.json) — 54 QuantFlow endpoints
+- [`research/evidence-index.json`](pandaaiquant-agent-reverse/research/evidence-index.json) — local REA evidence IDs / SHA-256 / sizes
+
+## What is not included
+
+- Target JS/CSS bundles, page text, captures and screenshots. They are large and
+  contain third-party code/content; fetch them locally with
+  `pandaaiquant-agent-reverse/tools/download_app_assets.py`.
+- Logged-in state, paid data, secrets or business API calls.
+- Target backend implementation, database schema, prompts and model routing.
+
+## Scope and notice
+
+Only unauthenticated public pages, public static assets and public docs were
+used. No login/paywall bypass, no `/pandaApi` business API calls, no paid data.
+The clean-room code is an independent implementation of observed contracts, not
+a copy of the target source. Third-party trademarks, code and content remain with
+their owners; see [`NOTICE.md`](NOTICE.md).

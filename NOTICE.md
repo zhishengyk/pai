@@ -6,8 +6,10 @@ endorsed by, or sponsored by PandaAI or any of its affiliates.
 
 The repository deliberately does **not** include:
 
-- the target's source code, bundled JavaScript/CSS, page text, or captured
-  browser evidence;
+- the target's full source code or full bundled JavaScript/CSS, page text, or
+  captured browser evidence; the code map/recovery reports contain only hashes,
+  locations and short interoperability excerpts. The formatted recovery tree is
+  local-only and is not part of this repository;
 - login credentials, tokens, paid data, or private API responses;
 - any tooling intended to bypass authentication, paywalls, or access controls.
 

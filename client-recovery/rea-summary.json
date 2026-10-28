@@ -1,0 +1,7059 @@
+{
+  "quantflow": {
+    "label": "quantflow",
+    "evidence_file": "/home/duansx/Desktop/pandaaiquant-rea/captures/quantflow-app-evidence.json",
+    "evidence_id": "ev_12bfd1c6aa70ebd7606a826b613f6413fd18dd257a4f4b21a77f2e5f1457a1fa",
+    "subject": "quantflow",
+    "statistics": {
+      "findings": 2669,
+      "invalid_utf8_files": 0,
+      "modules": 0,
+      "nested_asar_containers": 0,
+      "parse_failures": 0,
+      "parsed_javascript_files": 143,
+      "relevant_files": 146,
+      "skipped_javascript_files": 1,
+      "text_bytes_read": 16830873,
+      "visited_ast_nodes": 647555
+    },
+    "graph": {
+      "nodes": 898,
+      "edges": 2768,
+      "node_kinds": {
+        "javascript-module": 486,
+        "javascript-asset": 144,
+        "unknown": 202,
+        "storage": 57,
+        "artifact": 3,
+        "worker": 1,
+        "endpoint": 4,
+        "electron-renderer": 1
+      },
+      "edge_relations": {
+        "imports": 2109,
+        "contains": 396,
+        "persists_to": 157,
+        "exposes": 101,
+        "calls": 3,
+        "loads": 1,
+        "maps_to": 1
+      }
+    },
+    "semantic_graph": {
+      "nodes": 90899,
+      "relations": 162339,
+      "node_kinds": {
+        "function": 5967,
+        "expression": 41635,
+        "call-site": 14633,
+        "binding": 15088,
+        "property-slot": 2767,
+        "return-site": 4713,
+        "parameter": 5355,
+        "module": 144,
+        "boundary": 203,
+        "task": 204,
+        "literal": 116,
+        "event": 11,
+        "timer": 31,
+        "listener": 11,
+        "promise": 21
+      },
+      "relation_counts": {
+        "aliases": 95472,
+        "captures": 30831,
+        "reads": 14081,
+        "returns-to-call": 1084,
+        "defines": 13322,
+        "calls": 1478,
+        "reads-property": 3725,
+        "writes-property": 1050,
+        "writes": 568,
+        "coerces": 192,
+        "argument-to-parameter": 214,
+        "awaits": 207,
+        "parses": 11,
+        "schedules-timer": 31,
+        "spreads": 13,
+        "chains": 8,
+        "cancels-timer": 13,
+        "creates-promise": 21,
+        "detaches-task": 3,
+        "registers-listener": 11,
+        "returns-task": 4
+      }
+    },
+    "routes": [
+      {
+        "path": "/creator",
+        "classification": "unknown",
+        "confidence": "low",
+        "mechanisms": [
+          "navigation-target",
+          "route-string-constant"
+        ],
+        "occurrence_count": 3
+      },
+      {
+        "path": "/workflow",
+        "classification": "unknown",
+        "confidence": "low",
+        "mechanisms": [
+          "navigation-target",
+          "route-string-constant"
+        ],
+        "occurrence_count": 3
+      }
+    ],
+    "route_statistics": {
+      "occurrences": 6,
+      "route_patterns": 2,
+      "sources_retained": 144,
+      "sources_seen": 144,
+      "unanchored_literals_excluded": 0
+    },
+    "files": {
+      "assets/AIComputingResult-CPwch0FA.js": {
+        "nodes": 1181,
+        "functions": 16,
+        "classes": 0,
+        "named": [
+          {
+            "name": "setup",
+            "kind": "function",
+            "line": 1,
+            "column": 6948
+          },
+          {
+            "name": "setup",
+            "kind": "function",
+            "line": 1,
+            "column": 3831
+          },
+          {
+            "name": "q",
+            "kind": "function",
+            "line": 1,
+            "column": 4049
+          },
+          {
+            "name": "v",
+            "kind": "function",
+            "line": 1,
+            "column": 7002
+          },
+          {
+            "name": "L",
+            "kind": "function",
+            "line": 1,
+            "column": 4259
+          }
+        ]
+      },
+      "assets/ApiErrorLogs-C8Nd_y9w.js": {
+        "nodes": 1138,
+        "functions": 22,
+        "classes": 0,
+        "named": [
+          {
+            "name": "X",
+            "kind": "function",
+            "line": 1,
+            "column": 1523
+          },
+          {
+            "name": "E",
+            "kind": "function",
+            "line": 1,
+            "column": 1058
+          },
+          {
+            "name": "W",
+            "kind": "function",
+            "line": 1,
+            "column": 1442
+          },
+          {
+            "name": "z",
+            "kind": "function",
+            "line": 1,
+            "column": 890
+          },
+          {
+            "name": "K",
+            "kind": "function",
+            "line": 1,
+            "column": 1237
+          },
+          {
+            "name": "setup",
+            "kind": "function",
+            "line": 1,
+            "column": 684
+          },
+          {
+            "name": "F",
+            "kind": "function",
+            "line": 1,
+            "column": 1113
+          },
+          {
+            "name": "R",
+            "kind": "function",
+            "line": 1,
+            "column": 770
+          },
+          {
+            "name": "Q",
+            "kind": "function",
+            "line": 1,
+            "column": 1363
+          },
+          {
+            "name": "G",
+            "kind": "function",
+            "line": 1,
+            "column": 1212
+          }
+        ]
+      },
+      "assets/ChartsView-BHe3Y_2f.js": {
+        "nodes": 20000,
+        "functions": 3440,
+        "classes": 0,
+        "named": [
+          {
+            "name": "E",
+            "kind": "function",
+            "line": 8,
+            "column": 823999
+          },
+          {
+            "name": "Dc",
+            "kind": "function",
+            "line": 8,
+            "column": 255183
+          },
+          {
+            "name": "se",
+            "kind": "function",
+            "line": 8,
+            "column": 630745
+          },
+          {
+            "name": "D",
+            "kind": "function",
+            "line": 8,
+            "column": 559307
+          },
+          {
+            "name": "Ct",
+            "kind": "function",
+            "line": 1,
+            "column": 21352
+          },
+          {
+            "name": "setup",
+            "kind": "function",
+            "line": 8,
+            "column": 548663
+          },
+          {
+            "name": "Iv",
+            "kind": "function",
+            "line": 8,
+            "column": 412089
+          },
+          {
+            "name": "watermark",
+            "kind": "function",
+            "line": 8,
+            "column": 406812
+          },
+          {
+            "name": "ie",
+            "kind": "function",
+            "line": 8,
+            "column": 755650
+          },
+          {
+            "name": "selfSelectedState",
+            "kind": "function",
+            "line": 8,
+            "column": 396286
+          },
+          {
+            "name": "Nt",
+            "kind": "function",
+            "line": 8,
+            "column": 440
+          },
+          {
+            "name": "K",
+            "kind": "function",
+            "line": 8,
+            "column": 754655
+          },
+          {
+            "name": "O",
+            "kind": "function",
+            "line": 8,
+            "column": 544443
+          },
+          {
+            "name": "has",
+            "kind": "function",
+            "line": 8,
+            "column": 240913
+          },
+          {
+            "name": "getStyles",
+            "kind": "function",
+            "line": 8,
+            "column": 407691
+          },
+          {
+            "name": "Br",
+            "kind": "function",
+            "line": 8,
+            "column": 87568
+          },
+          {
+            "name": "ne",
+            "kind": "function",
+            "line": 8,
+            "column": 418071
+          },
+          {
+            "name": "A",
+            "kind": "function",
+            "line": 8,
+            "column": 457818
+          },
+          {
+            "name": "ie",
+            "kind": "function",
+            "line": 8,
+            "column": 674417
+          },
+          {
+            "name": "datafeed",
+            "kind": "function",
+            "line": 8,
+            "column": 407449
+          },
+          {
+            "name": "P",
+            "kind": "function",
+            "line": 8,
+            "column": 787835
+          },
+          {
+            "name": "U",
+            "kind": "function",
+            "line": 8,
+            "column": 545039
+          },
+          {
+            "name": "P",
+            "kind": "function",
+            "line": 8,
+            "column": 462678
+          },
+          {
+            "name": "uc",
+            "kind": "function",
+            "line": 8,
+            "column": 254173
+          },
+          {
+            "name": "lo",
+            "kind": "function",
+            "line": 8,
+            "column": 243689
+          },
+          {
+            "name": "G",
+            "kind": "function",
+            "line": 8,
+            "column": 672171
+          },
+          {
+            "name": "wa",
+            "kind": "function",
+            "line": 8,
+            "column": 8230
+          },
+          {
+            "name": "updateSomeQuotationType",
+            "kind": "function",
+            "line": 1,
+            "column": 26115
+          },
+          {
+            "name": "q",
+            "kind": "function",
+            "line": 8,
+            "column": 382077
+          },
+          {
+            "name": "_",
+            "kind": "function",
+            "line": 8,
+            "column": 485856
+          },
+          {
+            "name": "t",
+            "kind": "function",
+            "line": 8,
+            "column": 80529
+          },
+          {
+            "name": "eo",
+            "kind": "function",
+            "line": 8,
+            "column": 243087
+          },
+          {
+            "name": "binaryBody",
+            "kind": "function",
+            "line": 1,
+            "column": 1657
+          },
+          {
+            "name": "Z",
+            "kind": "function",
+            "line": 8,
+            "column": 754787
+          },
+          {
+            "name": "when",
+            "kind": "function",
+            "line": 8,
+            "column": 294099
+          },
+          {
+            "name": "x",
+            "kind": "function",
+            "line": 8,
+            "column": 801724
+          },
+          {
+            "name": "t",
+            "kind": "function",
+            "line": 8,
+            "column": 124729
+          },
+          {
+            "name": "stopNoDataCheckTimer",
+            "kind": "function",
+            "line": 8,
+            "column": 476541
+          },
+          {
+            "name": "w",
+            "kind": "function",
+            "line": 8,
+            "column": 485132
+          },
+          {
+            "name": "pm",
+            "kind": "function",
+            "line": 8,
+            "column": 265441
+          },
+          {
+            "name": "rt",
+            "kind": "function",
+            "line": 8,
+            "column": 584529
+          },
+          {
+            "name": "disconnectHeaders",
+            "kind": "function",
+            "line": 1,
+            "column": 15038
+          },
+          {
+            "name": "setup",
+            "kind": "function",
+            "line": 8,
+            "column": 750118
+          },
+          {
+            "name": "ae",
+            "kind": "function",
+            "line": 8,
+            "column": 716405
+          },
+          {
+            "name": "ce",
+            "kind": "function",
+            "line": 8,
+            "column": 630976
+          },
+          {
+            "name": "buttons",
+            "kind": "function",
+            "line": 8,
+            "column": 370279
+          },
+          {
+            "name": "u",
+            "kind": "function",
+            "line": 8,
+            "column": 548776
+          },
+          {
+            "name": "$t",
+            "kind": "function",
+            "line": 8,
+            "column": 2564
+          },
+          {
+            "name": "x",
+            "kind": "function",
+            "line": 8,
+            "column": 485450
+          },
+          {
+            "name": "t",
+            "kind": "function",
+            "line": 8,
+            "column": 144785
+          },
+          {
+            "name": "serialize",
+            "kind": "function",
+            "line": 1,
+            "column": 2475
+          },
+          {
+            "name": "saveSubscriptionsToStorage",
+            "kind": "function",
+            "line": 1,
+            "column": 26374
+          },
+          {
+            "name": "symbol",
+            "kind": "function",
+            "line": 8,
+            "column": 394085
+          },
+          {
+            "name": "commit",
+            "kind": "function",
+            "line": 1,
+            "column": 14444
+          },
+          {
+            "name": "Or",
+            "kind": "function",
+            "line": 8,
+            "column": 88016
+          },
+          {
+            "name": "value",
+            "kind": "function",
+            "line": 8,
+            "column": 368800
+          },
+          {
+            "name": "Pn",
+            "kind": "function",
+            "line": 8,
+            "column": 238240
+          },
+          {
+            "name": "a",
+            "kind": "function",
+            "line": 8,
+            "column": 34786
+          },
+          {
+            "name": "t",
+            "kind": "function",
+            "line": 8,
+            "column": 150636
+          },
+          {
+            "name": "sh",
+            "kind": "function",
+            "line": 8,
+            "column": 260774
+          },
+          {
+            "name": "Iu",
+            "kind": "function",
+            "line": 8,
+            "column": 257752
+          },
+          {
+            "name": "Bf",
+            "kind": "function",
+            "line": 8,
+            "column": 360500
+          },
+          {
+            "name": "connectedVersion",
+            "kind": "function",
+            "line": 1,
+            "column": 7517
+          },
+          {
+            "name": "setup",
+            "kind": "function",
+            "line": 8,
+            "column": 645697
+          },
+          {
+            "name": "w",
+            "kind": "function",
+            "line": 8,
+            "column": 453829
+          },
+          {
+            "name": "getPeriodMs",
+            "kind": "function",
+            "line": 8,
+            "column": 472171
+          },
+          {
+            "name": "al",
+            "kind": "function",
+            "line": 8,
+            "column": 249015
+          },
+          {
+            "name": "locale",
+            "kind": "function",
+            "line": 8,
+            "column": 393330
+          },
+          {
+            "name": "nt",
+            "kind": "function",
+            "line": 8,
+            "column": 584700
+          },
+          {
+            "name": "K",
+            "kind": "function",
+            "line": 8,
+            "column": 435561
+          },
+          {
+            "name": "Sn",
+            "kind": "function",
+            "line": 8,
+            "column": 235062
+          },
+          {
+            "name": "pe",
+            "kind": "function",
+            "line": 8,
+            "column": 721824
+          },
+          {
+            "name": "Gi",
+            "kind": "function",
+            "line": 8,
+            "column": 224592
+          },
+          {
+            "name": "Wo",
+            "kind": "function",
+            "line": 8,
+            "column": 248502
+          },
+          {
+            "name": "xl",
+            "kind": "function",
+            "line": 8,
+            "column": 249768
+          },
+          {
+            "name": "value",
+            "kind": "function",
+            "line": 8,
+            "column": 370611
+          },
+          {
+            "name": "Km",
+            "kind": "function",
+            "line": 8,
+            "column": 293135
+          },
+          {
+            "name": "t",
+            "kind": "function",
+            "line": 8,
+            "column": 139044
+          },
+          {
+            "name": "ack",
+            "kind": "function",
+            "line": 1,
+            "column": 14580
+          },
+          {
+            "name": "setup",
+            "kind": "function",
+            "line": 8,
+            "column": 668845
+          },
+          {
+            "name": "t",
+            "kind": "function",
+            "line": 1,
+            "column": 15930
+          },
+          {
+            "name": "ec",
+            "kind": "function",
+            "line": 8,
+            "column": 253607
+          },
+          {
+            "name": "GT",
+            "kind": "function",
+            "line": 8,
+            "column": 775779
+          },
+          {
+            "name": "commit",
+            "kind": "function",
+            "line": 1,
+            "column": 21089
+          },
+          {
+            "name": "W",
+            "kind": "function",
+            "line": 8,
+            "column": 683019
+          },
+          {
+            "name": "P",
+            "kind": "function",
+            "line": 8,
+            "column": 734462
+          },
+          {
+            "name": "setup",
+            "kind": "function",
+            "line": 8,
+            "column": 461377
+          },
+          {
+            "name": "Fx",
+            "kind": "function",
+            "line": 8,
+            "column": 712257
+          },
+          {
+            "name": "buttons",
+            "kind": "function",
+            "line": 8,
+            "column": 376052
+          },
+          {
+            "name": "e",
+            "kind": "function",
+            "line": 8,
+            "column": 261440
+          },
+          {
+            "name": "Z",
+            "kind": "function",
+            "line": 8,
+            "column": 827531
+          },
+          {
+            "name": "setup",
+            "kind": "function",
+            "line": 8,
+            "column": 543418
+          },
+          {
+            "name": "ut",
+            "kind": "function",
+            "line": 8,
+            "column": 585977
+          },
+          {
+            "name": "Mi",
+            "kind": "function",
+            "line": 8,
+            "column": 176432
+          },
+          {
+            "name": "x",
+            "kind": "function",
+            "line": 8,
+            "column": 454108
+          },
+          {
+            "name": "setup",
+            "kind": "function",
+            "line": 8,
+            "column": 789058
+          },
+          {
+            "name": "restoreSubscriptions",
+            "kind": "function",
+            "line": 1,
+            "column": 26905
+          },
+          {
+            "name": "Sh",
+            "kind": "function",
+            "line": 8,
+            "column": 261797
+          },
+          {
+            "name": "buttons",
+            "kind": "function",
+            "line": 8,
+            "column": 368598
+          },
+          {
+            "name": "Xt",
+            "kind": "function",
+            "line": 8,
+            "column": 2430
+          },
+          {
+            "name": "Vo",
+            "kind": "function",
+            "line": 8,
+            "column": 248231
+          },
+          {
+            "name": "ke",
+            "kind": "function",
+            "line": 8,
+            "column": 675030
+          },
+          {
+            "name": "re",
+            "kind": "function",
+            "line": 8,
+            "column": 755637
+          },
+          {
+            "name": "_consumeTokenAsUTF8",
+            "kind": "function",
+            "line": 1,
+            "column": 5470
+          },
+          {
+            "name": "md",
+            "kind": "function",
+            "line": 8,
+            "column": 259200
+          },
+          {
+            "name": "_",
+            "kind": "function",
+            "line": 8,
+            "column": 454469
+          },
+          {
+            "name": "ot",
+            "kind": "function",
+            "line": 8,
+            "column": 584726
+          },
+          {
+            "name": "Bn",
+            "kind": "function",
+            "line": 8,
+            "column": 238830
+          },
+          {
+            "name": "L",
+            "kind": "function",
+            "line": 8,
+            "column": 648348
+          },
+          {
+            "name": "vo",
+            "kind": "function",
+            "line": 8,
+            "column": 246991
+          },
+          {
+            "name": "when",
+            "kind": "function",
+            "line": 8,
+            "column": 396799
+          },
+          {
+            "name": "qc",
+            "kind": "function",
+            "line": 8,
+            "column": 256439
+          },
+          {
+            "name": "ye",
+            "kind": "function",
+            "line": 8,
+            "column": 721963
+          },
+          {
+            "name": "title",
+            "kind": "function",
+            "line": 8,
+            "column": 377502
+          },
+          {
+            "name": "removeSymbolFromSubscribedList",
+            "kind": "function",
+            "line": 1,
+            "column": 25246
+          },
+          {
+            "name": "oa",
+            "kind": "function",
+            "line": 8,
+            "column": 4154
+          },
+          {
+            "name": "getSymbol",
+            "kind": "function",
+            "line": 8,
+            "column": 407960
+          },
+          {
+            "name": "vu",
+            "kind": "function",
+            "line": 8,
+            "column": 257352
+          },
+          {
+            "name": "Tr",
+            "kind": "function",
+            "line": 8,
+            "column": 83095
+          },
+          {
+            "name": "z",
+            "kind": "function",
+            "line": 8,
+            "column": 780884
+          }
+        ]
+      },
+      "assets/ChatPro-BkrqzZmp.js": {
+        "nodes": 3232,
+        "functions": 108,
+        "classes": 0,
+        "named": [
+          {
+            "name": "setup",
+            "kind": "function",
+            "line": 1,
+            "column": 12960
+          },
+          {
+            "name": "he",
+            "kind": "function",
+            "line": 1,
+            "column": 26136
+          },
+          {
+            "name": "se",
+            "kind": "function",
+            "line": 1,
+            "column": 25284
+          },
+          {
+            "name": "oe",
+            "kind": "function",
+            "line": 1,
+            "column": 16179
+          },
+          {
+            "name": "ie",
+            "kind": "function",
+            "line": 1,
+            "column": 13997
+          },
+          {
+            "name": "re",
+            "kind": "function",
+            "line": 1,
+            "column": 24981
+          },
+          {
+            "name": "ne",
+            "kind": "function",
+            "line": 1,
+            "column": 15576
+          }
+        ]
+      },
+      "assets/ChatPro-DS7erhn_.js": {
+        "nodes": 4441,
+        "functions": 139,
+        "classes": 0,
+        "named": [
+          {
+            "name": "fe",
+            "kind": "function",
+            "line": 1,
+            "column": 17678
+          },
+          {
+            "name": "pe",
+            "kind": "function",
+            "line": 1,
+            "column": 8036
+          },
+          {
+            "name": "xe",
+            "kind": "function",
+            "line": 1,
+            "column": 17974
+          },
+          {
+            "name": "O",
+            "kind": "function",
+            "line": 1,
+            "column": 6165
+          },
+          {
+            "name": "U",
+            "kind": "function",
+            "line": 1,
+            "column": 7476
+          },
+          {
+            "name": "u",
+            "kind": "function",
+            "line": 1,
+            "column": 5574
+          },
+          {
+            "name": "ve",
+            "kind": "function",
+            "line": 1,
+            "column": 8639
+          },
+          {
+            "name": "write",
+            "kind": "function",
+            "line": 1,
+            "column": 1134
+          },
+          {
+            "name": "constructor",
+            "kind": "function",
+            "line": 1,
+            "column": 1016
+          },
+          {
+            "name": "t",
+            "kind": "function",
+            "line": 1,
+            "column": 30
+          },
+          {
+            "name": "on",
+            "kind": "function",
+            "line": 1,
+            "column": 1081
+          },
+          {
+            "name": "X",
+            "kind": "function",
+            "line": 1,
+            "column": 1008
+          },
+          {
+            "name": "destroy",
+            "kind": "function",
+            "line": 1,
+            "column": 1214
+          },
+          {
+            "name": "setup",
+            "kind": "function",
+            "line": 1,
+            "column": 5508
+          },
+          {
+            "name": "ge",
+            "kind": "function",
+            "line": 1,
+            "column": 17449
+          },
+          {
+            "name": "U",
+            "kind": "function",
+            "line": 1,
+            "column": 1741
+          },
+          {
+            "name": "end",
+            "kind": "function",
+            "line": 1,
+            "column": 1207
+          }
+        ]
+      },
+      "assets/CommonTaskProgress-BoDKztJN.js": {
+        "nodes": 446,
+        "functions": 12,
+        "classes": 0,
+        "named": [
+          {
+            "name": "c",
+            "kind": "function",
+            "line": 1,
+            "column": 8959
+          },
+          {
+            "name": "r",
+            "kind": "function",
+            "line": 1,
+            "column": 9017
+          },
+          {
+            "name": "d",
+            "kind": "function",
+            "line": 1,
+            "column": 8921
+          },
+          {
+            "name": "R",
+            "kind": "function",
+            "line": 1,
+            "column": 10545
+          },
+          {
+            "name": "setup",
+            "kind": "function",
+            "line": 1,
+            "column": 10179
+          },
+          {
+            "name": "setup",
+            "kind": "function",
+            "line": 1,
+            "column": 8877
+          }
+        ]
+      },
+      "assets/ConfirmDialog-Bao0dpEH.js": {
+        "nodes": 305,
+        "functions": 6,
+        "classes": 0,
+        "named": [
+          {
+            "name": "k",
+            "kind": "function",
+            "line": 1,
+            "column": 674
+          },
+          {
+            "name": "setup",
+            "kind": "function",
+            "line": 1,
+            "column": 644
+          }
+        ]
+      },
+      "assets/CopyrightNotice-se2xNzrO.js": {
+        "nodes": 171,
+        "functions": 6,
+        "classes": 0,
+        "named": [
+          {
+            "name": "d",
+            "kind": "function",
+            "line": 1,
+            "column": 131
+          },
+          {
+            "name": "setup",
+            "kind": "function",
+            "line": 1,
+            "column": 366
+          }
+        ]
+      },
+      "assets/Creator-vrG2pjoB.js": {
+        "nodes": 43,
+        "functions": 1,
+        "classes": 0,
+        "named": []
+      },
+      "assets/CreatorCreated-6MkKRPS7.js": {
+        "nodes": 3740,
+        "functions": 67,
+        "classes": 0,
+        "named": [
+          {
+            "name": "Za",
+            "kind": "function",
+            "line": 1,
+            "column": 7165
+          },
+          {
+            "name": "pa",
+            "kind": "function",
+            "line": 1,
+            "column": 3576
+          },
+          {
+            "name": "Ca",
+            "kind": "function",
+            "line": 1,
+            "column": 4163
+          },
+          {
+            "name": "ol",
+            "kind": "function",
+            "line": 1,
+            "column": 9694
+          },
+          {
+            "name": "ha",
+            "kind": "function",
+            "line": 1,
+            "column": 3885
+          },
+          {
+            "name": "Ga",
+            "kind": "function",
+            "line": 1,
+            "column": 6226
+          },
+          {
+            "name": "Ra",
+            "kind": "function",
+            "line": 1,
+            "column": 5761
+          },
+          {
+            "name": "ll",
+            "kind": "function",
+            "line": 1,
+            "column": 8747
+          },
+          {
+            "name": "Ea",
+            "kind": "function",
+            "line": 1,
+            "column": 5018
+          },
+          {
+            "name": "ba",
+            "kind": "function",
+            "line": 1,
+            "column": 4089
+          },
+          {
+            "name": "Ja",
+            "kind": "function",
+            "line": 1,
+            "column": 5803
+          },
+          {
+            "name": "tl",
+            "kind": "function",
+            "line": 1,
+            "column": 9574
+          },
+          {
+            "name": "il",
+            "kind": "function",
+            "line": 1,
+            "column": 9836
+          },
+          {
+            "name": "ua",
+            "kind": "function",
+            "line": 1,
+            "column": 3454
+          },
+          {
+            "name": "setup",
+            "kind": "function",
+            "line": 1,
+            "column": 3148
+          },
+          {
+            "name": "el",
+            "kind": "function",
+            "line": 1,
+            "column": 8669
+          }
+        ]
+      },
+      "assets/CreatorEdit-1lm9aQfM.js": {
+        "nodes": 3511,
+        "functions": 50,
+        "classes": 0,
+        "named": [
+          {
+            "name": "Ga",
+            "kind": "function",
+            "line": 1,
+            "column": 8020
+          },
+          {
+            "name": "setup",
+            "kind": "function",
+            "line": 1,
+            "column": 3113
+          },
+          {
+            "name": "Ma",
+            "kind": "function",
+            "line": 1,
+            "column": 3982
+          },
+          {
+            "name": "Oa",
+            "kind": "function",
+            "line": 1,
+            "column": 5799
+          },
+          {
+            "name": "Ra",
+            "kind": "function",
+            "line": 1,
+            "column": 5902
+          },
+          {
+            "name": "Ya",
+            "kind": "function",
+            "line": 1,
+            "column": 5443
+          },
+          {
+            "name": "La",
+            "kind": "function",
+            "line": 1,
+            "column": 4837
+          },
+          {
+            "name": "Ca",
+            "kind": "function",
+            "line": 1,
+            "column": 3547
+          },
+          {
+            "name": "wa",
+            "kind": "function",
+            "line": 1,
+            "column": 3455
+          },
+          {
+            "name": "Fa",
+            "kind": "function",
+            "line": 1,
+            "column": 3908
+          },
+          {
+            "name": "ya",
+            "kind": "function",
+            "line": 1,
+            "column": 3497
+          },
+          {
+            "name": "za",
+            "kind": "function",
+            "line": 1,
+            "column": 5661
+          }
+        ]
+      },
+      "assets/CreatorList-BBK5BuDr.js": {
+        "nodes": 3404,
+        "functions": 69,
+        "classes": 0,
+        "named": [
+          {
+            "name": "bs",
+            "kind": "function",
+            "line": 1,
+            "column": 4613
+          },
+          {
+            "name": "ys",
+            "kind": "function",
+            "line": 1,
+            "column": 7504
+          },
+          {
+            "name": "rs",
+            "kind": "function",
+            "line": 1,
+            "column": 3742
+          },
+          {
+            "name": "setup",
+            "kind": "function",
+            "line": 1,
+            "column": 2910
+          },
+          {
+            "name": "Ua",
+            "kind": "function",
+            "line": 1,
+            "column": 2950
+          },
+          {
+            "name": "Ga",
+            "kind": "function",
+            "line": 1,
+            "column": 3152
+          },
+          {
+            "name": "Cs",
+            "kind": "function",
+            "line": 1,
+            "column": 5683
+          },
+          {
+            "name": "Vs",
+            "kind": "function",
+            "line": 1,
+            "column": 8255
+          },
+          {
+            "name": "Ss",
+            "kind": "function",
+            "line": 1,
+            "column": 8213
+          },
+          {
+            "name": "Is",
+            "kind": "function",
+            "line": 1,
+            "column": 8317
+          },
+          {
+            "name": "Es",
+            "kind": "function",
+            "line": 1,
+            "column": 7687
+          },
+          {
+            "name": "_a",
+            "kind": "function",
+            "line": 1,
+            "column": 3528
+          },
+          {
+            "name": "us",
+            "kind": "function",
+            "line": 1,
+            "column": 4297
+          },
+          {
+            "name": "cs",
+            "kind": "function",
+            "line": 1,
+            "column": 4218
+          },
+          {
+            "name": "fs",
+            "kind": "function",
+            "line": 1,
+            "column": 7560
+          }
+        ]
+      },
+      "assets/Exchange-rBbFBhTn.js": {
+        "nodes": 1307,
+        "functions": 37,
+        "classes": 0,
+        "named": [
+          {
+            "name": "I",
+            "kind": "function",
+            "line": 1,
+            "column": 1254
+          },
+          {
+            "name": "S",
+            "kind": "function",
+            "line": 1,
+            "column": 5104
+          },
+          {
+            "name": "W",
+            "kind": "function",
+            "line": 1,
+            "column": 5198
+          },
+          {
+            "name": "Z",
+            "kind": "function",
+            "line": 1,
+            "column": 1686
+          },
+          {
+            "name": "setup",
+            "kind": "function",
+            "line": 1,
+            "column": 9867
+          },
+          {
+            "name": "setup",
+            "kind": "function",
+            "line": 1,
+            "column": 13827
+          },
+          {
+            "name": "setup",
+            "kind": "function",
+            "line": 1,
+            "column": 4913
+          },
+          {
+            "name": "F",
+            "kind": "function",
+            "line": 1,
+            "column": 1273
+          },
+          {
+            "name": "i",
+            "kind": "function",
+            "line": 1,
+            "column": 13915
+          },
+          {
+            "name": "L",
+            "kind": "function",
+            "line": 1,
+            "column": 1669
+          },
+          {
+            "name": "r",
+            "kind": "function",
+            "line": 1,
+            "column": 13954
+          },
+          {
+            "name": "J",
+            "kind": "function",
+            "line": 1,
+            "column": 5347
+          },
+          {
+            "name": "T",
+            "kind": "function",
+            "line": 1,
+            "column": 1449
+          },
+          {
+            "name": "t",
+            "kind": "function",
+            "line": 1,
+            "column": 9895
+          },
+          {
+            "name": "setup",
+            "kind": "function",
+            "line": 1,
+            "column": 1174
+          }
+        ]
+      },
+      "assets/FactorCorrelation-mrU7RIDo.js": {
+        "nodes": 6981,
+        "functions": 157,
+        "classes": 0,
+        "named": [
+          {
+            "name": "pa",
+            "kind": "function",
+            "line": 1,
+            "column": 33642
+          },
+          {
+            "name": "ve",
+            "kind": "function",
+            "line": 1,
+            "column": 8381
+          },
+          {
+            "name": "ae",
+            "kind": "function",
+            "line": 1,
+            "column": 7476
+          },
+          {
+            "name": "O",
+            "kind": "function",
+            "line": 1,
+            "column": 4568
+          },
+          {
+            "name": "ke",
+            "kind": "function",
+            "line": 1,
+            "column": 12237
+          },
+          {
+            "name": "sa",
+            "kind": "function",
+            "line": 1,
+            "column": 32408
+          },
+          {
+            "name": "Te",
+            "kind": "function",
+            "line": 1,
+            "column": 19300
+          },
+          {
+            "name": "ca",
+            "kind": "function",
+            "line": 1,
+            "column": 32619
+          },
+          {
+            "name": "setup",
+            "kind": "function",
+            "line": 1,
+            "column": 4520
+          },
+          {
+            "name": "setup",
+            "kind": "function",
+            "line": 1,
+            "column": 825
+          },
+          {
+            "name": "la",
+            "kind": "function",
+            "line": 1,
+            "column": 28400
+          },
+          {
+            "name": "Xe",
+            "kind": "function",
+            "line": 1,
+            "column": 26122
+          },
+          {
+            "name": "R",
+            "kind": "function",
+            "line": 1,
+            "column": 4714
+          },
+          {
+            "name": "re",
+            "kind": "function",
+            "line": 1,
+            "column": 8066
+          },
+          {
+            "name": "va",
+            "kind": "function",
+            "line": 1,
+            "column": 33126
+          },
+          {
+            "name": "ia",
+            "kind": "function",
+            "line": 1,
+            "column": 31389
+          },
+          {
+            "name": "Ve",
+            "kind": "function",
+            "line": 1,
+            "column": 23418
+          },
+          {
+            "name": "fe",
+            "kind": "function",
+            "line": 1,
+            "column": 10431
+          },
+          {
+            "name": "na",
+            "kind": "function",
+            "line": 1,
+            "column": 31647
+          },
+          {
+            "name": "Qt",
+            "kind": "function",
+            "line": 1,
+            "column": 5275
+          },
+          {
+            "name": "Se",
+            "kind": "function",
+            "line": 1,
+            "column": 14500
+          },
+          {
+            "name": "da",
+            "kind": "function",
+            "line": 1,
+            "column": 32434
+          },
+          {
+            "name": "Ze",
+            "kind": "function",
+            "line": 1,
+            "column": 21168
+          },
+          {
+            "name": "p",
+            "kind": "function",
+            "line": 1,
+            "column": 37691
+          },
+          {
+            "name": "je",
+            "kind": "function",
+            "line": 1,
+            "column": 17198
+          },
+          {
+            "name": "setup",
+            "kind": "function",
+            "line": 1,
+            "column": 37618
+          }
+        ]
+      },
+      "assets/Header-ByqjsPNw.js": {
+        "nodes": 9899,
+        "functions": 206,
+        "classes": 0,
+        "named": [
+          {
+            "name": "a",
+            "kind": "function",
+            "line": 1,
+            "column": 20271
+          },
+          {
+            "name": "ge",
+            "kind": "function",
+            "line": 1,
+            "column": 21204
+          },
+          {
+            "name": "na",
+            "kind": "function",
+            "line": 1,
+            "column": 51081
+          },
+          {
+            "name": "O",
+            "kind": "function",
+            "line": 1,
+            "column": 2622
+          },
+          {
+            "name": "K",
+            "kind": "function",
+            "line": 1,
+            "column": 3361
+          },
+          {
+            "name": "ka",
+            "kind": "function",
+            "line": 1,
+            "column": 51905
+          },
+          {
+            "name": "X",
+            "kind": "function",
+            "line": 1,
+            "column": 10437
+          },
+          {
+            "name": "Ea",
+            "kind": "function",
+            "line": 1,
+            "column": 54497
+          },
+          {
+            "name": "Na",
+            "kind": "function",
+            "line": 1,
+            "column": 54057
+          },
+          {
+            "name": "le",
+            "kind": "function",
+            "line": 1,
+            "column": 20056
+          },
+          {
+            "name": "ve",
+            "kind": "function",
+            "line": 1,
+            "column": 20814
+          },
+          {
+            "name": "oe",
+            "kind": "function",
+            "line": 1,
+            "column": 20084
+          },
+          {
+            "name": "n",
+            "kind": "function",
+            "line": 1,
+            "column": 58841
+          },
+          {
+            "name": "Da",
+            "kind": "function",
+            "line": 1,
+            "column": 54585
+          },
+          {
+            "name": "_a",
+            "kind": "function",
+            "line": 1,
+            "column": 55721
+          },
+          {
+            "name": "_e",
+            "kind": "function",
+            "line": 1,
+            "column": 48930
+          },
+          {
+            "name": "M",
+            "kind": "function",
+            "line": 1,
+            "column": 18292
+          },
+          {
+            "name": "Oa",
+            "kind": "function",
+            "line": 1,
+            "column": 54963
+          },
+          {
+            "name": "Ga",
+            "kind": "function",
+            "line": 1,
+            "column": 55318
+          },
+          {
+            "name": "J",
+            "kind": "function",
+            "line": 1,
+            "column": 3519
+          },
+          {
+            "name": "Vl",
+            "kind": "function",
+            "line": 1,
+            "column": 58124
+          },
+          {
+            "name": "Gl",
+            "kind": "function",
+            "line": 1,
+            "column": 58556
+          },
+          {
+            "name": "oo",
+            "kind": "function",
+            "line": 1,
+            "column": 65970
+          },
+          {
+            "name": "setup",
+            "kind": "function",
+            "line": 1,
+            "column": 15291
+          },
+          {
+            "name": "Ma",
+            "kind": "function",
+            "line": 1,
+            "column": 54155
+          },
+          {
+            "name": "_l",
+            "kind": "function",
+            "line": 1,
+            "column": 65397
+          },
+          {
+            "name": "zl",
+            "kind": "function",
+            "line": 1,
+            "column": 64994
+          },
+          {
+            "name": "Kl",
+            "kind": "function",
+            "line": 1,
+            "column": 58250
+          },
+          {
+            "name": "Ca",
+            "kind": "function",
+            "line": 1,
+            "column": 52244
+          },
+          {
+            "name": "V",
+            "kind": "function",
+            "line": 1,
+            "column": 3253
+          },
+          {
+            "name": "Za",
+            "kind": "function",
+            "line": 1,
+            "column": 55677
+          },
+          {
+            "name": "Jl",
+            "kind": "function",
+            "line": 1,
+            "column": 58444
+          },
+          {
+            "name": "Ha",
+            "kind": "function",
+            "line": 1,
+            "column": 55645
+          },
+          {
+            "name": "Ya",
+            "kind": "function",
+            "line": 1,
+            "column": 55629
+          },
+          {
+            "name": "la",
+            "kind": "function",
+            "line": 1,
+            "column": 50013
+          },
+          {
+            "name": "Xl",
+            "kind": "function",
+            "line": 1,
+            "column": 58647
+          },
+          {
+            "name": "Wa",
+            "kind": "function",
+            "line": 1,
+            "column": 54842
+          },
+          {
+            "name": "ne",
+            "kind": "function",
+            "line": 1,
+            "column": 20112
+          },
+          {
+            "name": "Zl",
+            "kind": "function",
+            "line": 1,
+            "column": 65325
+          },
+          {
+            "name": "Ia",
+            "kind": "function",
+            "line": 1,
+            "column": 54401
+          },
+          {
+            "name": "setup",
+            "kind": "function",
+            "line": 1,
+            "column": 14690
+          },
+          {
+            "name": "oa",
+            "kind": "function",
+            "line": 1,
+            "column": 50448
+          },
+          {
+            "name": "Yl",
+            "kind": "function",
+            "line": 1,
+            "column": 63846
+          },
+          {
+            "name": "W",
+            "kind": "function",
+            "line": 1,
+            "column": 18887
+          },
+          {
+            "name": "Ja",
+            "kind": "function",
+            "line": 1,
+            "column": 55269
+          },
+          {
+            "name": "Hl",
+            "kind": "function",
+            "line": 1,
+            "column": 63930
+          },
+          {
+            "name": "$l",
+            "kind": "function",
+            "line": 1,
+            "column": 65598
+          },
+          {
+            "name": "Xa",
+            "kind": "function",
+            "line": 1,
+            "column": 55381
+          },
+          {
+            "name": "se",
+            "kind": "function",
+            "line": 1,
+            "column": 20700
+          },
+          {
+            "name": "Ba",
+            "kind": "function",
+            "line": 1,
+            "column": 54019
+          },
+          {
+            "name": "Qa",
+            "kind": "function",
+            "line": 1,
+            "column": 54320
+          },
+          {
+            "name": "N",
+            "kind": "function",
+            "line": 1,
+            "column": 18238
+          },
+          {
+            "name": "$e",
+            "kind": "function",
+            "line": 1,
+            "column": 49209
+          },
+          {
+            "name": "Sa",
+            "kind": "function",
+            "line": 1,
+            "column": 52761
+          },
+          {
+            "name": "I",
+            "kind": "function",
+            "line": 1,
+            "column": 18310
+          },
+          {
+            "name": "ya",
+            "kind": "function",
+            "line": 1,
+            "column": 52014
+          },
+          {
+            "name": "et",
+            "kind": "function",
+            "line": 1,
+            "column": 56042
+          },
+          {
+            "name": "Ae",
+            "kind": "function",
+            "line": 1,
+            "column": 21402
+          },
+          {
+            "name": "Ra",
+            "kind": "function",
+            "line": 1,
+            "column": 53992
+          },
+          {
+            "name": "za",
+            "kind": "function",
+            "line": 1,
+            "column": 55661
+          },
+          {
+            "name": "setup",
+            "kind": "function",
+            "line": 1,
+            "column": 48237
+          },
+          {
+            "name": "xa",
+            "kind": "function",
+            "line": 1,
+            "column": 52806
+          },
+          {
+            "name": "we",
+            "kind": "function",
+            "line": 1,
+            "column": 21095
+          },
+          {
+            "name": "Ol",
+            "kind": "function",
+            "line": 1,
+            "column": 58067
+          },
+          {
+            "name": "me",
+            "kind": "function",
+            "line": 1,
+            "column": 21366
+          },
+          {
+            "name": "setup",
+            "kind": "function",
+            "line": 1,
+            "column": 2475
+          },
+          {
+            "name": "a",
+            "kind": "function",
+            "line": 1,
+            "column": 2754
+          },
+          {
+            "name": "setup",
+            "kind": "function",
+            "line": 1,
+            "column": 17664
+          },
+          {
+            "name": "G",
+            "kind": "function",
+            "line": 1,
+            "column": 10402
+          },
+          {
+            "name": "qa",
+            "kind": "function",
+            "line": 1,
+            "column": 53872
+          },
+          {
+            "name": "L",
+            "kind": "function",
+            "line": 1,
+            "column": 18342
+          },
+          {
+            "name": "ie",
+            "kind": "function",
+            "line": 1,
+            "column": 20242
+          }
+        ]
+      },
+      "assets/NewPay-CqER54fq.js": {
+        "nodes": 85,
+        "functions": 3,
+        "classes": 0,
+        "named": [
+          {
+            "name": "setup",
+            "kind": "function",
+            "line": 1,
+            "column": 144
+          }
+        ]
+      },
+      "assets/PandaAISidebar-D4-Pxs5p.js": {
+        "nodes": 2098,
+        "functions": 46,
+        "classes": 0,
+        "named": [
+          {
+            "name": "dA",
+            "kind": "function",
+            "line": 1,
+            "column": 16232
+          },
+          {
+            "name": "Ze",
+            "kind": "function",
+            "line": 1,
+            "column": 13532
+          },
+          {
+            "name": "pA",
+            "kind": "function",
+            "line": 1,
+            "column": 16588
+          },
+          {
+            "name": "lA",
+            "kind": "function",
+            "line": 1,
+            "column": 14937
+          },
+          {
+            "name": "Ve",
+            "kind": "function",
+            "line": 1,
+            "column": 13474
+          },
+          {
+            "name": "vA",
+            "kind": "function",
+            "line": 1,
+            "column": 16283
+          },
+          {
+            "name": "Ge",
+            "kind": "function",
+            "line": 1,
+            "column": 13505
+          },
+          {
+            "name": "wA",
+            "kind": "function",
+            "line": 1,
+            "column": 16725
+          },
+          {
+            "name": "kA",
+            "kind": "function",
+            "line": 1,
+            "column": 16483
+          },
+          {
+            "name": "gA",
+            "kind": "function",
+            "line": 1,
+            "column": 15576
+          },
+          {
+            "name": "be",
+            "kind": "function",
+            "line": 1,
+            "column": 13446
+          },
+          {
+            "name": "mA",
+            "kind": "function",
+            "line": 1,
+            "column": 16050
+          },
+          {
+            "name": "Oe",
+            "kind": "function",
+            "line": 1,
+            "column": 13427
+          },
+          {
+            "name": "uA",
+            "kind": "function",
+            "line": 1,
+            "column": 15734
+          },
+          {
+            "name": "setup",
+            "kind": "function",
+            "line": 1,
+            "column": 12982
+          }
+        ]
+      },
+      "assets/PlanWarningModal-D8K4D6Rx.js": {
+        "nodes": 513,
+        "functions": 16,
+        "classes": 0,
+        "named": [
+          {
+            "name": "setup",
+            "kind": "function",
+            "line": 1,
+            "column": 2256
+          },
+          {
+            "name": "o",
+            "kind": "function",
+            "line": 1,
+            "column": 2286
+          },
+          {
+            "name": "M",
+            "kind": "function",
+            "line": 1,
+            "column": 887
+          },
+          {
+            "name": "I",
+            "kind": "function",
+            "line": 1,
+            "column": 1950
+          },
+          {
+            "name": "setup",
+            "kind": "function",
+            "line": 1,
+            "column": 568
+          }
+        ]
+      },
+      "assets/Quantflow-CFbBdo_1.js": {
+        "nodes": 20000,
+        "functions": 1370,
+        "classes": 0,
+        "named": [
+          {
+            "name": "O",
+            "kind": "function",
+            "line": 1,
+            "column": 302425
+          },
+          {
+            "name": "setup",
+            "kind": "function",
+            "line": 1,
+            "column": 108963
+          },
+          {
+            "name": "We",
+            "kind": "function",
+            "line": 1,
+            "column": 289080
+          },
+          {
+            "name": "ce",
+            "kind": "function",
+            "line": 1,
+            "column": 75523
+          },
+          {
+            "name": "V",
+            "kind": "function",
+            "line": 1,
+            "column": 67259
+          },
+          {
+            "name": "_e",
+            "kind": "function",
+            "line": 1,
+            "column": 77645
+          },
+          {
+            "name": "createDragGhost",
+            "kind": "function",
+            "line": 1,
+            "column": 42062
+          },
+          {
+            "name": "ao",
+            "kind": "function",
+            "line": 1,
+            "column": 196662
+          },
+          {
+            "name": "J",
+            "kind": "function",
+            "line": 1,
+            "column": 89154
+          },
+          {
+            "name": "we",
+            "kind": "function",
+            "line": 1,
+            "column": 92194
+          },
+          {
+            "name": "Et",
+            "kind": "function",
+            "line": 1,
+            "column": 178929
+          },
+          {
+            "name": "Be",
+            "kind": "function",
+            "line": 1,
+            "column": 79648
+          },
+          {
+            "name": "Go",
+            "kind": "function",
+            "line": 1,
+            "column": 239745
+          },
+          {
+            "name": "be",
+            "kind": "function",
+            "line": 1,
+            "column": 282433
+          },
+          {
+            "name": "p",
+            "kind": "function",
+            "line": 1,
+            "column": 30560
+          },
+          {
+            "name": "a",
+            "kind": "function",
+            "line": 1,
+            "column": 244540
+          },
+          {
+            "name": "Oe",
+            "kind": "function",
+            "line": 1,
+            "column": 139748
+          },
+          {
+            "name": "t",
+            "kind": "function",
+            "line": 1,
+            "column": 223547
+          },
+          {
+            "name": "ye",
+            "kind": "function",
+            "line": 1,
+            "column": 282188
+          },
+          {
+            "name": "t",
+            "kind": "function",
+            "line": 1,
+            "column": 132114
+          },
+          {
+            "name": "Y",
+            "kind": "function",
+            "line": 1,
+            "column": 67750
+          },
+          {
+            "name": "fe",
+            "kind": "function",
+            "line": 1,
+            "column": 8941
+          },
+          {
+            "name": "Z",
+            "kind": "function",
+            "line": 1,
+            "column": 72899
+          },
+          {
+            "name": "initStyles",
+            "kind": "function",
+            "line": 1,
+            "column": 41434
+          },
+          {
+            "name": "X",
+            "kind": "function",
+            "line": 1,
+            "column": 276037
+          },
+          {
+            "name": "Bo",
+            "kind": "function",
+            "line": 1,
+            "column": 233362
+          },
+          {
+            "name": "ae",
+            "kind": "function",
+            "line": 1,
+            "column": 317045
+          },
+          {
+            "name": "Oe",
+            "kind": "function",
+            "line": 1,
+            "column": 289217
+          },
+          {
+            "name": "Yo",
+            "kind": "function",
+            "line": 1,
+            "column": 242193
+          },
+          {
+            "name": "T",
+            "kind": "function",
+            "line": 1,
+            "column": 117071
+          },
+          {
+            "name": "Ba",
+            "kind": "function",
+            "line": 1,
+            "column": 25074
+          },
+          {
+            "name": "G",
+            "kind": "function",
+            "line": 1,
+            "column": 267821
+          },
+          {
+            "name": "get",
+            "kind": "function",
+            "line": 1,
+            "column": 133711
+          },
+          {
+            "name": "Ae",
+            "kind": "function",
+            "line": 1,
+            "column": 282348
+          },
+          {
+            "name": "ne",
+            "kind": "function",
+            "line": 1,
+            "column": 268501
+          },
+          {
+            "name": "ye",
+            "kind": "function",
+            "line": 1,
+            "column": 92323
+          },
+          {
+            "name": "j",
+            "kind": "function",
+            "line": 1,
+            "column": 88817
+          },
+          {
+            "name": "Dt",
+            "kind": "function",
+            "line": 1,
+            "column": 180102
+          },
+          {
+            "name": "o",
+            "kind": "function",
+            "line": 1,
+            "column": 71913
+          },
+          {
+            "name": "De",
+            "kind": "function",
+            "line": 1,
+            "column": 78727
+          },
+          {
+            "name": "l",
+            "kind": "function",
+            "line": 1,
+            "column": 236104
+          },
+          {
+            "name": "fo",
+            "kind": "function",
+            "line": 1,
+            "column": 40636
+          },
+          {
+            "name": "sn",
+            "kind": "function",
+            "line": 1,
+            "column": 245074
+          },
+          {
+            "name": "It",
+            "kind": "function",
+            "line": 1,
+            "column": 179926
+          },
+          {
+            "name": "set",
+            "kind": "function",
+            "line": 1,
+            "column": 133774
+          },
+          {
+            "name": "nt",
+            "kind": "function",
+            "line": 1,
+            "column": 146655
+          },
+          {
+            "name": "ce",
+            "kind": "function",
+            "line": 1,
+            "column": 276989
+          },
+          {
+            "name": "pe",
+            "kind": "function",
+            "line": 1,
+            "column": 277643
+          },
+          {
+            "name": "Ke",
+            "kind": "function",
+            "line": 1,
+            "column": 143146
+          },
+          {
+            "name": "Le",
+            "kind": "function",
+            "line": 1,
+            "column": 286963
+          },
+          {
+            "name": "_e",
+            "kind": "function",
+            "line": 1,
+            "column": 282456
+          },
+          {
+            "name": "We",
+            "kind": "function",
+            "line": 1,
+            "column": 137052
+          },
+          {
+            "name": "te",
+            "kind": "function",
+            "line": 1,
+            "column": 8443
+          },
+          {
+            "name": "Ko",
+            "kind": "function",
+            "line": 1,
+            "column": 243467
+          },
+          {
+            "name": "De",
+            "kind": "function",
+            "line": 1,
+            "column": 93569
+          },
+          {
+            "name": "le",
+            "kind": "function",
+            "line": 1,
+            "column": 317407
+          },
+          {
+            "name": "se",
+            "kind": "function",
+            "line": 1,
+            "column": 133062
+          },
+          {
+            "name": "Po",
+            "kind": "function",
+            "line": 1,
+            "column": 232832
+          },
+          {
+            "name": "u",
+            "kind": "function",
+            "line": 1,
+            "column": 324860
+          },
+          {
+            "name": "At",
+            "kind": "function",
+            "line": 1,
+            "column": 178551
+          },
+          {
+            "name": "V",
+            "kind": "function",
+            "line": 1,
+            "column": 308332
+          },
+          {
+            "name": "J",
+            "kind": "function",
+            "line": 1,
+            "column": 267322
+          },
+          {
+            "name": "qo",
+            "kind": "function",
+            "line": 1,
+            "column": 235614
+          },
+          {
+            "name": "a",
+            "kind": "function",
+            "line": 1,
+            "column": 89592
+          },
+          {
+            "name": "Ie",
+            "kind": "function",
+            "line": 1,
+            "column": 78653
+          },
+          {
+            "name": "fe",
+            "kind": "function",
+            "line": 1,
+            "column": 76386
+          },
+          {
+            "name": "n",
+            "kind": "function",
+            "line": 1,
+            "column": 219742
+          },
+          {
+            "name": "we",
+            "kind": "function",
+            "line": 1,
+            "column": 318966
+          },
+          {
+            "name": "setup",
+            "kind": "function",
+            "line": 1,
+            "column": 35950
+          },
+          {
+            "name": "xe",
+            "kind": "function",
+            "line": 1,
+            "column": 283388
+          },
+          {
+            "name": "ee",
+            "kind": "function",
+            "line": 1,
+            "column": 73238
+          },
+          {
+            "name": "d",
+            "kind": "function",
+            "line": 1,
+            "column": 212656
+          },
+          {
+            "name": "j",
+            "kind": "function",
+            "line": 1,
+            "column": 303919
+          },
+          {
+            "name": "Ne",
+            "kind": "function",
+            "line": 1,
+            "column": 18288
+          },
+          {
+            "name": "be",
+            "kind": "function",
+            "line": 1,
+            "column": 77403
+          },
+          {
+            "name": "constructor",
+            "kind": "function",
+            "line": 1,
+            "column": 41244
+          },
+          {
+            "name": "Oa",
+            "kind": "function",
+            "line": 1,
+            "column": 186388
+          },
+          {
+            "name": "we",
+            "kind": "function",
+            "line": 1,
+            "column": 76447
+          },
+          {
+            "name": "ue",
+            "kind": "function",
+            "line": 1,
+            "column": 91716
+          },
+          {
+            "name": "Ja",
+            "kind": "function",
+            "line": 1,
+            "column": 189796
+          },
+          {
+            "name": "lo",
+            "kind": "function",
+            "line": 1,
+            "column": 198665
+          },
+          {
+            "name": "e",
+            "kind": "function",
+            "line": 1,
+            "column": 244768
+          },
+          {
+            "name": "le",
+            "kind": "function",
+            "line": 1,
+            "column": 90837
+          },
+          {
+            "name": "vt",
+            "kind": "function",
+            "line": 1,
+            "column": 154129
+          },
+          {
+            "name": "setup",
+            "kind": "function",
+            "line": 1,
+            "column": 71758
+          },
+          {
+            "name": "lt",
+            "kind": "function",
+            "line": 1,
+            "column": 153770
+          },
+          {
+            "name": "Ct",
+            "kind": "function",
+            "line": 1,
+            "column": 160887
+          },
+          {
+            "name": "Nt",
+            "kind": "function",
+            "line": 1,
+            "column": 179777
+          },
+          {
+            "name": "yt",
+            "kind": "function",
+            "line": 1,
+            "column": 155947
+          },
+          {
+            "name": "Et",
+            "kind": "function",
+            "line": 1,
+            "column": 160941
+          },
+          {
+            "name": "ue",
+            "kind": "function",
+            "line": 1,
+            "column": 318788
+          },
+          {
+            "name": "Pe",
+            "kind": "function",
+            "line": 1,
+            "column": 94917
+          },
+          {
+            "name": "q",
+            "kind": "function",
+            "line": 1,
+            "column": 88927
+          },
+          {
+            "name": "d",
+            "kind": "function",
+            "line": 1,
+            "column": 11323
+          },
+          {
+            "name": "Se",
+            "kind": "function",
+            "line": 1,
+            "column": 135077
+          },
+          {
+            "name": "Pe",
+            "kind": "function",
+            "line": 1,
+            "column": 287916
+          },
+          {
+            "name": "Ie",
+            "kind": "function",
+            "line": 1,
+            "column": 92995
+          },
+          {
+            "name": "handleDragEnd",
+            "kind": "function",
+            "line": 1,
+            "column": 44276
+          },
+          {
+            "name": "ae",
+            "kind": "function",
+            "line": 1,
+            "column": 74685
+          },
+          {
+            "name": "tc",
+            "kind": "function",
+            "line": 1,
+            "column": 297911
+          },
+          {
+            "name": "M",
+            "kind": "function",
+            "line": 1,
+            "column": 298985
+          },
+          {
+            "name": "ie",
+            "kind": "function",
+            "line": 1,
+            "column": 91395
+          },
+          {
+            "name": "Re",
+            "kind": "function",
+            "line": 1,
+            "column": 135317
+          },
+          {
+            "name": "fe",
+            "kind": "function",
+            "line": 1,
+            "column": 92080
+          },
+          {
+            "name": "q",
+            "kind": "function",
+            "line": 1,
+            "column": 303938
+          },
+          {
+            "name": "To",
+            "kind": "function",
+            "line": 1,
+            "column": 227475
+          },
+          {
+            "name": "setup",
+            "kind": "function",
+            "line": 1,
+            "column": 88203
+          },
+          {
+            "name": "setup",
+            "kind": "function",
+            "line": 1,
+            "column": 298424
+          },
+          {
+            "name": "De",
+            "kind": "function",
+            "line": 1,
+            "column": 286882
+          },
+          {
+            "name": "_t",
+            "kind": "function",
+            "line": 1,
+            "column": 178594
+          },
+          {
+            "name": "ga",
+            "kind": "function",
+            "line": 1,
+            "column": 184772
+          },
+          {
+            "name": "Ze",
+            "kind": "function",
+            "line": 1,
+            "column": 143211
+          },
+          {
+            "name": "dn",
+            "kind": "function",
+            "line": 1,
+            "column": 245811
+          },
+          {
+            "name": "g",
+            "kind": "function",
+            "line": 1,
+            "column": 310575
+          },
+          {
+            "name": "za",
+            "kind": "function",
+            "line": 1,
+            "column": 188227
+          },
+          {
+            "name": "Qa",
+            "kind": "function",
+            "line": 1,
+            "column": 189269
+          },
+          {
+            "name": "Ce",
+            "kind": "function",
+            "line": 1,
+            "column": 10981
+          },
+          {
+            "name": "we",
+            "kind": "function",
+            "line": 1,
+            "column": 8962
+          },
+          {
+            "name": "se",
+            "kind": "function",
+            "line": 1,
+            "column": 276620
+          },
+          {
+            "name": "Le",
+            "kind": "function",
+            "line": 1,
+            "column": 19299
+          }
+        ]
+      },
+      "assets/QuantflowTable-hHUPFtu6.js": {
+        "nodes": 1231,
+        "functions": 39,
+        "classes": 0,
+        "named": [
+          {
+            "name": "fe",
+            "kind": "function",
+            "line": 1,
+            "column": 2313
+          },
+          {
+            "name": "ke",
+            "kind": "function",
+            "line": 1,
+            "column": 1947
+          },
+          {
+            "name": "pe",
+            "kind": "function",
+            "line": 1,
+            "column": 1786
+          },
+          {
+            "name": "setup",
+            "kind": "function",
+            "line": 1,
+            "column": 1099
+          },
+          {
+            "name": "we",
+            "kind": "function",
+            "line": 1,
+            "column": 1855
+          },
+          {
+            "name": "ve",
+            "kind": "function",
+            "line": 1,
+            "column": 1483
+          },
+          {
+            "name": "me",
+            "kind": "function",
+            "line": 1,
+            "column": 1819
+          },
+          {
+            "name": "he",
+            "kind": "function",
+            "line": 1,
+            "column": 2172
+          },
+          {
+            "name": "ye",
+            "kind": "function",
+            "line": 1,
+            "column": 2269
+          }
+        ]
+      },
+      "assets/SidebarLayout-DQ6ickQk.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/TQX-logo-full-CN4hDnX1.js": {
+        "nodes": 5,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/TqxHelpDocs-BdJkiJIa.js": {
+        "nodes": 554,
+        "functions": 13,
+        "classes": 0,
+        "named": [
+          {
+            "name": "w",
+            "kind": "function",
+            "line": 1,
+            "column": 15663
+          },
+          {
+            "name": "v",
+            "kind": "function",
+            "line": 1,
+            "column": 15487
+          },
+          {
+            "name": "C",
+            "kind": "function",
+            "line": 1,
+            "column": 17192
+          },
+          {
+            "name": "highlight",
+            "kind": "function",
+            "line": 1,
+            "column": 16941
+          },
+          {
+            "name": "setup",
+            "kind": "function",
+            "line": 1,
+            "column": 16617
+          }
+        ]
+      },
+      "assets/TqxPay-sdZcWYPB.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/TqxPayCancel-C5aaDbv9.js": {
+        "nodes": 112,
+        "functions": 2,
+        "classes": 0,
+        "named": [
+          {
+            "name": "setup",
+            "kind": "function",
+            "line": 1,
+            "column": 796
+          }
+        ]
+      },
+      "assets/TqxPaySuccess-2ltTOfSA.js": {
+        "nodes": 112,
+        "functions": 2,
+        "classes": 0,
+        "named": [
+          {
+            "name": "setup",
+            "kind": "function",
+            "line": 1,
+            "column": 797
+          }
+        ]
+      },
+      "assets/UiLoading-aPmBkIsg.js": {
+        "nodes": 1576,
+        "functions": 22,
+        "classes": 0,
+        "named": [
+          {
+            "name": "setup",
+            "kind": "function",
+            "line": 1,
+            "column": 34496
+          },
+          {
+            "name": "Y",
+            "kind": "function",
+            "line": 1,
+            "column": 3713
+          },
+          {
+            "name": "setup",
+            "kind": "function",
+            "line": 1,
+            "column": 3038
+          }
+        ]
+      },
+      "assets/UploadFile-D_R7HAxx.js": {
+        "nodes": 1009,
+        "functions": 34,
+        "classes": 0,
+        "named": [
+          {
+            "name": "R",
+            "kind": "function",
+            "line": 1,
+            "column": 2071
+          },
+          {
+            "name": "G",
+            "kind": "function",
+            "line": 1,
+            "column": 2207
+          },
+          {
+            "name": "V",
+            "kind": "function",
+            "line": 1,
+            "column": 3012
+          },
+          {
+            "name": "N",
+            "kind": "function",
+            "line": 1,
+            "column": 1474
+          },
+          {
+            "name": "Y",
+            "kind": "function",
+            "line": 1,
+            "column": 3221
+          },
+          {
+            "name": "setup",
+            "kind": "function",
+            "line": 1,
+            "column": 1026
+          },
+          {
+            "name": "X",
+            "kind": "function",
+            "line": 1,
+            "column": 3139
+          },
+          {
+            "name": "ee",
+            "kind": "function",
+            "line": 1,
+            "column": 3343
+          },
+          {
+            "name": "Q",
+            "kind": "function",
+            "line": 1,
+            "column": 2950
+          },
+          {
+            "name": "W",
+            "kind": "function",
+            "line": 1,
+            "column": 3078
+          },
+          {
+            "name": "K",
+            "kind": "function",
+            "line": 1,
+            "column": 2884
+          },
+          {
+            "name": "H",
+            "kind": "function",
+            "line": 1,
+            "column": 2653
+          },
+          {
+            "name": "Z",
+            "kind": "function",
+            "line": 1,
+            "column": 3248
+          }
+        ]
+      },
+      "assets/UploadFileExample-DWwXSRFs.js": {
+        "nodes": 418,
+        "functions": 8,
+        "classes": 0,
+        "named": [
+          {
+            "name": "F",
+            "kind": "function",
+            "line": 1,
+            "column": 882
+          },
+          {
+            "name": "C",
+            "kind": "function",
+            "line": 1,
+            "column": 870
+          },
+          {
+            "name": "setup",
+            "kind": "function",
+            "line": 1,
+            "column": 535
+          },
+          {
+            "name": "_",
+            "kind": "function",
+            "line": 1,
+            "column": 560
+          },
+          {
+            "name": "w",
+            "kind": "function",
+            "line": 1,
+            "column": 706
+          },
+          {
+            "name": "B",
+            "kind": "function",
+            "line": 1,
+            "column": 858
+          }
+        ]
+      },
+      "assets/Workflow-CA6TBoMa.js": {
+        "nodes": 533,
+        "functions": 18,
+        "classes": 0,
+        "named": [
+          {
+            "name": "m",
+            "kind": "function",
+            "line": 1,
+            "column": 405
+          },
+          {
+            "name": "setup",
+            "kind": "function",
+            "line": 1,
+            "column": 1417
+          },
+          {
+            "name": "setup",
+            "kind": "function",
+            "line": 1,
+            "column": 370
+          }
+        ]
+      },
+      "assets/WorkflowCreated-B3Eo3dWl.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/WorkflowNameDialog-Y1m-Dsia.js": {
+        "nodes": 1673,
+        "functions": 44,
+        "classes": 0,
+        "named": [
+          {
+            "name": "De",
+            "kind": "function",
+            "line": 1,
+            "column": 2901
+          },
+          {
+            "name": "Be",
+            "kind": "function",
+            "line": 1,
+            "column": 2342
+          },
+          {
+            "name": "Oe",
+            "kind": "function",
+            "line": 1,
+            "column": 3028
+          },
+          {
+            "name": "setup",
+            "kind": "function",
+            "line": 1,
+            "column": 1387
+          },
+          {
+            "name": "Re",
+            "kind": "function",
+            "line": 1,
+            "column": 3370
+          },
+          {
+            "name": "Ue",
+            "kind": "function",
+            "line": 1,
+            "column": 2849
+          },
+          {
+            "name": "Le",
+            "kind": "function",
+            "line": 1,
+            "column": 2839
+          },
+          {
+            "name": "Ke",
+            "kind": "function",
+            "line": 1,
+            "column": 3684
+          },
+          {
+            "name": "We",
+            "kind": "function",
+            "line": 1,
+            "column": 2084
+          },
+          {
+            "name": "Ie",
+            "kind": "function",
+            "line": 1,
+            "column": 3641
+          },
+          {
+            "name": "Me",
+            "kind": "function",
+            "line": 1,
+            "column": 2953
+          },
+          {
+            "name": "ze",
+            "kind": "function",
+            "line": 1,
+            "column": 2641
+          },
+          {
+            "name": "qe",
+            "kind": "function",
+            "line": 1,
+            "column": 2144
+          },
+          {
+            "name": "Pe",
+            "kind": "function",
+            "line": 1,
+            "column": 3260
+          }
+        ]
+      },
+      "assets/WorkflowSubscribed-F-toamFE.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/abap-BEmyWTuu.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/agent-trade-BDA-Vfe3.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/aiagentclose-BbDCWpYy.js": {
+        "nodes": 9,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/apex-WppCoB7X.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/api-factor-BvWgc3OH.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/authService-DsRwB072.js": {
+        "nodes": 98,
+        "functions": 3,
+        "classes": 0,
+        "named": [
+          {
+            "name": "e",
+            "kind": "function",
+            "line": 1,
+            "column": 348
+          },
+          {
+            "name": "i",
+            "kind": "function",
+            "line": 1,
+            "column": 165
+          },
+          {
+            "name": "p",
+            "kind": "function",
+            "line": 1,
+            "column": 221
+          }
+        ]
+      },
+      "assets/azcli-mQgr5jfh.js": {
+        "nodes": 86,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/back-arrow-xsXBwf_O.js": {
+        "nodes": 5,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/bat-CJTtRFHi.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/bicep-Cn2JVVhC.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/cache-ka5600P8.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/cameligo-vOnARPnV.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/clojure-CYjZp8Cs.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/close-BtR9jCNX.js": {
+        "nodes": 5,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/coffee-DWywj22Y.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/cpp-CZOmK3c9.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/csharp-DpsmwUPI.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/csp-KjEhg7c5.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/css-CVVx9CO5.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/cssMode-Cs4AVpeK.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/cypher-DPY40gqJ.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/dart-VVTSeB1-.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/dockerfile-DYva5WN7.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/ecl-D1L8KD4V.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/elixir-BK4Ys-Ku.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/flow9-BBVsaG1v.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/freemarker2-f8IKZzir.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/fsharp-Dj_oI-xX.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/go-sVwXq_Ei.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/graphql-2qjgNI9R.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/handlebars-DTl34-6O.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/hcl-BVSfF1Hj.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/html-Dx8ELZF-.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/htmlMode-AbjfeRcK.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/index-BrZs9L6j.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/index-DJLj1khd.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/index-GqNeRNXA.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/ini-D-CelgHn.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/java-CwELrETr.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/javascript-BNka5auN.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/jinzi-3TCLNY_G.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/jsonMode-DdhQgGu8.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/julia-Drh_noEa.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/kotlin-BB-eT2U_.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/ks2sd-Btp3d9YK.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/less-rB00erqD.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/lexon-DuUOKdDb.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/liquid-R266DASI.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/lua-CDlR7pth.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/m3-DgkkDPQd.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/main-C0byxrRt.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/markdown-CnEeiC5w.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/mdx-B7jfYvQy.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/memberLevelManager-Du1-w06U.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/mips-CZ6e_pUT.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/msdax-HwxQoYX4.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/mysql-C822rqGF.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/no-data-BmKTbyD_.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/no-data1-de8XL9tU.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/not-open-MJGCGB5e.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/numberFormat-D2cX1O8b.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/objective-c-BAmBt3xB.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/pascal-DousasBm.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/pascaligo-DD6shkNS.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/perl-DaCUUSpz.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/pgsql-DrWBB70T.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/php-DWqZhgq9.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/pla-BoO64_DU.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/postiats-bVq3Pavx.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/powerquery-CID-Ea7W.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/powershell-oRbTwEo4.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/protobuf-C0F3jUaX.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/pug-DHUJQLbd.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/python-kTA_KquL.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/qsharp-BWSzh7oN.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/quill.snow-DJ_fvi8v.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/r-BanU7CsF.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/razor-BCMQohYT.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/redis-BSaclKSC.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/redshift-D1_gfQkj.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/restructuredtext-C3G5we8f.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/right-arrow-DSNnrW8y.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/ruby-CTmW3YEK.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/rust-NqNdpKVZ.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/sb-B8qp1FKa.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/scala-BnEfef3U.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/scheme-Dc1JGcYx.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/scss-B-My4Zvq.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/shell-BhsXm4KR.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/solidity-If5Qu0q7.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/sophia-CiIJuvdC.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/sparql-CSSfzw4u.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/sql-Cs0kX3sc.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/st-3uOu1_UJ.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/swift-Bakemar7.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/systemverilog-B2ifoQ-H.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/tag-outlined@3x-DxfHwDM2.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/tcl-DQ1ZJOtM.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/tqxPaymentErrorI18n-BWcfBm_Q.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/tsMode-BrzF6g-t.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/twig-t0KXpBvC.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/typescript-C1BBm6aW.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/useLocaleImage-CvV9M_0e.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/useTqxBacktestLimitPopup-Bpixu_my.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/useTqxPaymentResultNavigation-BR_hmlW3.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/vb-CBCTJfkU.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/walletFetcher-iIHP3DEy.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/wgsl-CZD5oSoE.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/xml-Mt4valp2.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/yaml-BbK6yBMi.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/yz-BVqAcoX2.js": {
+        "nodes": 869,
+        "functions": 11,
+        "classes": 0,
+        "named": [
+          {
+            "name": "ya",
+            "kind": "function",
+            "line": 1,
+            "column": 1555
+          },
+          {
+            "name": "ha",
+            "kind": "function",
+            "line": 1,
+            "column": 1519
+          },
+          {
+            "name": "setup",
+            "kind": "function",
+            "line": 1,
+            "column": 1313
+          },
+          {
+            "name": "ga",
+            "kind": "function",
+            "line": 1,
+            "column": 1576
+          }
+        ]
+      }
+    },
+    "limitations": [
+      "Alias selection expansion was conservatively bounded (maximum 512 additional selector states); selected paths remain unknown.",
+      "CommonJS and ESM binding relationships were recovered from inert syntax and resolved only within the inventoried artifact container.",
+      "Graph coverage is incomplete; unavailable facts remain explicit and must not be read as absence.",
+      "JavaScript and HTML were parsed as inert text; bundle bootstrap code was never executed.",
+      "Resource constraint during analyze_javascript_application: Expanded application relationships for assets/csharp-DpsmwUPI.js exceed the parent's result budget; complete static facts were retained on the file node",
+      "Resource constraint during analyze_javascript_application: Expanded application relationships for assets/csp-KjEhg7c5.js exceed the parent's result budget; complete static facts were retained on the file node",
+      "Resource constraint during analyze_javascript_application: Expanded application relationships for assets/css-CVVx9CO5.js exceed the parent's result budget; complete static facts were retained on the file node",
+      "Resource constraint during analyze_javascript_application: Expanded application relationships for assets/cssMode-Cs4AVpeK.js exceed the parent's result budget; complete static facts were retained on the file node",
+      "Resource constraint during analyze_javascript_application: Expanded application relationships for assets/cypher-DPY40gqJ.js exceed the parent's result budget; complete static facts were retained on the file node",
+      "Resource constraint during analyze_javascript_application: Expanded application relationships for assets/dart-VVTSeB1-.js exceed the parent's result budget; complete static facts were retained on the file node",
+      "Resource constraint during analyze_javascript_application: Expanded application relationships for assets/dockerfile-DYva5WN7.js exceed the parent's result budget; complete static facts were retained on the file node",
+      "Resource constraint during analyze_javascript_application: Expanded application relationships for assets/ecl-D1L8KD4V.js exceed the parent's result budget; complete static facts were retained on the file node",
+      "Resource constraint during analyze_javascript_application: Expanded application relationships for assets/elixir-BK4Ys-Ku.js exceed the parent's result budget; complete static facts were retained on the file node",
+      "Resource constraint during analyze_javascript_application: Expanded application relationships for assets/flow9-BBVsaG1v.js exceed the parent's result budget; complete static facts were retained on the file node",
+      "Resource constraint during analyze_javascript_application: Expanded application relationships for assets/freemarker2-f8IKZzir.js exceed the parent's result budget; complete static facts were retained on the file node",
+      "Resource constraint during analyze_javascript_application: Expanded application relationships for assets/fsharp-Dj_oI-xX.js exceed the parent's result budget; complete static facts were retained on the file node",
+      "Resource constraint during analyze_javascript_application: Expanded application relationships for assets/go-sVwXq_Ei.js exceed the parent's result budget; complete static facts were retained on the file node",
+      "Resource constraint during analyze_javascript_application: Expanded application relationships for assets/graphql-2qjgNI9R.js exceed the parent's result budget; complete static facts were retained on the file node",
+      "Resource constraint during analyze_javascript_application: Expanded application relationships for assets/handlebars-DTl34-6O.js exceed the parent's result budget; complete static facts were retained on the file node",
+      "Resource constraint during analyze_javascript_application: Expanded application relationships for assets/hcl-BVSfF1Hj.js exceed the parent's result budget; complete static facts were retained on the file node"
+    ]
+  },
+  "agent_quant": {
+    "label": "agent_quant",
+    "evidence_file": "/tmp/opencode/qube-app-evidence.json",
+    "evidence_id": "ev_d235b169a3c592c0d5236dab15a29299ba8a986671cc1ae5136d6280758a7750",
+    "subject": "agent_quant",
+    "statistics": {
+      "findings": 763,
+      "invalid_utf8_files": 0,
+      "modules": 0,
+      "nested_asar_containers": 0,
+      "parse_failures": 0,
+      "parsed_javascript_files": 25,
+      "relevant_files": 41,
+      "skipped_javascript_files": 0,
+      "text_bytes_read": 197193,
+      "visited_ast_nodes": 57272
+    },
+    "graph": {
+      "nodes": 450,
+      "edges": 845,
+      "node_kinds": {
+        "javascript-module": 374,
+        "endpoint": 9,
+        "javascript-asset": 39,
+        "storage": 9,
+        "artifact": 3,
+        "unknown": 16
+      },
+      "edge_relations": {
+        "exposes": 272,
+        "imports": 465,
+        "calls": 9,
+        "contains": 82,
+        "persists_to": 17
+      }
+    },
+    "semantic_graph": {
+      "nodes": 37021,
+      "relations": 44481,
+      "node_kinds": {
+        "property-slot": 2158,
+        "call-site": 3739,
+        "function": 1412,
+        "expression": 24148,
+        "parameter": 1353,
+        "return-site": 1165,
+        "binding": 2642,
+        "literal": 180,
+        "module": 39,
+        "event": 2,
+        "task": 81,
+        "promise": 49,
+        "boundary": 41,
+        "listener": 2,
+        "timer": 6,
+        "request": 3,
+        "response": 1
+      },
+      "relation_counts": {
+        "reads-property": 2799,
+        "reads": 9740,
+        "defines": 5237,
+        "aliases": 19064,
+        "captures": 3894,
+        "argument-to-parameter": 984,
+        "returns-to-call": 806,
+        "coerces": 31,
+        "calls": 762,
+        "writes": 207,
+        "writes-property": 469,
+        "spreads": 108,
+        "validates": 8,
+        "destructures": 186,
+        "awaits": 81,
+        "chains": 13,
+        "returns-task": 15,
+        "creates-promise": 49,
+        "schedules-timer": 6,
+        "owns": 6,
+        "supplies-request-field": 5,
+        "dispatches-candidate": 1,
+        "constructs-request": 3,
+        "detaches-task": 2,
+        "parses": 2,
+        "registers-listener": 1,
+        "consumed-by": 1,
+        "removes-listener": 1
+      }
+    },
+    "routes": [],
+    "route_statistics": {
+      "occurrences": 0,
+      "route_patterns": 0,
+      "sources_retained": 39,
+      "sources_seen": 39,
+      "unanchored_literals_excluded": 0
+    },
+    "files": {
+      "assets/DialogTitle-DjLzhqis.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/atom-DlwbmWrw.js": {
+        "nodes": 10,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/auth-provider-C7ie0Npj.js": {
+        "nodes": 601,
+        "functions": 22,
+        "classes": 0,
+        "named": [
+          {
+            "name": "t",
+            "kind": "function",
+            "line": 1,
+            "column": 2800
+          },
+          {
+            "name": "k",
+            "kind": "function",
+            "line": 1,
+            "column": 1437
+          },
+          {
+            "name": "L",
+            "kind": "function",
+            "line": 1,
+            "column": 2115
+          },
+          {
+            "name": "A",
+            "kind": "function",
+            "line": 1,
+            "column": 1564
+          },
+          {
+            "name": "C",
+            "kind": "function",
+            "line": 1,
+            "column": 816
+          },
+          {
+            "name": "x",
+            "kind": "function",
+            "line": 1,
+            "column": 575
+          },
+          {
+            "name": "b",
+            "kind": "function",
+            "line": 1,
+            "column": 382
+          },
+          {
+            "name": "j",
+            "kind": "function",
+            "line": 1,
+            "column": 1846
+          },
+          {
+            "name": "y",
+            "kind": "function",
+            "line": 1,
+            "column": 332
+          },
+          {
+            "name": "N",
+            "kind": "function",
+            "line": 1,
+            "column": 1972
+          },
+          {
+            "name": "S",
+            "kind": "function",
+            "line": 1,
+            "column": 737
+          },
+          {
+            "name": "R",
+            "kind": "function",
+            "line": 1,
+            "column": 3132
+          },
+          {
+            "name": "_",
+            "kind": "function",
+            "line": 1,
+            "column": 283
+          },
+          {
+            "name": "M",
+            "kind": "function",
+            "line": 1,
+            "column": 1909
+          }
+        ]
+      },
+      "assets/backtest-params-VEgzLRnx.js": {
+        "nodes": 670,
+        "functions": 15,
+        "classes": 0,
+        "named": [
+          {
+            "name": "b",
+            "kind": "function",
+            "line": 1,
+            "column": 3199
+          },
+          {
+            "name": "g",
+            "kind": "function",
+            "line": 1,
+            "column": 1838
+          },
+          {
+            "name": "l",
+            "kind": "function",
+            "line": 1,
+            "column": 957
+          },
+          {
+            "name": "x",
+            "kind": "function",
+            "line": 1,
+            "column": 3232
+          },
+          {
+            "name": "v",
+            "kind": "function",
+            "line": 1,
+            "column": 2708
+          },
+          {
+            "name": "d",
+            "kind": "function",
+            "line": 1,
+            "column": 1125
+          },
+          {
+            "name": "f",
+            "kind": "function",
+            "line": 1,
+            "column": 1228
+          },
+          {
+            "name": "h",
+            "kind": "function",
+            "line": 1,
+            "column": 1503
+          },
+          {
+            "name": "_",
+            "kind": "function",
+            "line": 1,
+            "column": 2575
+          },
+          {
+            "name": "p",
+            "kind": "function",
+            "line": 1,
+            "column": 1295
+          },
+          {
+            "name": "y",
+            "kind": "function",
+            "line": 1,
+            "column": 3152
+          },
+          {
+            "name": "m",
+            "kind": "function",
+            "line": 1,
+            "column": 1436
+          },
+          {
+            "name": "s",
+            "kind": "function",
+            "line": 1,
+            "column": 636
+          },
+          {
+            "name": "u",
+            "kind": "function",
+            "line": 1,
+            "column": 992
+          },
+          {
+            "name": "c",
+            "kind": "function",
+            "line": 1,
+            "column": 923
+          }
+        ]
+      },
+      "assets/badge-BJgXh6oe.js": {
+        "nodes": 63,
+        "functions": 2,
+        "classes": 0,
+        "named": [
+          {
+            "name": "o",
+            "kind": "function",
+            "line": 1,
+            "column": 1253
+          },
+          {
+            "name": "i",
+            "kind": "function",
+            "line": 1,
+            "column": 101
+          }
+        ]
+      },
+      "assets/chart-line-Bso2Wvaf.js": {
+        "nodes": 10,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/chat-api-BkRzIk_k.js": {
+        "nodes": 1366,
+        "functions": 54,
+        "classes": 0,
+        "named": [
+          {
+            "name": "n",
+            "kind": "function",
+            "line": 1,
+            "column": 95
+          },
+          {
+            "name": "H",
+            "kind": "function",
+            "line": 1,
+            "column": 6610
+          },
+          {
+            "name": "S",
+            "kind": "function",
+            "line": 1,
+            "column": 2772
+          },
+          {
+            "name": "O",
+            "kind": "function",
+            "line": 1,
+            "column": 3485
+          },
+          {
+            "name": "C",
+            "kind": "function",
+            "line": 1,
+            "column": 2887
+          },
+          {
+            "name": "K",
+            "kind": "function",
+            "line": 1,
+            "column": 7601
+          },
+          {
+            "name": "g",
+            "kind": "function",
+            "line": 1,
+            "column": 2062
+          },
+          {
+            "name": "z",
+            "kind": "function",
+            "line": 1,
+            "column": 5953
+          },
+          {
+            "name": "v",
+            "kind": "function",
+            "line": 1,
+            "column": 2235
+          },
+          {
+            "name": "y",
+            "kind": "function",
+            "line": 1,
+            "column": 2341
+          },
+          {
+            "name": "l",
+            "kind": "function",
+            "line": 1,
+            "column": 871
+          },
+          {
+            "name": "x",
+            "kind": "function",
+            "line": 1,
+            "column": 2711
+          },
+          {
+            "name": "D",
+            "kind": "function",
+            "line": 1,
+            "column": 3386
+          },
+          {
+            "name": "b",
+            "kind": "function",
+            "line": 1,
+            "column": 2405
+          },
+          {
+            "name": "p",
+            "kind": "function",
+            "line": 1,
+            "column": 1900
+          },
+          {
+            "name": "B",
+            "kind": "function",
+            "line": 1,
+            "column": 6237
+          },
+          {
+            "name": "F",
+            "kind": "function",
+            "line": 1,
+            "column": 4923
+          },
+          {
+            "name": "W",
+            "kind": "function",
+            "line": 1,
+            "column": 7157
+          },
+          {
+            "name": "I",
+            "kind": "function",
+            "line": 1,
+            "column": 5139
+          },
+          {
+            "name": "J",
+            "kind": "function",
+            "line": 1,
+            "column": 7994
+          },
+          {
+            "name": "T",
+            "kind": "function",
+            "line": 1,
+            "column": 3158
+          },
+          {
+            "name": "f",
+            "kind": "function",
+            "line": 1,
+            "column": 1765
+          },
+          {
+            "name": "r",
+            "kind": "function",
+            "line": 1,
+            "column": 126
+          },
+          {
+            "name": "G",
+            "kind": "function",
+            "line": 1,
+            "column": 7332
+          },
+          {
+            "name": "c",
+            "kind": "function",
+            "line": 1,
+            "column": 807
+          },
+          {
+            "name": "E",
+            "kind": "function",
+            "line": 1,
+            "column": 3245
+          },
+          {
+            "name": "k",
+            "kind": "function",
+            "line": 1,
+            "column": 3631
+          },
+          {
+            "name": "o",
+            "kind": "function",
+            "line": 1,
+            "column": 462
+          },
+          {
+            "name": "M",
+            "kind": "function",
+            "line": 1,
+            "column": 4058
+          },
+          {
+            "name": "U",
+            "kind": "function",
+            "line": 1,
+            "column": 6786
+          },
+          {
+            "name": "Y",
+            "kind": "function",
+            "line": 1,
+            "column": 8184
+          },
+          {
+            "name": "j",
+            "kind": "function",
+            "line": 1,
+            "column": 3915
+          },
+          {
+            "name": "L",
+            "kind": "function",
+            "line": 1,
+            "column": 5691
+          },
+          {
+            "name": "A",
+            "kind": "function",
+            "line": 1,
+            "column": 3782
+          },
+          {
+            "name": "a",
+            "kind": "function",
+            "line": 1,
+            "column": 427
+          },
+          {
+            "name": "h",
+            "kind": "function",
+            "line": 1,
+            "column": 2024
+          },
+          {
+            "name": "P",
+            "kind": "function",
+            "line": 1,
+            "column": 4603
+          },
+          {
+            "name": "q",
+            "kind": "function",
+            "line": 1,
+            "column": 7823
+          },
+          {
+            "name": "R",
+            "kind": "function",
+            "line": 1,
+            "column": 5828
+          },
+          {
+            "name": "_",
+            "kind": "function",
+            "line": 1,
+            "column": 2168
+          },
+          {
+            "name": "u",
+            "kind": "function",
+            "line": 1,
+            "column": 1190
+          },
+          {
+            "name": "N",
+            "kind": "function",
+            "line": 1,
+            "column": 4279
+          },
+          {
+            "name": "V",
+            "kind": "function",
+            "line": 1,
+            "column": 6410
+          },
+          {
+            "name": "w",
+            "kind": "function",
+            "line": 1,
+            "column": 3055
+          },
+          {
+            "name": "i",
+            "kind": "function",
+            "line": 1,
+            "column": 171
+          },
+          {
+            "name": "s",
+            "kind": "function",
+            "line": 1,
+            "column": 488
+          },
+          {
+            "name": "d",
+            "kind": "function",
+            "line": 1,
+            "column": 1243
+          }
+        ]
+      },
+      "assets/check-CJXzxzwq.js": {
+        "nodes": 10,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/chevrons-right-DNqQQjsz.js": {
+        "nodes": 17,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/chunk-QTnfLwEv.js": {
+        "nodes": 205,
+        "functions": 6,
+        "classes": 0,
+        "named": [
+          {
+            "name": "o",
+            "kind": "function",
+            "line": 1,
+            "column": 167
+          },
+          {
+            "name": "l",
+            "kind": "function",
+            "line": 1,
+            "column": 566
+          },
+          {
+            "name": "c",
+            "kind": "function",
+            "line": 1,
+            "column": 354
+          },
+          {
+            "name": "s",
+            "kind": "function",
+            "line": 1,
+            "column": 234
+          }
+        ]
+      },
+      "assets/circle-alert-Dx_zQzfu.js": {
+        "nodes": 10,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/dateInput-BkuVAE_d.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/dropdown-menu-BS0TKsZA.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/entry.client-Q5kwH9Le.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/flask-conical-CLzrAc5J.js": {
+        "nodes": 10,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/getPseudoElementBounds-75nRGPfl.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/hover-scroll-reveal-D9ds0v4e.js": {
+        "nodes": 605,
+        "functions": 15,
+        "classes": 0,
+        "named": [
+          {
+            "name": "l",
+            "kind": "function",
+            "line": 1,
+            "column": 174
+          }
+        ]
+      },
+      "assets/index-redirect-C-0hC5Fc.js": {
+        "nodes": 26,
+        "functions": 1,
+        "classes": 0,
+        "named": []
+      },
+      "assets/input-BSBalGud.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/jsx-runtime-GrKSBGdL.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/loader-circle-D-SFJqGr.js": {
+        "nodes": 10,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/locale-provider-DBOqLHhN.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/notice-Bm4twnDK.js": {
+        "nodes": 709,
+        "functions": 30,
+        "classes": 0,
+        "named": [
+          {
+            "name": "T",
+            "kind": "function",
+            "line": 1,
+            "column": 1882
+          },
+          {
+            "name": "z",
+            "kind": "function",
+            "line": 1,
+            "column": 3373
+          },
+          {
+            "name": "y",
+            "kind": "function",
+            "line": 1,
+            "column": 443
+          },
+          {
+            "name": "V",
+            "kind": "function",
+            "line": 1,
+            "column": 3660
+          },
+          {
+            "name": "L",
+            "kind": "function",
+            "line": 1,
+            "column": 3217
+          },
+          {
+            "name": "N",
+            "kind": "function",
+            "line": 1,
+            "column": 3013
+          },
+          {
+            "name": "S",
+            "kind": "function",
+            "line": 1,
+            "column": 1459
+          },
+          {
+            "name": "F",
+            "kind": "function",
+            "line": 1,
+            "column": 3081
+          },
+          {
+            "name": "v",
+            "kind": "function",
+            "line": 1,
+            "column": 370
+          },
+          {
+            "name": "x",
+            "kind": "function",
+            "line": 1,
+            "column": 1331
+          },
+          {
+            "name": "_",
+            "kind": "function",
+            "line": 1,
+            "column": 304
+          },
+          {
+            "name": "P",
+            "kind": "function",
+            "line": 1,
+            "column": 3059
+          },
+          {
+            "name": "C",
+            "kind": "function",
+            "line": 1,
+            "column": 1593
+          },
+          {
+            "name": "M",
+            "kind": "function",
+            "line": 1,
+            "column": 2981
+          },
+          {
+            "name": "I",
+            "kind": "function",
+            "line": 1,
+            "column": 3149
+          },
+          {
+            "name": "b",
+            "kind": "function",
+            "line": 1,
+            "column": 569
+          },
+          {
+            "name": "R",
+            "kind": "function",
+            "line": 1,
+            "column": 3269
+          },
+          {
+            "name": "B",
+            "kind": "function",
+            "line": 1,
+            "column": 3517
+          },
+          {
+            "name": "w",
+            "kind": "function",
+            "line": 1,
+            "column": 1745
+          }
+        ]
+      },
+      "assets/overlay-scrollbar-D8lDSNwP.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/query-keys-hu8Y4jsT.js": {
+        "nodes": 19778,
+        "functions": 845,
+        "classes": 0,
+        "named": [
+          {
+            "name": "ot",
+            "kind": "function",
+            "line": 1,
+            "column": 7749
+          },
+          {
+            "name": "Mi",
+            "kind": "function",
+            "line": 1,
+            "column": 43977
+          },
+          {
+            "name": "ta",
+            "kind": "function",
+            "line": 1,
+            "column": 46585
+          },
+          {
+            "name": "dt",
+            "kind": "function",
+            "line": 1,
+            "column": 8276
+          },
+          {
+            "name": "setOnline",
+            "kind": "function",
+            "line": 1,
+            "column": 10209
+          },
+          {
+            "name": "as",
+            "kind": "function",
+            "line": 1,
+            "column": 86430
+          },
+          {
+            "name": "create",
+            "kind": "function",
+            "line": 1,
+            "column": 38825
+          },
+          {
+            "name": "Fi",
+            "kind": "function",
+            "line": 1,
+            "column": 44187
+          },
+          {
+            "name": "d",
+            "kind": "function",
+            "line": 1,
+            "column": 12108
+          },
+          {
+            "name": "getById",
+            "kind": "function",
+            "line": 1,
+            "column": 73312
+          },
+          {
+            "name": "Ga",
+            "kind": "function",
+            "line": 1,
+            "column": 62962
+          },
+          {
+            "name": "Ii",
+            "kind": "function",
+            "line": 1,
+            "column": 44218
+          },
+          {
+            "name": "request",
+            "kind": "function",
+            "line": 1,
+            "column": 38547
+          },
+          {
+            "name": "trackProp",
+            "kind": "function",
+            "line": 1,
+            "column": 21498
+          },
+          {
+            "name": "notifyAll",
+            "kind": "function",
+            "line": 1,
+            "column": 64775
+          },
+          {
+            "name": "$t",
+            "kind": "function",
+            "line": 1,
+            "column": 26736
+          },
+          {
+            "name": "So",
+            "kind": "function",
+            "line": 1,
+            "column": 74256
+          },
+          {
+            "name": "l",
+            "kind": "function",
+            "line": 1,
+            "column": 12021
+          },
+          {
+            "name": "lock",
+            "kind": "function",
+            "line": 1,
+            "column": 78843
+          },
+          {
+            "name": "addObserver",
+            "kind": "function",
+            "line": 1,
+            "column": 15233
+          },
+          {
+            "name": "oi",
+            "kind": "function",
+            "line": 1,
+            "column": 40979
+          },
+          {
+            "name": "Wo",
+            "kind": "function",
+            "line": 1,
+            "column": 82650
+          },
+          {
+            "name": "Ur",
+            "kind": "function",
+            "line": 1,
+            "column": 39867
+          },
+          {
+            "name": "Rr",
+            "kind": "function",
+            "line": 1,
+            "column": 39665
+          },
+          {
+            "name": "updateGcTime",
+            "kind": "function",
+            "line": 1,
+            "column": 11669
+          },
+          {
+            "name": "br",
+            "kind": "function",
+            "line": 1,
+            "column": 37648
+          },
+          {
+            "name": "ze",
+            "kind": "function",
+            "line": 1,
+            "column": 4117
+          },
+          {
+            "name": "ya",
+            "kind": "function",
+            "line": 1,
+            "column": 49360
+          },
+          {
+            "name": "constructor",
+            "kind": "function",
+            "line": 1,
+            "column": 66126
+          },
+          {
+            "name": "Ei",
+            "kind": "function",
+            "line": 1,
+            "column": 43584
+          },
+          {
+            "name": "onFocus",
+            "kind": "function",
+            "line": 1,
+            "column": 15010
+          },
+          {
+            "name": "i",
+            "kind": "function",
+            "line": 1,
+            "column": 61757
+          },
+          {
+            "name": "o",
+            "kind": "function",
+            "line": 1,
+            "column": 58167
+          },
+          {
+            "name": "yn",
+            "kind": "function",
+            "line": 1,
+            "column": 31253
+          },
+          {
+            "name": "promise",
+            "kind": "function",
+            "line": 1,
+            "column": 13557
+          },
+          {
+            "name": "cr",
+            "kind": "function",
+            "line": 1,
+            "column": 36674
+          },
+          {
+            "name": "to",
+            "kind": "function",
+            "line": 1,
+            "column": 68882
+          },
+          {
+            "name": "xt",
+            "kind": "function",
+            "line": 1,
+            "column": 9323
+          },
+          {
+            "name": "Vo",
+            "kind": "function",
+            "line": 1,
+            "column": 79280
+          },
+          {
+            "name": "yt",
+            "kind": "function",
+            "line": 1,
+            "column": 9046
+          },
+          {
+            "name": "ke",
+            "kind": "function",
+            "line": 1,
+            "column": 2479
+          },
+          {
+            "name": "a",
+            "kind": "function",
+            "line": 1,
+            "column": 58119
+          },
+          {
+            "name": "hn",
+            "kind": "function",
+            "line": 1,
+            "column": 29146
+          },
+          {
+            "name": "reset",
+            "kind": "function",
+            "line": 1,
+            "column": 14308
+          },
+          {
+            "name": "queryType",
+            "kind": "function",
+            "line": 1,
+            "column": 13526
+          },
+          {
+            "name": "#l",
+            "kind": "function",
+            "line": 1,
+            "column": 17788
+          },
+          {
+            "name": "n",
+            "kind": "function",
+            "line": 1,
+            "column": 9352
+          },
+          {
+            "name": "Yo",
+            "kind": "function",
+            "line": 1,
+            "column": 85012
+          },
+          {
+            "name": "d",
+            "kind": "function",
+            "line": 1,
+            "column": 79674
+          },
+          {
+            "name": "Rt",
+            "kind": "function",
+            "line": 1,
+            "column": 19443
+          },
+          {
+            "name": "E",
+            "kind": "function",
+            "line": 1,
+            "column": 59652
+          },
+          {
+            "name": "pi",
+            "kind": "function",
+            "line": 1,
+            "column": 41726
+          },
+          {
+            "name": "Xe",
+            "kind": "function",
+            "line": 1,
+            "column": 6012
+          },
+          {
+            "name": "Fe",
+            "kind": "function",
+            "line": 1,
+            "column": 2937
+          },
+          {
+            "name": "zi",
+            "kind": "function",
+            "line": 1,
+            "column": 44591
+          },
+          {
+            "name": "constructor",
+            "kind": "function",
+            "line": 1,
+            "column": 9728
+          },
+          {
+            "name": "updateResult",
+            "kind": "function",
+            "line": 1,
+            "column": 24635
+          },
+          {
+            "name": "a",
+            "kind": "function",
+            "line": 1,
+            "column": 54379
+          },
+          {
+            "name": "kt",
+            "kind": "function",
+            "line": 1,
+            "column": 11832
+          },
+          {
+            "name": "xr",
+            "kind": "function",
+            "line": 1,
+            "column": 37718
+          },
+          {
+            "name": "useStateSetter",
+            "kind": "function",
+            "line": 1,
+            "column": 65589
+          },
+          {
+            "name": "hr",
+            "kind": "function",
+            "line": 1,
+            "column": 36979
+          },
+          {
+            "name": "kr",
+            "kind": "function",
+            "line": 1,
+            "column": 39134
+          },
+          {
+            "name": "getCurrentResult",
+            "kind": "function",
+            "line": 1,
+            "column": 21174
+          },
+          {
+            "name": "No",
+            "kind": "function",
+            "line": 1,
+            "column": 75716
+          },
+          {
+            "name": "open",
+            "kind": "function",
+            "line": 1,
+            "column": 35035
+          },
+          {
+            "name": "transitionStatus",
+            "kind": "function",
+            "line": 1,
+            "column": 34512
+          },
+          {
+            "name": "destroy",
+            "kind": "function",
+            "line": 1,
+            "column": 20065
+          },
+          {
+            "name": "PATCH",
+            "kind": "function",
+            "line": 1,
+            "column": 82268
+          },
+          {
+            "name": "V",
+            "kind": "function",
+            "line": 1,
+            "column": 60038
+          },
+          {
+            "name": "onClick",
+            "kind": "function",
+            "line": 1,
+            "column": 30197
+          },
+          {
+            "name": "Mo",
+            "kind": "function",
+            "line": 1,
+            "column": 75682
+          },
+          {
+            "name": "start",
+            "kind": "function",
+            "line": 1,
+            "column": 35205
+          },
+          {
+            "name": "OPTIONS",
+            "kind": "function",
+            "line": 1,
+            "column": 82174
+          },
+          {
+            "name": "K",
+            "kind": "function",
+            "line": 1,
+            "column": 60545
+          },
+          {
+            "name": "addNode",
+            "kind": "function",
+            "line": 1,
+            "column": 48939
+          },
+          {
+            "name": "ri",
+            "kind": "function",
+            "line": 1,
+            "column": 40755
+          },
+          {
+            "name": "isStarted",
+            "kind": "function",
+            "line": 1,
+            "column": 35286
+          },
+          {
+            "name": "en",
+            "kind": "function",
+            "line": 1,
+            "column": 26937
+          },
+          {
+            "name": "yr",
+            "kind": "function",
+            "line": 1,
+            "column": 37530
+          },
+          {
+            "name": "sr",
+            "kind": "function",
+            "line": 1,
+            "column": 36593
+          },
+          {
+            "name": "r",
+            "kind": "function",
+            "line": 1,
+            "column": 9135
+          },
+          {
+            "name": "Tn",
+            "kind": "function",
+            "line": 1,
+            "column": 34190
+          },
+          {
+            "name": "Do",
+            "kind": "function",
+            "line": 1,
+            "column": 75181
+          },
+          {
+            "name": "setInterval",
+            "kind": "function",
+            "line": 1,
+            "column": 5775
+          },
+          {
+            "name": "ga",
+            "kind": "function",
+            "line": 1,
+            "column": 49139
+          },
+          {
+            "name": "_n",
+            "kind": "function",
+            "line": 1,
+            "column": 29707
+          },
+          {
+            "name": "Q",
+            "kind": "function",
+            "line": 1,
+            "column": 6176
+          },
+          {
+            "name": "gt",
+            "kind": "function",
+            "line": 1,
+            "column": 8734
+          },
+          {
+            "name": "et",
+            "kind": "function",
+            "line": 1,
+            "column": 6571
+          },
+          {
+            "name": "Ma",
+            "kind": "function",
+            "line": 1,
+            "column": 56508
+          },
+          {
+            "name": "#_",
+            "kind": "function",
+            "line": 1,
+            "column": 22162
+          },
+          {
+            "name": "onComplete",
+            "kind": "function",
+            "line": 1,
+            "column": 72711
+          },
+          {
+            "name": "Ht",
+            "kind": "function",
+            "line": 1,
+            "column": 25888
+          },
+          {
+            "name": "shouldFetchOnWindowFocus",
+            "kind": "function",
+            "line": 1,
+            "column": 19972
+          },
+          {
+            "name": "J",
+            "kind": "function",
+            "line": 1,
+            "column": 1006
+          },
+          {
+            "name": "ci",
+            "kind": "function",
+            "line": 1,
+            "column": 41134
+          },
+          {
+            "name": "Jr",
+            "kind": "function",
+            "line": 1,
+            "column": 40080
+          },
+          {
+            "name": "Qt",
+            "kind": "function",
+            "line": 1,
+            "column": 26581
+          },
+          {
+            "name": "r",
+            "kind": "function",
+            "line": 1,
+            "column": 9363
+          },
+          {
+            "name": "getOptimisticResult",
+            "kind": "function",
+            "line": 1,
+            "column": 21003
+          },
+          {
+            "name": "Pe",
+            "kind": "function",
+            "line": 1,
+            "column": 2911
+          },
+          {
+            "name": "Be",
+            "kind": "function",
+            "line": 1,
+            "column": 4247
+          },
+          {
+            "name": "u",
+            "kind": "function",
+            "line": 1,
+            "column": 58387
+          },
+          {
+            "name": "Ba",
+            "kind": "function",
+            "line": 1,
+            "column": 62602
+          },
+          {
+            "name": "isDisabled",
+            "kind": "function",
+            "line": 1,
+            "column": 14435
+          },
+          {
+            "name": "Ke",
+            "kind": "function",
+            "line": 1,
+            "column": 5868
+          },
+          {
+            "name": "Zo",
+            "kind": "function",
+            "line": 1,
+            "column": 85466
+          },
+          {
+            "name": "Re",
+            "kind": "function",
+            "line": 1,
+            "column": 3476
+          },
+          {
+            "name": "pa",
+            "kind": "function",
+            "line": 1,
+            "column": 48899
+          },
+          {
+            "name": "update",
+            "kind": "function",
+            "line": 1,
+            "column": 64597
+          },
+          {
+            "name": "onFocus",
+            "kind": "function",
+            "line": 1,
+            "column": 5326
+          },
+          {
+            "name": "wr",
+            "kind": "function",
+            "line": 1,
+            "column": 38092
+          },
+          {
+            "name": "constructor",
+            "kind": "function",
+            "line": 1,
+            "column": 13214
+          },
+          {
+            "name": "m",
+            "kind": "function",
+            "line": 1,
+            "column": 10957
+          },
+          {
+            "name": "setTimeout",
+            "kind": "function",
+            "line": 1,
+            "column": 5688
+          },
+          {
+            "name": "hi",
+            "kind": "function",
+            "line": 1,
+            "column": 42068
+          },
+          {
+            "name": "resetState",
+            "kind": "function",
+            "line": 1,
+            "column": 14276
+          },
+          {
+            "name": "ua",
+            "kind": "function",
+            "line": 1,
+            "column": 46938
+          },
+          {
+            "name": "after",
+            "kind": "function",
+            "line": 1,
+            "column": 63401
+          }
+        ]
+      },
+      "assets/react-dom-BTCLrKjm.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/refresh-cw-DdTprnaL.js": {
+        "nodes": 10,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/root-DnwXMQLu.js": {
+        "nodes": 8704,
+        "functions": 295,
+        "classes": 0,
+        "named": [
+          {
+            "name": "getAll",
+            "kind": "function",
+            "line": 1,
+            "column": 5562
+          },
+          {
+            "name": "Wt",
+            "kind": "function",
+            "line": 1,
+            "column": 23720
+          },
+          {
+            "name": "n",
+            "kind": "function",
+            "line": 1,
+            "column": 53656
+          },
+          {
+            "name": "onComplete",
+            "kind": "function",
+            "line": 1,
+            "column": 33538
+          },
+          {
+            "name": "isMutating",
+            "kind": "function",
+            "line": 1,
+            "column": 6510
+          },
+          {
+            "name": "Cn",
+            "kind": "function",
+            "line": 1,
+            "column": 36551
+          },
+          {
+            "name": "o",
+            "kind": "function",
+            "line": 1,
+            "column": 39671
+          },
+          {
+            "name": "Bn",
+            "kind": "function",
+            "line": 1,
+            "column": 51021
+          },
+          {
+            "name": "kt",
+            "kind": "function",
+            "line": 1,
+            "column": 11094
+          },
+          {
+            "name": "or",
+            "kind": "function",
+            "line": 1,
+            "column": 54871
+          },
+          {
+            "name": "zn",
+            "kind": "function",
+            "line": 1,
+            "column": 50876
+          },
+          {
+            "name": "getQueryData",
+            "kind": "function",
+            "line": 1,
+            "column": 6579
+          },
+          {
+            "name": "Kn",
+            "kind": "function",
+            "line": 1,
+            "column": 51422
+          },
+          {
+            "name": "getQueryDefaults",
+            "kind": "function",
+            "line": 1,
+            "column": 9025
+          },
+          {
+            "name": "canRun",
+            "kind": "function",
+            "line": 1,
+            "column": 4143
+          },
+          {
+            "name": "X",
+            "kind": "function",
+            "line": 1,
+            "column": 23666
+          },
+          {
+            "name": "findAll",
+            "kind": "function",
+            "line": 1,
+            "column": 4647
+          },
+          {
+            "name": "Ct",
+            "kind": "function",
+            "line": 1,
+            "column": 4948
+          },
+          {
+            "name": "En",
+            "kind": "function",
+            "line": 1,
+            "column": 36720
+          },
+          {
+            "name": "dn",
+            "kind": "function",
+            "line": 1,
+            "column": 34405
+          },
+          {
+            "name": "resumePausedMutations",
+            "kind": "function",
+            "line": 1,
+            "column": 8728
+          },
+          {
+            "name": "nr",
+            "kind": "function",
+            "line": 1,
+            "column": 54226
+          },
+          {
+            "name": "O",
+            "kind": "function",
+            "line": 1,
+            "column": 29115
+          },
+          {
+            "name": "r",
+            "kind": "function",
+            "line": 1,
+            "column": 36389
+          },
+          {
+            "name": "refetchQueries",
+            "kind": "function",
+            "line": 1,
+            "column": 7959
+          },
+          {
+            "name": "Sn",
+            "kind": "function",
+            "line": 1,
+            "column": 36254
+          },
+          {
+            "name": "$",
+            "kind": "function",
+            "line": 1,
+            "column": 37112
+          },
+          {
+            "name": "Rt",
+            "kind": "function",
+            "line": 1,
+            "column": 22854
+          },
+          {
+            "name": "cr",
+            "kind": "function",
+            "line": 1,
+            "column": 56316
+          },
+          {
+            "name": "ce",
+            "kind": "function",
+            "line": 1,
+            "column": 40127
+          },
+          {
+            "name": "unmount",
+            "kind": "function",
+            "line": 1,
+            "column": 6346
+          },
+          {
+            "name": "qn",
+            "kind": "function",
+            "line": 1,
+            "column": 51809
+          },
+          {
+            "name": "a",
+            "kind": "function",
+            "line": 1,
+            "column": 39646
+          },
+          {
+            "name": "getQueryState",
+            "kind": "function",
+            "line": 1,
+            "column": 7293
+          },
+          {
+            "name": "remove",
+            "kind": "function",
+            "line": 1,
+            "column": 3919
+          },
+          {
+            "name": "lr",
+            "kind": "function",
+            "line": 1,
+            "column": 56348
+          },
+          {
+            "name": "wt",
+            "kind": "function",
+            "line": 1,
+            "column": 5951
+          },
+          {
+            "name": "Tn",
+            "kind": "function",
+            "line": 1,
+            "column": 36678
+          },
+          {
+            "name": "getQueryCache",
+            "kind": "function",
+            "line": 1,
+            "column": 8823
+          },
+          {
+            "name": "B",
+            "kind": "function",
+            "line": 1,
+            "column": 41148
+          },
+          {
+            "name": "$n",
+            "kind": "function",
+            "line": 1,
+            "column": 53141
+          },
+          {
+            "name": "Xt",
+            "kind": "function",
+            "line": 1,
+            "column": 27838
+          },
+          {
+            "name": "isFetching",
+            "kind": "function",
+            "line": 1,
+            "column": 6435
+          },
+          {
+            "name": "on",
+            "kind": "function",
+            "line": 1,
+            "column": 32788
+          },
+          {
+            "name": "constructor",
+            "kind": "function",
+            "line": 1,
+            "column": 4965
+          },
+          {
+            "name": "defaultMutationOptions",
+            "kind": "function",
+            "line": 1,
+            "column": 9761
+          },
+          {
+            "name": "constructor",
+            "kind": "function",
+            "line": 1,
+            "column": 3537
+          },
+          {
+            "name": "yn",
+            "kind": "function",
+            "line": 1,
+            "column": 35645
+          },
+          {
+            "name": "xt",
+            "kind": "function",
+            "line": 1,
+            "column": 3520
+          },
+          {
+            "name": "ir",
+            "kind": "function",
+            "line": 1,
+            "column": 54406
+          },
+          {
+            "name": "ensureQueryData",
+            "kind": "function",
+            "line": 1,
+            "column": 6684
+          },
+          {
+            "name": "constructor",
+            "kind": "function",
+            "line": 1,
+            "column": 5981
+          },
+          {
+            "name": "Rn",
+            "kind": "function",
+            "line": 1,
+            "column": 50122
+          },
+          {
+            "name": "prefetchQuery",
+            "kind": "function",
+            "line": 1,
+            "column": 8448
+          },
+          {
+            "name": "Gt",
+            "kind": "function",
+            "line": 1,
+            "column": 24618
+          },
+          {
+            "name": "hn",
+            "kind": "function",
+            "line": 1,
+            "column": 34901
+          },
+          {
+            "name": "defaultQueryOptions",
+            "kind": "function",
+            "line": 1,
+            "column": 9366
+          },
+          {
+            "name": "Jn",
+            "kind": "function",
+            "line": 1,
+            "column": 51925
+          },
+          {
+            "name": "getMutationCache",
+            "kind": "function",
+            "line": 1,
+            "column": 8854
+          },
+          {
+            "name": "Et",
+            "kind": "function",
+            "line": 1,
+            "column": 10011
+          },
+          {
+            "name": "It",
+            "kind": "function",
+            "line": 1,
+            "column": 22682
+          },
+          {
+            "name": "fetchInfiniteQuery",
+            "kind": "function",
+            "line": 1,
+            "column": 8508
+          },
+          {
+            "name": "removeQueries",
+            "kind": "function",
+            "line": 1,
+            "column": 7394
+          },
+          {
+            "name": "e",
+            "kind": "function",
+            "line": 1,
+            "column": 38300
+          },
+          {
+            "name": "Zt",
+            "kind": "function",
+            "line": 1,
+            "column": 27966
+          },
+          {
+            "name": "Tt",
+            "kind": "function",
+            "line": 1,
+            "column": 9959
+          },
+          {
+            "name": "getMutationDefaults",
+            "kind": "function",
+            "line": 1,
+            "column": 9231
+          },
+          {
+            "name": "cancelQueries",
+            "kind": "function",
+            "line": 1,
+            "column": 7614
+          },
+          {
+            "name": "Nt",
+            "kind": "function",
+            "line": 1,
+            "column": 22018
+          },
+          {
+            "name": "Mt",
+            "kind": "function",
+            "line": 1,
+            "column": 21924
+          },
+          {
+            "name": "setDefaultOptions",
+            "kind": "function",
+            "line": 1,
+            "column": 8923
+          },
+          {
+            "name": "Jt",
+            "kind": "function",
+            "line": 1,
+            "column": 27225
+          },
+          {
+            "name": "onOnline",
+            "kind": "function",
+            "line": 1,
+            "column": 5879
+          },
+          {
+            "name": "Yn",
+            "kind": "function",
+            "line": 1,
+            "column": 52167
+          },
+          {
+            "name": "en",
+            "kind": "function",
+            "line": 1,
+            "column": 28039
+          },
+          {
+            "name": "find",
+            "kind": "function",
+            "line": 1,
+            "column": 5599
+          },
+          {
+            "name": "build",
+            "kind": "function",
+            "line": 1,
+            "column": 5024
+          },
+          {
+            "name": "St",
+            "kind": "function",
+            "line": 1,
+            "column": 4899
+          },
+          {
+            "name": "resetQueries",
+            "kind": "function",
+            "line": 1,
+            "column": 7479
+          },
+          {
+            "name": "onFocus",
+            "kind": "function",
+            "line": 1,
+            "column": 5814
+          },
+          {
+            "name": "remove",
+            "kind": "function",
+            "line": 1,
+            "column": 5336
+          },
+          {
+            "name": "nn",
+            "kind": "function",
+            "line": 1,
+            "column": 32363
+          },
+          {
+            "name": "j",
+            "kind": "function",
+            "line": 1,
+            "column": 11834
+          },
+          {
+            "name": "notify",
+            "kind": "function",
+            "line": 1,
+            "column": 5755
+          },
+          {
+            "name": "pn",
+            "kind": "function",
+            "line": 1,
+            "column": 34795
+          },
+          {
+            "name": "getQueriesData",
+            "kind": "function",
+            "line": 1,
+            "column": 6913
+          },
+          {
+            "name": "Se",
+            "kind": "function",
+            "line": 1,
+            "column": 41619
+          },
+          {
+            "name": "Dn",
+            "kind": "function",
+            "line": 1,
+            "column": 36818
+          },
+          {
+            "name": "Pn",
+            "kind": "function",
+            "line": 1,
+            "column": 37027
+          },
+          {
+            "name": "Lt",
+            "kind": "function",
+            "line": 1,
+            "column": 22782
+          },
+          {
+            "name": "be",
+            "kind": "function",
+            "line": 1,
+            "column": 41552
+          },
+          {
+            "name": "setQueryDefaults",
+            "kind": "function",
+            "line": 1,
+            "column": 8954
+          },
+          {
+            "name": "sr",
+            "kind": "function",
+            "line": 1,
+            "column": 56021
+          },
+          {
+            "name": "resumePausedMutations",
+            "kind": "function",
+            "line": 1,
+            "column": 4760
+          },
+          {
+            "name": "Fn",
+            "kind": "function",
+            "line": 1,
+            "column": 37430
+          },
+          {
+            "name": "Xn",
+            "kind": "function",
+            "line": 1,
+            "column": 52359
+          },
+          {
+            "name": "At",
+            "kind": "function",
+            "line": 1,
+            "column": 20787
+          },
+          {
+            "name": "ue",
+            "kind": "function",
+            "line": 1,
+            "column": 40958
+          },
+          {
+            "name": "Y",
+            "kind": "function",
+            "line": 1,
+            "column": 22626
+          },
+          {
+            "name": "tr",
+            "kind": "function",
+            "line": 1,
+            "column": 53458
+          },
+          {
+            "name": "Zn",
+            "kind": "function",
+            "line": 1,
+            "column": 52695
+          },
+          {
+            "name": "getAll",
+            "kind": "function",
+            "line": 1,
+            "column": 4543
+          },
+          {
+            "name": "wn",
+            "kind": "function",
+            "line": 1,
+            "column": 36617
+          },
+          {
+            "name": "fetchQuery",
+            "kind": "function",
+            "line": 1,
+            "column": 8258
+          },
+          {
+            "name": "c",
+            "kind": "function",
+            "line": 1,
+            "column": 32955
+          },
+          {
+            "name": "invalidateQueries",
+            "kind": "function",
+            "line": 1,
+            "column": 7752
+          },
+          {
+            "name": "N",
+            "kind": "function",
+            "line": 1,
+            "column": 12879
+          },
+          {
+            "name": "setMutationDefaults",
+            "kind": "function",
+            "line": 1,
+            "column": 9154
+          },
+          {
+            "name": "add",
+            "kind": "function",
+            "line": 1,
+            "column": 3771
+          },
+          {
+            "name": "get",
+            "kind": "function",
+            "line": 1,
+            "column": 5533
+          },
+          {
+            "name": "ensureInfiniteQueryData",
+            "kind": "function",
+            "line": 1,
+            "column": 8651
+          },
+          {
+            "name": "Kt",
+            "kind": "function",
+            "line": 1,
+            "column": 27127
+          },
+          {
+            "name": "bn",
+            "kind": "function",
+            "line": 1,
+            "column": 35832
+          },
+          {
+            "name": "clear",
+            "kind": "function",
+            "line": 1,
+            "column": 4425
+          },
+          {
+            "name": "Qn",
+            "kind": "function",
+            "line": 1,
+            "column": 52959
+          },
+          {
+            "name": "Ot",
+            "kind": "function",
+            "line": 1,
+            "column": 11045
+          },
+          {
+            "name": "i",
+            "kind": "function",
+            "line": 1,
+            "column": 54030
+          },
+          {
+            "name": "findAll",
+            "kind": "function",
+            "line": 1,
+            "column": 5667
+          },
+          {
+            "name": "un",
+            "kind": "function",
+            "line": 1,
+            "column": 34031
+          },
+          {
+            "name": "setQueriesData",
+            "kind": "function",
+            "line": 1,
+            "column": 7182
+          }
+        ]
+      },
+      "assets/scroll-area-C8F_0fVH.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/scrollEdges-DPuEQaP1.js": {
+        "nodes": 439,
+        "functions": 11,
+        "classes": 0,
+        "named": [
+          {
+            "name": "p",
+            "kind": "function",
+            "line": 1,
+            "column": 2250
+          },
+          {
+            "name": "h",
+            "kind": "function",
+            "line": 1,
+            "column": 2359
+          },
+          {
+            "name": "g",
+            "kind": "function",
+            "line": 1,
+            "column": 2398
+          },
+          {
+            "name": "o",
+            "kind": "function",
+            "line": 1,
+            "column": 155
+          },
+          {
+            "name": "m",
+            "kind": "function",
+            "line": 1,
+            "column": 2289
+          },
+          {
+            "name": "s",
+            "kind": "function",
+            "line": 1,
+            "column": 1011
+          },
+          {
+            "name": "getElement",
+            "kind": "function",
+            "line": 1,
+            "column": 2036
+          },
+          {
+            "name": "c",
+            "kind": "function",
+            "line": 1,
+            "column": 1189
+          }
+        ]
+      },
+      "assets/settings-BXoqrpTh.js": {
+        "nodes": 10,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/sparkles-oB71dV4K.js": {
+        "nodes": 10,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/spinner-gR_bej-N.js": {
+        "nodes": 47,
+        "functions": 1,
+        "classes": 0,
+        "named": [
+          {
+            "name": "a",
+            "kind": "function",
+            "line": 1,
+            "column": 153
+          }
+        ]
+      },
+      "assets/theme-provider-CXq8rmLP.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/translate-api-error-6HzPqpg-.js": {
+        "nodes": 3501,
+        "functions": 106,
+        "classes": 0,
+        "named": [
+          {
+            "name": "de",
+            "kind": "function",
+            "line": 1,
+            "column": 855
+          },
+          {
+            "name": "onFocus",
+            "kind": "function",
+            "line": 1,
+            "column": 9302
+          },
+          {
+            "name": "Xe",
+            "kind": "function",
+            "line": 1,
+            "column": 15389
+          },
+          {
+            "name": "je",
+            "kind": "function",
+            "line": 1,
+            "column": 9771
+          },
+          {
+            "name": "he",
+            "kind": "function",
+            "line": 1,
+            "column": 3062
+          },
+          {
+            "name": "Be",
+            "kind": "function",
+            "line": 1,
+            "column": 12499
+          },
+          {
+            "name": "et",
+            "kind": "function",
+            "line": 1,
+            "column": 16255
+          },
+          {
+            "name": "onPointerDown",
+            "kind": "function",
+            "line": 1,
+            "column": 9460
+          },
+          {
+            "name": "Ge",
+            "kind": "function",
+            "line": 1,
+            "column": 14745
+          },
+          {
+            "name": "be",
+            "kind": "function",
+            "line": 1,
+            "column": 4957
+          },
+          {
+            "name": "He",
+            "kind": "function",
+            "line": 1,
+            "column": 12796
+          },
+          {
+            "name": "xe",
+            "kind": "function",
+            "line": 1,
+            "column": 5211
+          },
+          {
+            "name": "K",
+            "kind": "function",
+            "line": 1,
+            "column": 8262
+          },
+          {
+            "name": "q",
+            "kind": "function",
+            "line": 1,
+            "column": 8354
+          },
+          {
+            "name": "le",
+            "kind": "function",
+            "line": 1,
+            "column": 8805
+          },
+          {
+            "name": "tt",
+            "kind": "function",
+            "line": 1,
+            "column": 16363
+          },
+          {
+            "name": "ge",
+            "kind": "function",
+            "line": 1,
+            "column": 3109
+          },
+          {
+            "name": "Ie",
+            "kind": "function",
+            "line": 1,
+            "column": 10312
+          },
+          {
+            "name": "Ve",
+            "kind": "function",
+            "line": 1,
+            "column": 12700
+          },
+          {
+            "name": "onClick",
+            "kind": "function",
+            "line": 1,
+            "column": 9583
+          },
+          {
+            "name": "me",
+            "kind": "function",
+            "line": 1,
+            "column": 2388
+          },
+          {
+            "name": "onPointerEnter",
+            "kind": "function",
+            "line": 1,
+            "column": 9417
+          },
+          {
+            "name": "Ye",
+            "kind": "function",
+            "line": 1,
+            "column": 15305
+          },
+          {
+            "name": "Ce",
+            "kind": "function",
+            "line": 1,
+            "column": 6734
+          },
+          {
+            "name": "shouldOpen",
+            "kind": "function",
+            "line": 1,
+            "column": 8737
+          },
+          {
+            "name": "nt",
+            "kind": "function",
+            "line": 1,
+            "column": 16478
+          },
+          {
+            "name": "delay",
+            "kind": "function",
+            "line": 1,
+            "column": 8579
+          },
+          {
+            "name": "ye",
+            "kind": "function",
+            "line": 1,
+            "column": 4727
+          },
+          {
+            "name": "Ue",
+            "kind": "function",
+            "line": 1,
+            "column": 12865
+          },
+          {
+            "name": "Je",
+            "kind": "function",
+            "line": 1,
+            "column": 15211
+          },
+          {
+            "name": "We",
+            "kind": "function",
+            "line": 1,
+            "column": 12942
+          },
+          {
+            "name": "$",
+            "kind": "function",
+            "line": 1,
+            "column": 15567
+          },
+          {
+            "name": "pe",
+            "kind": "function",
+            "line": 1,
+            "column": 1311
+          },
+          {
+            "name": "getBoundingClientRect",
+            "kind": "function",
+            "line": 1,
+            "column": 2460
+          },
+          {
+            "name": "Oe",
+            "kind": "function",
+            "line": 1,
+            "column": 7366
+          },
+          {
+            "name": "$e",
+            "kind": "function",
+            "line": 1,
+            "column": 16145
+          },
+          {
+            "name": "Q",
+            "kind": "function",
+            "line": 1,
+            "column": 4318
+          },
+          {
+            "name": "constructor",
+            "kind": "function",
+            "line": 1,
+            "column": 4743
+          },
+          {
+            "name": "De",
+            "kind": "function",
+            "line": 1,
+            "column": 7213
+          },
+          {
+            "name": "onMouseOver",
+            "kind": "function",
+            "line": 1,
+            "column": 9268
+          },
+          {
+            "name": "r",
+            "kind": "function",
+            "line": 1,
+            "column": 3788
+          },
+          {
+            "name": "Ze",
+            "kind": "function",
+            "line": 1,
+            "column": 15444
+          },
+          {
+            "name": "e",
+            "kind": "function",
+            "line": 1,
+            "column": 1604
+          },
+          {
+            "name": "onComplete",
+            "kind": "function",
+            "line": 1,
+            "column": 11885
+          },
+          {
+            "name": "onMouseLeave",
+            "kind": "function",
+            "line": 1,
+            "column": 9361
+          },
+          {
+            "name": "cancelPendingOpen",
+            "kind": "function",
+            "line": 1,
+            "column": 4873
+          },
+          {
+            "name": "fe",
+            "kind": "function",
+            "line": 1,
+            "column": 892
+          },
+          {
+            "name": "Te",
+            "kind": "function",
+            "line": 1,
+            "column": 7137
+          },
+          {
+            "name": "e",
+            "kind": "function",
+            "line": 1,
+            "column": 4123
+          },
+          {
+            "name": "Ke",
+            "kind": "function",
+            "line": 1,
+            "column": 14943
+          },
+          {
+            "name": "e",
+            "kind": "function",
+            "line": 1,
+            "column": 15988
+          },
+          {
+            "name": "r",
+            "kind": "function",
+            "line": 1,
+            "column": 15850
+          },
+          {
+            "name": "G",
+            "kind": "function",
+            "line": 1,
+            "column": 8202
+          },
+          {
+            "name": "t",
+            "kind": "function",
+            "line": 1,
+            "column": 9038
+          },
+          {
+            "name": "e",
+            "kind": "function",
+            "line": 1,
+            "column": 3735
+          },
+          {
+            "name": "qe",
+            "kind": "function",
+            "line": 1,
+            "column": 15077
+          },
+          {
+            "name": "rt",
+            "kind": "function",
+            "line": 1,
+            "column": 16616
+          }
+        ]
+      },
+      "assets/trash-2-BOtzry8G.js": {
+        "nodes": 10,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/useInfiniteQuery-DBPTeQ6U.js": {
+        "nodes": 176,
+        "functions": 9,
+        "classes": 0,
+        "named": [
+          {
+            "name": "i",
+            "kind": "function",
+            "line": 1,
+            "column": 76
+          },
+          {
+            "name": "fetchPreviousPage",
+            "kind": "function",
+            "line": 1,
+            "column": 473
+          },
+          {
+            "name": "createResult",
+            "kind": "function",
+            "line": 1,
+            "column": 560
+          },
+          {
+            "name": "getOptimisticResult",
+            "kind": "function",
+            "line": 1,
+            "column": 313
+          },
+          {
+            "name": "bindMethods",
+            "kind": "function",
+            "line": 1,
+            "column": 120
+          },
+          {
+            "name": "setOptions",
+            "kind": "function",
+            "line": 1,
+            "column": 260
+          },
+          {
+            "name": "constructor",
+            "kind": "function",
+            "line": 1,
+            "column": 92
+          },
+          {
+            "name": "a",
+            "kind": "function",
+            "line": 1,
+            "column": 1077
+          },
+          {
+            "name": "fetchNextPage",
+            "kind": "function",
+            "line": 1,
+            "column": 391
+          }
+        ]
+      },
+      "assets/usePositioner-Bg4QrwPG.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      },
+      "assets/useTriggerFocusGuards-BAXwoDYO.js": {
+        "nodes": 1,
+        "functions": 0,
+        "classes": 0,
+        "named": []
+      }
+    },
+    "limitations": [
+      "Caller-selected source analysis leaves 16 inventoried files outside analysis scope. Inventory identity covers the complete artifact; relationships through unselected sources remain unknown.",
+      "CommonJS and ESM binding relationships were recovered from inert syntax and resolved only within the inventoried artifact container.",
+      "Graph coverage is incomplete; unavailable facts remain explicit and must not be read as absence.",
+      "JavaScript and HTML were parsed as inert text; bundle bootstrap code was never executed.",
+      "Static imports, entrypoints, workers, endpoints, and storage relationships do not prove runtime execution.",
+      "Static paths and relationships may remain unresolved when expressions are dynamic or obfuscated.",
+      "Webpack/Rspack factories were recovered from AST literals; REA did not invoke push handlers or bundle bootstrap code."
+    ]
+  }
+}

@@ -623,6 +623,23 @@ basePath: "relative"   -> path 原样
 - **Qube**：对话式、以“策略/因子产物”为中心，审批嵌入 run。
 - **QuantFlow**：画布式、以“工作流图 + 节点代码”为中心，Agent 直接产出可执行的图。
 
+### 4.9 公开帮助文档中的提示词与技能目录（重要修正）
+
+QuantFlow 的公开资产里有一个帮助文档组件 `assets/TqxHelpDocs-BdJkiJIa.js`（23,376 bytes，SHA-256 `3de4bfcf115b6947fc2490d438ea3bae3a0c5499835cbbc5d5f3c266b7b84422`）。它内置并允许下载四份 Markdown：
+
+- `SKILLS_OVERVIEW_tqx.md` / `SKILLS_OVERVIEW_tqx_zh_TW.md`
+- `SYSTEM_PROMPT_tqx.md` / `SYSTEM_PROMPT_tqx_zh_TW.md`
+
+文档描述了服务端 `_build_prompt` 的拼装顺序：日期头 → 身份/常驻指令 → `<available_skills>` 技能目录 → 工具使用规则与模式 → 基础角色提示词 → 主任务/指南 → 注入上下文（记忆/历史/前序结果）→ 语言锁定。
+
+技能目录公开了 `tqx_stock_market`、`tqx_stock_indicator`、`tqx_stock_analysis`、`tqx_stock_reference`、`analysis_technical`、`compute_python`、`data_merge`、`factor_*`、`model_*`、`workflow_*`、`plugin_*`、`backtest_*`、`rag_api`、`rag_factor`、`fx_rates`、`load_result` 以及 `srs_xxx` 结果串联约定；文档还提到服务端 `agent_runtime/orchestrator.py` 和 supervisor/worker 的额外提示词层。
+
+需要区分：
+
+- 这是“系统提示词说明/帮助文档”，不是完整的服务端提示词字符串；
+- 工具的实际实现、调度、模型路由仍在服务端；
+- Qube 公开壳没有等价的提示词文档，只有 i18n 工具名/能力名和用户卡片 prompt 建议；登录后的 `/chat` chunk 可能还有 UI 相关提示词，需要授权访问才能确认。
+
 ---
 
 ## 5. EVO 与 A2A（文档层）
@@ -824,7 +841,7 @@ rea analyze-javascript-application /abs/apps/agent_quant \
 - 没有调用任何业务 API，所有接口行为来自客户端代码，不是运行时验证。
 - 没有 source map；代码是生产 minified bundle。
 - 公开文档与实际行为可能存在差异（例如文档称 Qube 免登录试用，但实测 `/agent_quant/` 未登录会跳登录）。
-- 本报告不包含后端实现、数据库 schema、提示词、模型路由、密钥或付费数据。
+- 本报告不包含后端实现、数据库 schema、完整服务端提示词、模型路由、密钥或付费数据。QuantFlow 公开帮助文档包含提示词分层说明和技能目录，已在 4.9 单列；这仍不是完整服务端 prompt 或工具实现。
 
 ---
 
@@ -834,6 +851,7 @@ rea analyze-javascript-application /abs/apps/agent_quant \
 - **QuantFlow 的核心是“自然语言 → workflow JSON 图 → 节点代码 → Notebook/画布 → 运行日志”**。`workflow-graph/stream` 的阶段机和 revision/checkpoint 是它最关键的设计。
 - **两套系统共享同一种工程思路**：把 Agent 产出的中间物（策略/因子/工作流/代码）持久化为可版本化、可审批、可回滚的对象；把执行拆成可观测的 run；把大结果放到独立对象存储。
 - **EVO/A2A 目前更多是产品设计层**：EVO 的 Harness 与 A2A 的多 Agent 协作都需要登录/尚未上线，本次只能确认公开入口与文档描述。
+- **QuantFlow 的公开帮助文档暴露了提示词分层和技能目录**：这是“客户端可见提示词”的边界案例，但仍不是完整服务端 prompt，也不是工具实现。
 - 如果目标是学习/互操作，最有价值的部分是：run 事件折叠模型、审批领域事件、Qube 工具注册表、QuantFlow 图生成阶段机与 Notebook 同步协议。
 
 ---

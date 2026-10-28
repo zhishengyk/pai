@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PandaAI Clean-room Lab</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div>
+        <h1>PandaAI Clean-room Lab</h1>
+        <p class="subtitle">
+          独立实现的 Qube / QuantFlow 协议 mock。观察公开契约，不复制目标站源码。
+        </p>
+      </div>
+      <a class="repo-link" href="https://github.com/zhishengyk/pai" target="_blank" rel="noreferrer">
+        GitHub
+      </a>
+    </header>
+
+    <nav class="tabs" aria-label="Sections">
+      <button class="tab active" data-tab="qube" type="button">Qube Agent</button>
+      <button class="tab" data-tab="quantflow" type="button">QuantFlow</button>
+    </nav>
+
+    <main>
+      <section id="panel-qube" class="panel active">
+        <div class="toolbar">
+          <button id="q-new" class="btn" type="button">新会话</button>
+          <label class="field inline">
+            <span>审批模式</span>
+            <select id="q-approval-mode">
+              <option value="manual" selected>manual（手动点审批）</option>
+              <option value="auto">auto（自动通过）</option>
+            </select>
+          </label>
+          <span id="q-status" class="status">idle</span>
+        </div>
+
+        <div class="qube-layout">
+          <div class="chat-panel">
+            <div id="q-messages" class="messages" aria-live="polite">
+              <div class="empty-state">
+                点击“新会话”，输入例如：<code>帮我生成一个双均线策略并回测</code>
+              </div>
+            </div>
+            <form id="q-form" class="composer">
+              <textarea
+                id="q-input"
+                rows="3"
+                placeholder="描述你的量化任务，例如：生成一个双均线策略并回测 2024 年..."
+              ></textarea>
+              <div class="composer-actions">
+                <span class="hint">Enter 发送，Shift+Enter 换行</span>
+                <button id="q-send" class="btn primary" type="submit">发送</button>
+              </div>
+            </form>
+          </div>
+
+          <aside class="side-panel">
+            <h2>Artifacts</h2>
+            <div id="q-artifacts" class="artifact-list">
+              <div class="muted">还没有产物</div>
+            </div>
+            <h2>工具注册表</h2>
+            <div id="q-tools" class="muted">加载中...</div>
+          </aside>
+        </div>
+      </section>
+
+      <section id="panel-quantflow" class="panel">
+        <div class="toolbar">
+          <span id="qf-status" class="status">idle</span>
+          <button id="qf-run" class="btn primary" type="button" disabled>运行工作流</button>
+          <button id="qf-terminate" class="btn" type="button" disabled>终止</button>
+        </div>
+
+        <form id="qf-form" class="composer quantflow-composer">
+          <textarea
+            id="qf-input"
+            rows="3"
+            placeholder="描述工作流，例如：生成一个双均线交叉策略，包含数据、均线、信号、回测和报告..."
+          ></textarea>
+          <div class="composer-actions">
+            <span class="hint">POST /api/workflow-graph/stream</span>
+            <button id="qf-generate" class="btn primary" type="submit">生成工作流</button>
+          </div>
+        </form>
+
+        <div class="quantflow-layout">
+          <section class="card">
+            <h2>生成阶段</h2>
+            <div id="qf-stages" class="stage-list">
+              <div class="muted">等待生成</div>
+            </div>
+          </section>
+
+          <section class="card">
+            <h2>节点与代码</h2>
+            <div id="qf-graph" class="graph-panel">
+              <div class="muted">生成后显示节点、边和节点代码</div>
+            </div>
+          </section>
+
+          <section class="card">
+            <h2>运行日志</h2>
+            <div id="qf-logs" class="log-panel">
+              <div class="muted">运行后显示日志</div>
+            </div>
+          </section>
+
+          <section class="card">
+            <h2>输出</h2>
+            <pre id="qf-output" class="output-panel">运行后显示 output</pre>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <dialog id="artifact-dialog" class="artifact-dialog">
+      <div class="dialog-head">
+        <h2 id="artifact-title">Artifact</h2>
+        <button id="artifact-close" class="btn" type="button">关闭</button>
+      </div>
+      <pre id="artifact-content"></pre>
+    </dialog>
+
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>

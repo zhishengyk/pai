@@ -1,0 +1,2215 @@
+{
+  "nodes": [
+    "agent_quant/assets/DialogTitle-DjLzhqis.js",
+    "agent_quant/assets/atom-DlwbmWrw.js",
+    "agent_quant/assets/auth-provider-C7ie0Npj.js",
+    "agent_quant/assets/backtest-params-VEgzLRnx.js",
+    "agent_quant/assets/badge-BJgXh6oe.js",
+    "agent_quant/assets/chart-line-Bso2Wvaf.js",
+    "agent_quant/assets/chat-api-BkRzIk_k.js",
+    "agent_quant/assets/check-CJXzxzwq.js",
+    "agent_quant/assets/chevrons-right-DNqQQjsz.js",
+    "agent_quant/assets/chunk-QTnfLwEv.js",
+    "agent_quant/assets/circle-alert-Dx_zQzfu.js",
+    "agent_quant/assets/dateInput-BkuVAE_d.js",
+    "agent_quant/assets/dropdown-menu-BS0TKsZA.js",
+    "agent_quant/assets/entry.client-Q5kwH9Le.js",
+    "agent_quant/assets/flask-conical-CLzrAc5J.js",
+    "agent_quant/assets/getPseudoElementBounds-75nRGPfl.js",
+    "agent_quant/assets/hover-scroll-reveal-D9ds0v4e.js",
+    "agent_quant/assets/index-redirect-C-0hC5Fc.js",
+    "agent_quant/assets/input-BSBalGud.js",
+    "agent_quant/assets/jsx-runtime-GrKSBGdL.js",
+    "agent_quant/assets/loader-circle-D-SFJqGr.js",
+    "agent_quant/assets/locale-provider-DBOqLHhN.js",
+    "agent_quant/assets/notice-Bm4twnDK.js",
+    "agent_quant/assets/overlay-scrollbar-D8lDSNwP.js",
+    "agent_quant/assets/query-keys-hu8Y4jsT.js",
+    "agent_quant/assets/react-dom-BTCLrKjm.js",
+    "agent_quant/assets/refresh-cw-DdTprnaL.js",
+    "agent_quant/assets/root-D95kZV23.css",
+    "agent_quant/assets/root-DnwXMQLu.js",
+    "agent_quant/assets/scroll-area-C8F_0fVH.js",
+    "agent_quant/assets/scrollEdges-DPuEQaP1.js",
+    "agent_quant/assets/settings-BXoqrpTh.js",
+    "agent_quant/assets/sparkles-oB71dV4K.js",
+    "agent_quant/assets/spinner-gR_bej-N.js",
+    "agent_quant/assets/theme-provider-CXq8rmLP.js",
+    "agent_quant/assets/translate-api-error-6HzPqpg-.js",
+    "agent_quant/assets/trash-2-BOtzry8G.js",
+    "agent_quant/assets/useInfiniteQuery-DBPTeQ6U.js",
+    "agent_quant/assets/usePositioner-Bg4QrwPG.js",
+    "agent_quant/assets/useTriggerFocusGuards-BAXwoDYO.js",
+    "agent_quant/download-manifest.json",
+    "agent_quant/index.html",
+    "quantflow/assets/AIComputingResult-CPwch0FA.js",
+    "quantflow/assets/ApiErrorLogs-772BWDge.css",
+    "quantflow/assets/ApiErrorLogs-C8Nd_y9w.js",
+    "quantflow/assets/ChartsView-BHe3Y_2f.js",
+    "quantflow/assets/ChartsView-Bgw0sXX9.css",
+    "quantflow/assets/ChatPro-B5XrwDNl.css",
+    "quantflow/assets/ChatPro-BkrqzZmp.js",
+    "quantflow/assets/ChatPro-DS7erhn_.js",
+    "quantflow/assets/ChatPro-q--apgfc.css",
+    "quantflow/assets/CommonTaskProgress-BoDKztJN.js",
+    "quantflow/assets/ConfirmDialog-Bao0dpEH.js",
+    "quantflow/assets/CopyrightNotice-se2xNzrO.js",
+    "quantflow/assets/Creator-BArQONVb.css",
+    "quantflow/assets/Creator-vrG2pjoB.js",
+    "quantflow/assets/CreatorCreated-6MkKRPS7.js",
+    "quantflow/assets/CreatorCreated-DIoEnFqp.css",
+    "quantflow/assets/CreatorEdit-1lm9aQfM.js",
+    "quantflow/assets/CreatorEdit-D3Y9AH3Q.css",
+    "quantflow/assets/CreatorList-BBK5BuDr.js",
+    "quantflow/assets/CreatorList-XMyjGjFx.css",
+    "quantflow/assets/Exchange-BY4kSdwD.css",
+    "quantflow/assets/Exchange-rBbFBhTn.js",
+    "quantflow/assets/FactorCorrelation-mrU7RIDo.js",
+    "quantflow/assets/Header-ByqjsPNw.js",
+    "quantflow/assets/NewPay-Bh8fFpL3.css",
+    "quantflow/assets/NewPay-CqER54fq.js",
+    "quantflow/assets/PandaAISidebar-D4-Pxs5p.js",
+    "quantflow/assets/PandaAISidebar-DVidmGW-.css",
+    "quantflow/assets/PlanWarningModal-D8K4D6Rx.js",
+    "quantflow/assets/Quantflow-CFbBdo_1.js",
+    "quantflow/assets/Quantflow-Duzdcthp.css",
+    "quantflow/assets/QuantflowTable-hHUPFtu6.js",
+    "quantflow/assets/SidebarLayout-DQ6ickQk.js",
+    "quantflow/assets/SidebarLayout-kMfgpRy-.css",
+    "quantflow/assets/TQX-logo-full-CN4hDnX1.js",
+    "quantflow/assets/TqxHelpDocs-BdJkiJIa.js",
+    "quantflow/assets/TqxHelpDocs-JMaEY3_V.css",
+    "quantflow/assets/TqxPay-C6mKAgmX.css",
+    "quantflow/assets/TqxPay-sdZcWYPB.js",
+    "quantflow/assets/TqxPayCancel-C5aaDbv9.js",
+    "quantflow/assets/TqxPayCancel-u3PyEPTj.css",
+    "quantflow/assets/TqxPaySuccess-2ltTOfSA.js",
+    "quantflow/assets/TqxPaySuccess-D4onf0wY.css",
+    "quantflow/assets/UiLoading-DcLnIqt-.css",
+    "quantflow/assets/UiLoading-aPmBkIsg.js",
+    "quantflow/assets/UploadFile-D_R7HAxx.js",
+    "quantflow/assets/UploadFileExample-6ku62EZ6.css",
+    "quantflow/assets/UploadFileExample-DWwXSRFs.js",
+    "quantflow/assets/Workflow-8c0C0Az9.css",
+    "quantflow/assets/Workflow-CA6TBoMa.js",
+    "quantflow/assets/WorkflowCreated-B3Eo3dWl.js",
+    "quantflow/assets/WorkflowCreated-ZI1w-RY8.css",
+    "quantflow/assets/WorkflowNameDialog-Y1m-Dsia.js",
+    "quantflow/assets/WorkflowSubscribed-D5Rk5B0_.css",
+    "quantflow/assets/WorkflowSubscribed-F-toamFE.js",
+    "quantflow/assets/abap-BEmyWTuu.js",
+    "quantflow/assets/agent-trade-BDA-Vfe3.js",
+    "quantflow/assets/aiagentclose-BbDCWpYy.js",
+    "quantflow/assets/apex-WppCoB7X.js",
+    "quantflow/assets/api-factor-BvWgc3OH.js",
+    "quantflow/assets/authService-DsRwB072.js",
+    "quantflow/assets/azcli-mQgr5jfh.js",
+    "quantflow/assets/back-arrow-xsXBwf_O.js",
+    "quantflow/assets/bat-CJTtRFHi.js",
+    "quantflow/assets/bicep-Cn2JVVhC.js",
+    "quantflow/assets/cache-ka5600P8.js",
+    "quantflow/assets/cameligo-vOnARPnV.js",
+    "quantflow/assets/clojure-CYjZp8Cs.js",
+    "quantflow/assets/close-BtR9jCNX.js",
+    "quantflow/assets/coffee-DWywj22Y.js",
+    "quantflow/assets/cpp-CZOmK3c9.js",
+    "quantflow/assets/csharp-DpsmwUPI.js",
+    "quantflow/assets/csp-KjEhg7c5.js",
+    "quantflow/assets/css-CVVx9CO5.js",
+    "quantflow/assets/cssMode-Cs4AVpeK.js",
+    "quantflow/assets/cypher-DPY40gqJ.js",
+    "quantflow/assets/dart-VVTSeB1-.js",
+    "quantflow/assets/dockerfile-DYva5WN7.js",
+    "quantflow/assets/ecl-D1L8KD4V.js",
+    "quantflow/assets/elixir-BK4Ys-Ku.js",
+    "quantflow/assets/flow9-BBVsaG1v.js",
+    "quantflow/assets/freemarker2-f8IKZzir.js",
+    "quantflow/assets/fsharp-Dj_oI-xX.js",
+    "quantflow/assets/go-sVwXq_Ei.js",
+    "quantflow/assets/graphql-2qjgNI9R.js",
+    "quantflow/assets/handlebars-DTl34-6O.js",
+    "quantflow/assets/hcl-BVSfF1Hj.js",
+    "quantflow/assets/html-Dx8ELZF-.js",
+    "quantflow/assets/htmlMode-AbjfeRcK.js",
+    "quantflow/assets/index-BrZs9L6j.js",
+    "quantflow/assets/index-DJLj1khd.js",
+    "quantflow/assets/index-DSdXmYqk.css",
+    "quantflow/assets/index-DnF2A3C-.css",
+    "quantflow/assets/index-GqNeRNXA.js",
+    "quantflow/assets/ini-D-CelgHn.js",
+    "quantflow/assets/java-CwELrETr.js",
+    "quantflow/assets/javascript-BNka5auN.js",
+    "quantflow/assets/jinzi-3TCLNY_G.js",
+    "quantflow/assets/jsonMode-DdhQgGu8.js",
+    "quantflow/assets/julia-Drh_noEa.js",
+    "quantflow/assets/kotlin-BB-eT2U_.js",
+    "quantflow/assets/ks2sd-Btp3d9YK.js",
+    "quantflow/assets/less-rB00erqD.js",
+    "quantflow/assets/lexon-DuUOKdDb.js",
+    "quantflow/assets/liquid-R266DASI.js",
+    "quantflow/assets/lua-CDlR7pth.js",
+    "quantflow/assets/m3-DgkkDPQd.js",
+    "quantflow/assets/main-C0byxrRt.js",
+    "quantflow/assets/main-sslxGAsS.css",
+    "quantflow/assets/markdown-CnEeiC5w.js",
+    "quantflow/assets/mdx-B7jfYvQy.js",
+    "quantflow/assets/memberLevelManager-Du1-w06U.js",
+    "quantflow/assets/mips-CZ6e_pUT.js",
+    "quantflow/assets/msdax-HwxQoYX4.js",
+    "quantflow/assets/mysql-C822rqGF.js",
+    "quantflow/assets/no-data-BmKTbyD_.js",
+    "quantflow/assets/no-data1-de8XL9tU.js",
+    "quantflow/assets/not-open-MJGCGB5e.js",
+    "quantflow/assets/numberFormat-D2cX1O8b.js",
+    "quantflow/assets/objective-c-BAmBt3xB.js",
+    "quantflow/assets/pascal-DousasBm.js",
+    "quantflow/assets/pascaligo-DD6shkNS.js",
+    "quantflow/assets/perl-DaCUUSpz.js",
+    "quantflow/assets/pgsql-DrWBB70T.js",
+    "quantflow/assets/php-DWqZhgq9.js",
+    "quantflow/assets/pla-BoO64_DU.js",
+    "quantflow/assets/postiats-bVq3Pavx.js",
+    "quantflow/assets/powerquery-CID-Ea7W.js",
+    "quantflow/assets/powershell-oRbTwEo4.js",
+    "quantflow/assets/protobuf-C0F3jUaX.js",
+    "quantflow/assets/pug-DHUJQLbd.js",
+    "quantflow/assets/python-kTA_KquL.js",
+    "quantflow/assets/qsharp-BWSzh7oN.js",
+    "quantflow/assets/quill-7oN3-GhD.css",
+    "quantflow/assets/quill.snow-DJ_fvi8v.js",
+    "quantflow/assets/r-BanU7CsF.js",
+    "quantflow/assets/razor-BCMQohYT.js",
+    "quantflow/assets/redis-BSaclKSC.js",
+    "quantflow/assets/redshift-D1_gfQkj.js",
+    "quantflow/assets/restructuredtext-C3G5we8f.js",
+    "quantflow/assets/right-arrow-DSNnrW8y.js",
+    "quantflow/assets/ruby-CTmW3YEK.js",
+    "quantflow/assets/rust-NqNdpKVZ.js",
+    "quantflow/assets/sb-B8qp1FKa.js",
+    "quantflow/assets/scala-BnEfef3U.js",
+    "quantflow/assets/scheme-Dc1JGcYx.js",
+    "quantflow/assets/scss-B-My4Zvq.js",
+    "quantflow/assets/shell-BhsXm4KR.js",
+    "quantflow/assets/solidity-If5Qu0q7.js",
+    "quantflow/assets/sophia-CiIJuvdC.js",
+    "quantflow/assets/sparql-CSSfzw4u.js",
+    "quantflow/assets/sql-Cs0kX3sc.js",
+    "quantflow/assets/st-3uOu1_UJ.js",
+    "quantflow/assets/swift-Bakemar7.js",
+    "quantflow/assets/systemverilog-B2ifoQ-H.js",
+    "quantflow/assets/tag-outlined@3x-DxfHwDM2.js",
+    "quantflow/assets/tcl-DQ1ZJOtM.js",
+    "quantflow/assets/tqxPaymentErrorI18n-BWcfBm_Q.js",
+    "quantflow/assets/tsMode-BrzF6g-t.js",
+    "quantflow/assets/twig-t0KXpBvC.js",
+    "quantflow/assets/typescript-C1BBm6aW.js",
+    "quantflow/assets/useLocaleImage-CvV9M_0e.js",
+    "quantflow/assets/useTqxBacktestLimitPopup-Bpixu_my.js",
+    "quantflow/assets/useTqxBacktestLimitPopup-ulD-a8aj.css",
+    "quantflow/assets/useTqxPaymentResultNavigation-BR_hmlW3.js",
+    "quantflow/assets/useTqxPaymentResultNavigation-BhQP40DO.css",
+    "quantflow/assets/vb-CBCTJfkU.js",
+    "quantflow/assets/walletFetcher-iIHP3DEy.js",
+    "quantflow/assets/wgsl-CZD5oSoE.js",
+    "quantflow/assets/xml-Mt4valp2.js",
+    "quantflow/assets/yaml-BbK6yBMi.js",
+    "quantflow/assets/yz-BVqAcoX2.js",
+    "quantflow/assets/yz-CtTQNvw5.css",
+    "quantflow/download-manifest.json",
+    "quantflow/index.html"
+  ],
+  "edges": [
+    {
+      "source": "agent_quant/assets/DialogTitle-DjLzhqis.js",
+      "target": "agent_quant/assets/chunk-QTnfLwEv.js"
+    },
+    {
+      "source": "agent_quant/assets/DialogTitle-DjLzhqis.js",
+      "target": "agent_quant/assets/input-BSBalGud.js"
+    },
+    {
+      "source": "agent_quant/assets/DialogTitle-DjLzhqis.js",
+      "target": "agent_quant/assets/jsx-runtime-GrKSBGdL.js"
+    },
+    {
+      "source": "agent_quant/assets/DialogTitle-DjLzhqis.js",
+      "target": "agent_quant/assets/query-keys-hu8Y4jsT.js"
+    },
+    {
+      "source": "agent_quant/assets/atom-DlwbmWrw.js",
+      "target": "agent_quant/assets/input-BSBalGud.js"
+    },
+    {
+      "source": "agent_quant/assets/auth-provider-C7ie0Npj.js",
+      "target": "agent_quant/assets/chunk-QTnfLwEv.js"
+    },
+    {
+      "source": "agent_quant/assets/auth-provider-C7ie0Npj.js",
+      "target": "agent_quant/assets/input-BSBalGud.js"
+    },
+    {
+      "source": "agent_quant/assets/auth-provider-C7ie0Npj.js",
+      "target": "agent_quant/assets/jsx-runtime-GrKSBGdL.js"
+    },
+    {
+      "source": "agent_quant/assets/auth-provider-C7ie0Npj.js",
+      "target": "agent_quant/assets/query-keys-hu8Y4jsT.js"
+    },
+    {
+      "source": "agent_quant/assets/backtest-params-VEgzLRnx.js",
+      "target": "agent_quant/assets/dateInput-BkuVAE_d.js"
+    },
+    {
+      "source": "agent_quant/assets/badge-BJgXh6oe.js",
+      "target": "agent_quant/assets/input-BSBalGud.js"
+    },
+    {
+      "source": "agent_quant/assets/badge-BJgXh6oe.js",
+      "target": "agent_quant/assets/query-keys-hu8Y4jsT.js"
+    },
+    {
+      "source": "agent_quant/assets/chart-line-Bso2Wvaf.js",
+      "target": "agent_quant/assets/input-BSBalGud.js"
+    },
+    {
+      "source": "agent_quant/assets/chat-api-BkRzIk_k.js",
+      "target": "agent_quant/assets/backtest-params-VEgzLRnx.js"
+    },
+    {
+      "source": "agent_quant/assets/chat-api-BkRzIk_k.js",
+      "target": "agent_quant/assets/query-keys-hu8Y4jsT.js"
+    },
+    {
+      "source": "agent_quant/assets/check-CJXzxzwq.js",
+      "target": "agent_quant/assets/input-BSBalGud.js"
+    },
+    {
+      "source": "agent_quant/assets/chevrons-right-DNqQQjsz.js",
+      "target": "agent_quant/assets/input-BSBalGud.js"
+    },
+    {
+      "source": "agent_quant/assets/circle-alert-Dx_zQzfu.js",
+      "target": "agent_quant/assets/input-BSBalGud.js"
+    },
+    {
+      "source": "agent_quant/assets/dropdown-menu-BS0TKsZA.js",
+      "target": "agent_quant/assets/check-CJXzxzwq.js"
+    },
+    {
+      "source": "agent_quant/assets/dropdown-menu-BS0TKsZA.js",
+      "target": "agent_quant/assets/chunk-QTnfLwEv.js"
+    },
+    {
+      "source": "agent_quant/assets/dropdown-menu-BS0TKsZA.js",
+      "target": "agent_quant/assets/getPseudoElementBounds-75nRGPfl.js"
+    },
+    {
+      "source": "agent_quant/assets/dropdown-menu-BS0TKsZA.js",
+      "target": "agent_quant/assets/input-BSBalGud.js"
+    },
+    {
+      "source": "agent_quant/assets/dropdown-menu-BS0TKsZA.js",
+      "target": "agent_quant/assets/jsx-runtime-GrKSBGdL.js"
+    },
+    {
+      "source": "agent_quant/assets/dropdown-menu-BS0TKsZA.js",
+      "target": "agent_quant/assets/query-keys-hu8Y4jsT.js"
+    },
+    {
+      "source": "agent_quant/assets/dropdown-menu-BS0TKsZA.js",
+      "target": "agent_quant/assets/usePositioner-Bg4QrwPG.js"
+    },
+    {
+      "source": "agent_quant/assets/dropdown-menu-BS0TKsZA.js",
+      "target": "agent_quant/assets/useTriggerFocusGuards-BAXwoDYO.js"
+    },
+    {
+      "source": "agent_quant/assets/entry.client-Q5kwH9Le.js",
+      "target": "agent_quant/assets/chunk-QTnfLwEv.js"
+    },
+    {
+      "source": "agent_quant/assets/entry.client-Q5kwH9Le.js",
+      "target": "agent_quant/assets/jsx-runtime-GrKSBGdL.js"
+    },
+    {
+      "source": "agent_quant/assets/entry.client-Q5kwH9Le.js",
+      "target": "agent_quant/assets/react-dom-BTCLrKjm.js"
+    },
+    {
+      "source": "agent_quant/assets/flask-conical-CLzrAc5J.js",
+      "target": "agent_quant/assets/input-BSBalGud.js"
+    },
+    {
+      "source": "agent_quant/assets/getPseudoElementBounds-75nRGPfl.js",
+      "target": "agent_quant/assets/chunk-QTnfLwEv.js"
+    },
+    {
+      "source": "agent_quant/assets/getPseudoElementBounds-75nRGPfl.js",
+      "target": "agent_quant/assets/input-BSBalGud.js"
+    },
+    {
+      "source": "agent_quant/assets/getPseudoElementBounds-75nRGPfl.js",
+      "target": "agent_quant/assets/jsx-runtime-GrKSBGdL.js"
+    },
+    {
+      "source": "agent_quant/assets/getPseudoElementBounds-75nRGPfl.js",
+      "target": "agent_quant/assets/query-keys-hu8Y4jsT.js"
+    },
+    {
+      "source": "agent_quant/assets/hover-scroll-reveal-D9ds0v4e.js",
+      "target": "agent_quant/assets/chunk-QTnfLwEv.js"
+    },
+    {
+      "source": "agent_quant/assets/hover-scroll-reveal-D9ds0v4e.js",
+      "target": "agent_quant/assets/input-BSBalGud.js"
+    },
+    {
+      "source": "agent_quant/assets/hover-scroll-reveal-D9ds0v4e.js",
+      "target": "agent_quant/assets/jsx-runtime-GrKSBGdL.js"
+    },
+    {
+      "source": "agent_quant/assets/index-redirect-C-0hC5Fc.js",
+      "target": "agent_quant/assets/jsx-runtime-GrKSBGdL.js"
+    },
+    {
+      "source": "agent_quant/assets/input-BSBalGud.js",
+      "target": "agent_quant/assets/chunk-QTnfLwEv.js"
+    },
+    {
+      "source": "agent_quant/assets/input-BSBalGud.js",
+      "target": "agent_quant/assets/jsx-runtime-GrKSBGdL.js"
+    },
+    {
+      "source": "agent_quant/assets/jsx-runtime-GrKSBGdL.js",
+      "target": "agent_quant/assets/chunk-QTnfLwEv.js"
+    },
+    {
+      "source": "agent_quant/assets/loader-circle-D-SFJqGr.js",
+      "target": "agent_quant/assets/input-BSBalGud.js"
+    },
+    {
+      "source": "agent_quant/assets/locale-provider-DBOqLHhN.js",
+      "target": "agent_quant/assets/chunk-QTnfLwEv.js"
+    },
+    {
+      "source": "agent_quant/assets/locale-provider-DBOqLHhN.js",
+      "target": "agent_quant/assets/input-BSBalGud.js"
+    },
+    {
+      "source": "agent_quant/assets/locale-provider-DBOqLHhN.js",
+      "target": "agent_quant/assets/jsx-runtime-GrKSBGdL.js"
+    },
+    {
+      "source": "agent_quant/assets/notice-Bm4twnDK.js",
+      "target": "agent_quant/assets/DialogTitle-DjLzhqis.js"
+    },
+    {
+      "source": "agent_quant/assets/notice-Bm4twnDK.js",
+      "target": "agent_quant/assets/chunk-QTnfLwEv.js"
+    },
+    {
+      "source": "agent_quant/assets/notice-Bm4twnDK.js",
+      "target": "agent_quant/assets/input-BSBalGud.js"
+    },
+    {
+      "source": "agent_quant/assets/notice-Bm4twnDK.js",
+      "target": "agent_quant/assets/jsx-runtime-GrKSBGdL.js"
+    },
+    {
+      "source": "agent_quant/assets/notice-Bm4twnDK.js",
+      "target": "agent_quant/assets/query-keys-hu8Y4jsT.js"
+    },
+    {
+      "source": "agent_quant/assets/overlay-scrollbar-D8lDSNwP.js",
+      "target": "agent_quant/assets/query-keys-hu8Y4jsT.js"
+    },
+    {
+      "source": "agent_quant/assets/query-keys-hu8Y4jsT.js",
+      "target": "agent_quant/assets/chunk-QTnfLwEv.js"
+    },
+    {
+      "source": "agent_quant/assets/query-keys-hu8Y4jsT.js",
+      "target": "agent_quant/assets/input-BSBalGud.js"
+    },
+    {
+      "source": "agent_quant/assets/query-keys-hu8Y4jsT.js",
+      "target": "agent_quant/assets/jsx-runtime-GrKSBGdL.js"
+    },
+    {
+      "source": "agent_quant/assets/query-keys-hu8Y4jsT.js",
+      "target": "agent_quant/assets/react-dom-BTCLrKjm.js"
+    },
+    {
+      "source": "agent_quant/assets/react-dom-BTCLrKjm.js",
+      "target": "agent_quant/assets/chunk-QTnfLwEv.js"
+    },
+    {
+      "source": "agent_quant/assets/react-dom-BTCLrKjm.js",
+      "target": "agent_quant/assets/jsx-runtime-GrKSBGdL.js"
+    },
+    {
+      "source": "agent_quant/assets/refresh-cw-DdTprnaL.js",
+      "target": "agent_quant/assets/input-BSBalGud.js"
+    },
+    {
+      "source": "agent_quant/assets/root-DnwXMQLu.js",
+      "target": "agent_quant/assets/DialogTitle-DjLzhqis.js"
+    },
+    {
+      "source": "agent_quant/assets/root-DnwXMQLu.js",
+      "target": "agent_quant/assets/atom-DlwbmWrw.js"
+    },
+    {
+      "source": "agent_quant/assets/root-DnwXMQLu.js",
+      "target": "agent_quant/assets/auth-provider-C7ie0Npj.js"
+    },
+    {
+      "source": "agent_quant/assets/root-DnwXMQLu.js",
+      "target": "agent_quant/assets/badge-BJgXh6oe.js"
+    },
+    {
+      "source": "agent_quant/assets/root-DnwXMQLu.js",
+      "target": "agent_quant/assets/chart-line-Bso2Wvaf.js"
+    },
+    {
+      "source": "agent_quant/assets/root-DnwXMQLu.js",
+      "target": "agent_quant/assets/chat-api-BkRzIk_k.js"
+    },
+    {
+      "source": "agent_quant/assets/root-DnwXMQLu.js",
+      "target": "agent_quant/assets/chevrons-right-DNqQQjsz.js"
+    },
+    {
+      "source": "agent_quant/assets/root-DnwXMQLu.js",
+      "target": "agent_quant/assets/chunk-QTnfLwEv.js"
+    },
+    {
+      "source": "agent_quant/assets/root-DnwXMQLu.js",
+      "target": "agent_quant/assets/circle-alert-Dx_zQzfu.js"
+    },
+    {
+      "source": "agent_quant/assets/root-DnwXMQLu.js",
+      "target": "agent_quant/assets/dropdown-menu-BS0TKsZA.js"
+    },
+    {
+      "source": "agent_quant/assets/root-DnwXMQLu.js",
+      "target": "agent_quant/assets/flask-conical-CLzrAc5J.js"
+    },
+    {
+      "source": "agent_quant/assets/root-DnwXMQLu.js",
+      "target": "agent_quant/assets/hover-scroll-reveal-D9ds0v4e.js"
+    },
+    {
+      "source": "agent_quant/assets/root-DnwXMQLu.js",
+      "target": "agent_quant/assets/input-BSBalGud.js"
+    },
+    {
+      "source": "agent_quant/assets/root-DnwXMQLu.js",
+      "target": "agent_quant/assets/jsx-runtime-GrKSBGdL.js"
+    },
+    {
+      "source": "agent_quant/assets/root-DnwXMQLu.js",
+      "target": "agent_quant/assets/loader-circle-D-SFJqGr.js"
+    },
+    {
+      "source": "agent_quant/assets/root-DnwXMQLu.js",
+      "target": "agent_quant/assets/locale-provider-DBOqLHhN.js"
+    },
+    {
+      "source": "agent_quant/assets/root-DnwXMQLu.js",
+      "target": "agent_quant/assets/notice-Bm4twnDK.js"
+    },
+    {
+      "source": "agent_quant/assets/root-DnwXMQLu.js",
+      "target": "agent_quant/assets/overlay-scrollbar-D8lDSNwP.js"
+    },
+    {
+      "source": "agent_quant/assets/root-DnwXMQLu.js",
+      "target": "agent_quant/assets/query-keys-hu8Y4jsT.js"
+    },
+    {
+      "source": "agent_quant/assets/root-DnwXMQLu.js",
+      "target": "agent_quant/assets/refresh-cw-DdTprnaL.js"
+    },
+    {
+      "source": "agent_quant/assets/root-DnwXMQLu.js",
+      "target": "agent_quant/assets/scroll-area-C8F_0fVH.js"
+    },
+    {
+      "source": "agent_quant/assets/root-DnwXMQLu.js",
+      "target": "agent_quant/assets/scrollEdges-DPuEQaP1.js"
+    },
+    {
+      "source": "agent_quant/assets/root-DnwXMQLu.js",
+      "target": "agent_quant/assets/settings-BXoqrpTh.js"
+    },
+    {
+      "source": "agent_quant/assets/root-DnwXMQLu.js",
+      "target": "agent_quant/assets/sparkles-oB71dV4K.js"
+    },
+    {
+      "source": "agent_quant/assets/root-DnwXMQLu.js",
+      "target": "agent_quant/assets/spinner-gR_bej-N.js"
+    },
+    {
+      "source": "agent_quant/assets/root-DnwXMQLu.js",
+      "target": "agent_quant/assets/theme-provider-CXq8rmLP.js"
+    },
+    {
+      "source": "agent_quant/assets/root-DnwXMQLu.js",
+      "target": "agent_quant/assets/translate-api-error-6HzPqpg-.js"
+    },
+    {
+      "source": "agent_quant/assets/root-DnwXMQLu.js",
+      "target": "agent_quant/assets/trash-2-BOtzry8G.js"
+    },
+    {
+      "source": "agent_quant/assets/root-DnwXMQLu.js",
+      "target": "agent_quant/assets/useInfiniteQuery-DBPTeQ6U.js"
+    },
+    {
+      "source": "agent_quant/assets/root-DnwXMQLu.js",
+      "target": "agent_quant/assets/useTriggerFocusGuards-BAXwoDYO.js"
+    },
+    {
+      "source": "agent_quant/assets/scroll-area-C8F_0fVH.js",
+      "target": "agent_quant/assets/chunk-QTnfLwEv.js"
+    },
+    {
+      "source": "agent_quant/assets/scroll-area-C8F_0fVH.js",
+      "target": "agent_quant/assets/input-BSBalGud.js"
+    },
+    {
+      "source": "agent_quant/assets/scroll-area-C8F_0fVH.js",
+      "target": "agent_quant/assets/jsx-runtime-GrKSBGdL.js"
+    },
+    {
+      "source": "agent_quant/assets/scroll-area-C8F_0fVH.js",
+      "target": "agent_quant/assets/query-keys-hu8Y4jsT.js"
+    },
+    {
+      "source": "agent_quant/assets/scroll-area-C8F_0fVH.js",
+      "target": "agent_quant/assets/scrollEdges-DPuEQaP1.js"
+    },
+    {
+      "source": "agent_quant/assets/scroll-area-C8F_0fVH.js",
+      "target": "agent_quant/assets/usePositioner-Bg4QrwPG.js"
+    },
+    {
+      "source": "agent_quant/assets/scrollEdges-DPuEQaP1.js",
+      "target": "agent_quant/assets/chunk-QTnfLwEv.js"
+    },
+    {
+      "source": "agent_quant/assets/scrollEdges-DPuEQaP1.js",
+      "target": "agent_quant/assets/input-BSBalGud.js"
+    },
+    {
+      "source": "agent_quant/assets/scrollEdges-DPuEQaP1.js",
+      "target": "agent_quant/assets/jsx-runtime-GrKSBGdL.js"
+    },
+    {
+      "source": "agent_quant/assets/settings-BXoqrpTh.js",
+      "target": "agent_quant/assets/input-BSBalGud.js"
+    },
+    {
+      "source": "agent_quant/assets/sparkles-oB71dV4K.js",
+      "target": "agent_quant/assets/input-BSBalGud.js"
+    },
+    {
+      "source": "agent_quant/assets/spinner-gR_bej-N.js",
+      "target": "agent_quant/assets/input-BSBalGud.js"
+    },
+    {
+      "source": "agent_quant/assets/spinner-gR_bej-N.js",
+      "target": "agent_quant/assets/jsx-runtime-GrKSBGdL.js"
+    },
+    {
+      "source": "agent_quant/assets/spinner-gR_bej-N.js",
+      "target": "agent_quant/assets/loader-circle-D-SFJqGr.js"
+    },
+    {
+      "source": "agent_quant/assets/theme-provider-CXq8rmLP.js",
+      "target": "agent_quant/assets/chunk-QTnfLwEv.js"
+    },
+    {
+      "source": "agent_quant/assets/theme-provider-CXq8rmLP.js",
+      "target": "agent_quant/assets/jsx-runtime-GrKSBGdL.js"
+    },
+    {
+      "source": "agent_quant/assets/translate-api-error-6HzPqpg-.js",
+      "target": "agent_quant/assets/chunk-QTnfLwEv.js"
+    },
+    {
+      "source": "agent_quant/assets/translate-api-error-6HzPqpg-.js",
+      "target": "agent_quant/assets/input-BSBalGud.js"
+    },
+    {
+      "source": "agent_quant/assets/translate-api-error-6HzPqpg-.js",
+      "target": "agent_quant/assets/jsx-runtime-GrKSBGdL.js"
+    },
+    {
+      "source": "agent_quant/assets/translate-api-error-6HzPqpg-.js",
+      "target": "agent_quant/assets/query-keys-hu8Y4jsT.js"
+    },
+    {
+      "source": "agent_quant/assets/translate-api-error-6HzPqpg-.js",
+      "target": "agent_quant/assets/react-dom-BTCLrKjm.js"
+    },
+    {
+      "source": "agent_quant/assets/translate-api-error-6HzPqpg-.js",
+      "target": "agent_quant/assets/usePositioner-Bg4QrwPG.js"
+    },
+    {
+      "source": "agent_quant/assets/trash-2-BOtzry8G.js",
+      "target": "agent_quant/assets/input-BSBalGud.js"
+    },
+    {
+      "source": "agent_quant/assets/useInfiniteQuery-DBPTeQ6U.js",
+      "target": "agent_quant/assets/query-keys-hu8Y4jsT.js"
+    },
+    {
+      "source": "agent_quant/assets/usePositioner-Bg4QrwPG.js",
+      "target": "agent_quant/assets/chunk-QTnfLwEv.js"
+    },
+    {
+      "source": "agent_quant/assets/usePositioner-Bg4QrwPG.js",
+      "target": "agent_quant/assets/input-BSBalGud.js"
+    },
+    {
+      "source": "agent_quant/assets/usePositioner-Bg4QrwPG.js",
+      "target": "agent_quant/assets/jsx-runtime-GrKSBGdL.js"
+    },
+    {
+      "source": "agent_quant/assets/usePositioner-Bg4QrwPG.js",
+      "target": "agent_quant/assets/query-keys-hu8Y4jsT.js"
+    },
+    {
+      "source": "agent_quant/assets/usePositioner-Bg4QrwPG.js",
+      "target": "agent_quant/assets/react-dom-BTCLrKjm.js"
+    },
+    {
+      "source": "agent_quant/assets/useTriggerFocusGuards-BAXwoDYO.js",
+      "target": "agent_quant/assets/chunk-QTnfLwEv.js"
+    },
+    {
+      "source": "agent_quant/assets/useTriggerFocusGuards-BAXwoDYO.js",
+      "target": "agent_quant/assets/input-BSBalGud.js"
+    },
+    {
+      "source": "agent_quant/assets/useTriggerFocusGuards-BAXwoDYO.js",
+      "target": "agent_quant/assets/jsx-runtime-GrKSBGdL.js"
+    },
+    {
+      "source": "agent_quant/assets/useTriggerFocusGuards-BAXwoDYO.js",
+      "target": "agent_quant/assets/query-keys-hu8Y4jsT.js"
+    },
+    {
+      "source": "agent_quant/assets/useTriggerFocusGuards-BAXwoDYO.js",
+      "target": "agent_quant/assets/react-dom-BTCLrKjm.js"
+    },
+    {
+      "source": "quantflow/assets/AIComputingResult-CPwch0FA.js",
+      "target": "quantflow/assets/main-C0byxrRt.js"
+    },
+    {
+      "source": "quantflow/assets/AIComputingResult-CPwch0FA.js",
+      "target": "quantflow/assets/walletFetcher-iIHP3DEy.js"
+    },
+    {
+      "source": "quantflow/assets/ApiErrorLogs-C8Nd_y9w.js",
+      "target": "quantflow/assets/main-C0byxrRt.js"
+    },
+    {
+      "source": "quantflow/assets/ChartsView-BHe3Y_2f.js",
+      "target": "quantflow/assets/CopyrightNotice-se2xNzrO.js"
+    },
+    {
+      "source": "quantflow/assets/ChartsView-BHe3Y_2f.js",
+      "target": "quantflow/assets/PlanWarningModal-D8K4D6Rx.js"
+    },
+    {
+      "source": "quantflow/assets/ChartsView-BHe3Y_2f.js",
+      "target": "quantflow/assets/TQX-logo-full-CN4hDnX1.js"
+    },
+    {
+      "source": "quantflow/assets/ChartsView-BHe3Y_2f.js",
+      "target": "quantflow/assets/UiLoading-aPmBkIsg.js"
+    },
+    {
+      "source": "quantflow/assets/ChartsView-BHe3Y_2f.js",
+      "target": "quantflow/assets/agent-trade-BDA-Vfe3.js"
+    },
+    {
+      "source": "quantflow/assets/ChartsView-BHe3Y_2f.js",
+      "target": "quantflow/assets/aiagentclose-BbDCWpYy.js"
+    },
+    {
+      "source": "quantflow/assets/ChartsView-BHe3Y_2f.js",
+      "target": "quantflow/assets/api-factor-BvWgc3OH.js"
+    },
+    {
+      "source": "quantflow/assets/ChartsView-BHe3Y_2f.js",
+      "target": "quantflow/assets/close-BtR9jCNX.js"
+    },
+    {
+      "source": "quantflow/assets/ChartsView-BHe3Y_2f.js",
+      "target": "quantflow/assets/index-DJLj1khd.js"
+    },
+    {
+      "source": "quantflow/assets/ChartsView-BHe3Y_2f.js",
+      "target": "quantflow/assets/main-C0byxrRt.js"
+    },
+    {
+      "source": "quantflow/assets/ChartsView-BHe3Y_2f.js",
+      "target": "quantflow/assets/no-data-BmKTbyD_.js"
+    },
+    {
+      "source": "quantflow/assets/ChartsView-BHe3Y_2f.js",
+      "target": "quantflow/assets/useLocaleImage-CvV9M_0e.js"
+    },
+    {
+      "source": "quantflow/assets/ChartsView-BHe3Y_2f.js",
+      "target": "quantflow/assets/walletFetcher-iIHP3DEy.js"
+    },
+    {
+      "source": "quantflow/assets/ChatPro-BkrqzZmp.js",
+      "target": "quantflow/assets/api-factor-BvWgc3OH.js"
+    },
+    {
+      "source": "quantflow/assets/ChatPro-BkrqzZmp.js",
+      "target": "quantflow/assets/cache-ka5600P8.js"
+    },
+    {
+      "source": "quantflow/assets/ChatPro-BkrqzZmp.js",
+      "target": "quantflow/assets/main-C0byxrRt.js"
+    },
+    {
+      "source": "quantflow/assets/ChatPro-DS7erhn_.js",
+      "target": "quantflow/assets/AIComputingResult-CPwch0FA.js"
+    },
+    {
+      "source": "quantflow/assets/ChatPro-DS7erhn_.js",
+      "target": "quantflow/assets/PandaAISidebar-D4-Pxs5p.js"
+    },
+    {
+      "source": "quantflow/assets/ChatPro-DS7erhn_.js",
+      "target": "quantflow/assets/TQX-logo-full-CN4hDnX1.js"
+    },
+    {
+      "source": "quantflow/assets/ChatPro-DS7erhn_.js",
+      "target": "quantflow/assets/api-factor-BvWgc3OH.js"
+    },
+    {
+      "source": "quantflow/assets/ChatPro-DS7erhn_.js",
+      "target": "quantflow/assets/authService-DsRwB072.js"
+    },
+    {
+      "source": "quantflow/assets/ChatPro-DS7erhn_.js",
+      "target": "quantflow/assets/cache-ka5600P8.js"
+    },
+    {
+      "source": "quantflow/assets/ChatPro-DS7erhn_.js",
+      "target": "quantflow/assets/close-BtR9jCNX.js"
+    },
+    {
+      "source": "quantflow/assets/ChatPro-DS7erhn_.js",
+      "target": "quantflow/assets/ks2sd-Btp3d9YK.js"
+    },
+    {
+      "source": "quantflow/assets/ChatPro-DS7erhn_.js",
+      "target": "quantflow/assets/main-C0byxrRt.js"
+    },
+    {
+      "source": "quantflow/assets/ChatPro-DS7erhn_.js",
+      "target": "quantflow/assets/numberFormat-D2cX1O8b.js"
+    },
+    {
+      "source": "quantflow/assets/ChatPro-DS7erhn_.js",
+      "target": "quantflow/assets/useLocaleImage-CvV9M_0e.js"
+    },
+    {
+      "source": "quantflow/assets/ChatPro-DS7erhn_.js",
+      "target": "quantflow/assets/walletFetcher-iIHP3DEy.js"
+    },
+    {
+      "source": "quantflow/assets/CommonTaskProgress-BoDKztJN.js",
+      "target": "quantflow/assets/main-C0byxrRt.js"
+    },
+    {
+      "source": "quantflow/assets/ConfirmDialog-Bao0dpEH.js",
+      "target": "quantflow/assets/main-C0byxrRt.js"
+    },
+    {
+      "source": "quantflow/assets/CopyrightNotice-se2xNzrO.js",
+      "target": "quantflow/assets/main-C0byxrRt.js"
+    },
+    {
+      "source": "quantflow/assets/Creator-vrG2pjoB.js",
+      "target": "quantflow/assets/main-C0byxrRt.js"
+    },
+    {
+      "source": "quantflow/assets/CreatorCreated-6MkKRPS7.js",
+      "target": "quantflow/assets/CopyrightNotice-se2xNzrO.js"
+    },
+    {
+      "source": "quantflow/assets/CreatorCreated-6MkKRPS7.js",
+      "target": "quantflow/assets/close-BtR9jCNX.js"
+    },
+    {
+      "source": "quantflow/assets/CreatorCreated-6MkKRPS7.js",
+      "target": "quantflow/assets/jinzi-3TCLNY_G.js"
+    },
+    {
+      "source": "quantflow/assets/CreatorCreated-6MkKRPS7.js",
+      "target": "quantflow/assets/main-C0byxrRt.js"
+    },
+    {
+      "source": "quantflow/assets/CreatorCreated-6MkKRPS7.js",
+      "target": "quantflow/assets/quill.snow-DJ_fvi8v.js"
+    },
+    {
+      "source": "quantflow/assets/CreatorCreated-6MkKRPS7.js",
+      "target": "quantflow/assets/tag-outlined@3x-DxfHwDM2.js"
+    },
+    {
+      "source": "quantflow/assets/CreatorEdit-1lm9aQfM.js",
+      "target": "quantflow/assets/CopyrightNotice-se2xNzrO.js"
+    },
+    {
+      "source": "quantflow/assets/CreatorEdit-1lm9aQfM.js",
+      "target": "quantflow/assets/jinzi-3TCLNY_G.js"
+    },
+    {
+      "source": "quantflow/assets/CreatorEdit-1lm9aQfM.js",
+      "target": "quantflow/assets/main-C0byxrRt.js"
+    },
+    {
+      "source": "quantflow/assets/CreatorEdit-1lm9aQfM.js",
+      "target": "quantflow/assets/quill.snow-DJ_fvi8v.js"
+    },
+    {
+      "source": "quantflow/assets/CreatorEdit-1lm9aQfM.js",
+      "target": "quantflow/assets/tag-outlined@3x-DxfHwDM2.js"
+    },
+    {
+      "source": "quantflow/assets/CreatorList-BBK5BuDr.js",
+      "target": "quantflow/assets/ConfirmDialog-Bao0dpEH.js"
+    },
+    {
+      "source": "quantflow/assets/CreatorList-BBK5BuDr.js",
+      "target": "quantflow/assets/CopyrightNotice-se2xNzrO.js"
+    },
+    {
+      "source": "quantflow/assets/CreatorList-BBK5BuDr.js",
+      "target": "quantflow/assets/close-BtR9jCNX.js"
+    },
+    {
+      "source": "quantflow/assets/CreatorList-BBK5BuDr.js",
+      "target": "quantflow/assets/jinzi-3TCLNY_G.js"
+    },
+    {
+      "source": "quantflow/assets/CreatorList-BBK5BuDr.js",
+      "target": "quantflow/assets/ks2sd-Btp3d9YK.js"
+    },
+    {
+      "source": "quantflow/assets/CreatorList-BBK5BuDr.js",
+      "target": "quantflow/assets/main-C0byxrRt.js"
+    },
+    {
+      "source": "quantflow/assets/Exchange-rBbFBhTn.js",
+      "target": "quantflow/assets/CommonTaskProgress-BoDKztJN.js"
+    },
+    {
+      "source": "quantflow/assets/Exchange-rBbFBhTn.js",
+      "target": "quantflow/assets/Header-ByqjsPNw.js"
+    },
+    {
+      "source": "quantflow/assets/Exchange-rBbFBhTn.js",
+      "target": "quantflow/assets/PlanWarningModal-D8K4D6Rx.js"
+    },
+    {
+      "source": "quantflow/assets/Exchange-rBbFBhTn.js",
+      "target": "quantflow/assets/TQX-logo-full-CN4hDnX1.js"
+    },
+    {
+      "source": "quantflow/assets/Exchange-rBbFBhTn.js",
+      "target": "quantflow/assets/WorkflowNameDialog-Y1m-Dsia.js"
+    },
+    {
+      "source": "quantflow/assets/Exchange-rBbFBhTn.js",
+      "target": "quantflow/assets/close-BtR9jCNX.js"
+    },
+    {
+      "source": "quantflow/assets/Exchange-rBbFBhTn.js",
+      "target": "quantflow/assets/jinzi-3TCLNY_G.js"
+    },
+    {
+      "source": "quantflow/assets/Exchange-rBbFBhTn.js",
+      "target": "quantflow/assets/main-C0byxrRt.js"
+    },
+    {
+      "source": "quantflow/assets/Exchange-rBbFBhTn.js",
+      "target": "quantflow/assets/memberLevelManager-Du1-w06U.js"
+    },
+    {
+      "source": "quantflow/assets/Exchange-rBbFBhTn.js",
+      "target": "quantflow/assets/no-data1-de8XL9tU.js"
+    },
+    {
+      "source": "quantflow/assets/Exchange-rBbFBhTn.js",
+      "target": "quantflow/assets/not-open-MJGCGB5e.js"
+    },
+    {
+      "source": "quantflow/assets/Exchange-rBbFBhTn.js",
+      "target": "quantflow/assets/numberFormat-D2cX1O8b.js"
+    },
+    {
+      "source": "quantflow/assets/Exchange-rBbFBhTn.js",
+      "target": "quantflow/assets/right-arrow-DSNnrW8y.js"
+    },
+    {
+      "source": "quantflow/assets/Exchange-rBbFBhTn.js",
+      "target": "quantflow/assets/tag-outlined@3x-DxfHwDM2.js"
+    },
+    {
+      "source": "quantflow/assets/Exchange-rBbFBhTn.js",
+      "target": "quantflow/assets/useLocaleImage-CvV9M_0e.js"
+    },
+    {
+      "source": "quantflow/assets/Exchange-rBbFBhTn.js",
+      "target": "quantflow/assets/walletFetcher-iIHP3DEy.js"
+    },
+    {
+      "source": "quantflow/assets/FactorCorrelation-mrU7RIDo.js",
+      "target": "quantflow/assets/api-factor-BvWgc3OH.js"
+    },
+    {
+      "source": "quantflow/assets/FactorCorrelation-mrU7RIDo.js",
+      "target": "quantflow/assets/index-DJLj1khd.js"
+    },
+    {
+      "source": "quantflow/assets/FactorCorrelation-mrU7RIDo.js",
+      "target": "quantflow/assets/main-C0byxrRt.js"
+    },
+    {
+      "source": "quantflow/assets/Header-ByqjsPNw.js",
+      "target": "quantflow/assets/CommonTaskProgress-BoDKztJN.js"
+    },
+    {
+      "source": "quantflow/assets/Header-ByqjsPNw.js",
+      "target": "quantflow/assets/PlanWarningModal-D8K4D6Rx.js"
+    },
+    {
+      "source": "quantflow/assets/Header-ByqjsPNw.js",
+      "target": "quantflow/assets/WorkflowNameDialog-Y1m-Dsia.js"
+    },
+    {
+      "source": "quantflow/assets/Header-ByqjsPNw.js",
+      "target": "quantflow/assets/jinzi-3TCLNY_G.js"
+    },
+    {
+      "source": "quantflow/assets/Header-ByqjsPNw.js",
+      "target": "quantflow/assets/main-C0byxrRt.js"
+    },
+    {
+      "source": "quantflow/assets/Header-ByqjsPNw.js",
+      "target": "quantflow/assets/memberLevelManager-Du1-w06U.js"
+    },
+    {
+      "source": "quantflow/assets/Header-ByqjsPNw.js",
+      "target": "quantflow/assets/not-open-MJGCGB5e.js"
+    },
+    {
+      "source": "quantflow/assets/Header-ByqjsPNw.js",
+      "target": "quantflow/assets/numberFormat-D2cX1O8b.js"
+    },
+    {
+      "source": "quantflow/assets/Header-ByqjsPNw.js",
+      "target": "quantflow/assets/right-arrow-DSNnrW8y.js"
+    },
+    {
+      "source": "quantflow/assets/Header-ByqjsPNw.js",
+      "target": "quantflow/assets/useLocaleImage-CvV9M_0e.js"
+    },
+    {
+      "source": "quantflow/assets/Header-ByqjsPNw.js",
+      "target": "quantflow/assets/walletFetcher-iIHP3DEy.js"
+    },
+    {
+      "source": "quantflow/assets/NewPay-CqER54fq.js",
+      "target": "quantflow/assets/main-C0byxrRt.js"
+    },
+    {
+      "source": "quantflow/assets/PandaAISidebar-D4-Pxs5p.js",
+      "target": "quantflow/assets/authService-DsRwB072.js"
+    },
+    {
+      "source": "quantflow/assets/PandaAISidebar-D4-Pxs5p.js",
+      "target": "quantflow/assets/close-BtR9jCNX.js"
+    },
+    {
+      "source": "quantflow/assets/PandaAISidebar-D4-Pxs5p.js",
+      "target": "quantflow/assets/ks2sd-Btp3d9YK.js"
+    },
+    {
+      "source": "quantflow/assets/PandaAISidebar-D4-Pxs5p.js",
+      "target": "quantflow/assets/main-C0byxrRt.js"
+    },
+    {
+      "source": "quantflow/assets/PandaAISidebar-D4-Pxs5p.js",
+      "target": "quantflow/assets/numberFormat-D2cX1O8b.js"
+    },
+    {
+      "source": "quantflow/assets/PandaAISidebar-D4-Pxs5p.js",
+      "target": "quantflow/assets/useLocaleImage-CvV9M_0e.js"
+    },
+    {
+      "source": "quantflow/assets/PandaAISidebar-D4-Pxs5p.js",
+      "target": "quantflow/assets/walletFetcher-iIHP3DEy.js"
+    },
+    {
+      "source": "quantflow/assets/PlanWarningModal-D8K4D6Rx.js",
+      "target": "quantflow/assets/close-BtR9jCNX.js"
+    },
+    {
+      "source": "quantflow/assets/PlanWarningModal-D8K4D6Rx.js",
+      "target": "quantflow/assets/main-C0byxrRt.js"
+    },
+    {
+      "source": "quantflow/assets/Quantflow-CFbBdo_1.js",
+      "target": "quantflow/assets/AIComputingResult-CPwch0FA.js"
+    },
+    {
+      "source": "quantflow/assets/Quantflow-CFbBdo_1.js",
+      "target": "quantflow/assets/CommonTaskProgress-BoDKztJN.js"
+    },
+    {
+      "source": "quantflow/assets/Quantflow-CFbBdo_1.js",
+      "target": "quantflow/assets/CopyrightNotice-se2xNzrO.js"
+    },
+    {
+      "source": "quantflow/assets/Quantflow-CFbBdo_1.js",
+      "target": "quantflow/assets/FactorCorrelation-mrU7RIDo.js"
+    },
+    {
+      "source": "quantflow/assets/Quantflow-CFbBdo_1.js",
+      "target": "quantflow/assets/PlanWarningModal-D8K4D6Rx.js"
+    },
+    {
+      "source": "quantflow/assets/Quantflow-CFbBdo_1.js",
+      "target": "quantflow/assets/TQX-logo-full-CN4hDnX1.js"
+    },
+    {
+      "source": "quantflow/assets/Quantflow-CFbBdo_1.js",
+      "target": "quantflow/assets/UploadFile-D_R7HAxx.js"
+    },
+    {
+      "source": "quantflow/assets/Quantflow-CFbBdo_1.js",
+      "target": "quantflow/assets/WorkflowNameDialog-Y1m-Dsia.js"
+    },
+    {
+      "source": "quantflow/assets/Quantflow-CFbBdo_1.js",
+      "target": "quantflow/assets/agent-trade-BDA-Vfe3.js"
+    },
+    {
+      "source": "quantflow/assets/Quantflow-CFbBdo_1.js",
+      "target": "quantflow/assets/aiagentclose-BbDCWpYy.js"
+    },
+    {
+      "source": "quantflow/assets/Quantflow-CFbBdo_1.js",
+      "target": "quantflow/assets/api-factor-BvWgc3OH.js"
+    },
+    {
+      "source": "quantflow/assets/Quantflow-CFbBdo_1.js",
+      "target": "quantflow/assets/close-BtR9jCNX.js"
+    },
+    {
+      "source": "quantflow/assets/Quantflow-CFbBdo_1.js",
+      "target": "quantflow/assets/index-DJLj1khd.js"
+    },
+    {
+      "source": "quantflow/assets/Quantflow-CFbBdo_1.js",
+      "target": "quantflow/assets/main-C0byxrRt.js"
+    },
+    {
+      "source": "quantflow/assets/Quantflow-CFbBdo_1.js",
+      "target": "quantflow/assets/no-data-BmKTbyD_.js"
+    },
+    {
+      "source": "quantflow/assets/Quantflow-CFbBdo_1.js",
+      "target": "quantflow/assets/right-arrow-DSNnrW8y.js"
+    },
+    {
+      "source": "quantflow/assets/Quantflow-CFbBdo_1.js",
+      "target": "quantflow/assets/tag-outlined@3x-DxfHwDM2.js"
+    },
+    {
+      "source": "quantflow/assets/Quantflow-CFbBdo_1.js",
+      "target": "quantflow/assets/useLocaleImage-CvV9M_0e.js"
+    },
+    {
+      "source": "quantflow/assets/Quantflow-CFbBdo_1.js",
+      "target": "quantflow/assets/useTqxBacktestLimitPopup-Bpixu_my.js"
+    },
+    {
+      "source": "quantflow/assets/Quantflow-CFbBdo_1.js",
+      "target": "quantflow/assets/walletFetcher-iIHP3DEy.js"
+    },
+    {
+      "source": "quantflow/assets/QuantflowTable-hHUPFtu6.js",
+      "target": "quantflow/assets/ConfirmDialog-Bao0dpEH.js"
+    },
+    {
+      "source": "quantflow/assets/QuantflowTable-hHUPFtu6.js",
+      "target": "quantflow/assets/main-C0byxrRt.js"
+    },
+    {
+      "source": "quantflow/assets/QuantflowTable-hHUPFtu6.js",
+      "target": "quantflow/assets/no-data-BmKTbyD_.js"
+    },
+    {
+      "source": "quantflow/assets/SidebarLayout-DQ6ickQk.js",
+      "target": "quantflow/assets/AIComputingResult-CPwch0FA.js"
+    },
+    {
+      "source": "quantflow/assets/SidebarLayout-DQ6ickQk.js",
+      "target": "quantflow/assets/ChatPro-BkrqzZmp.js"
+    },
+    {
+      "source": "quantflow/assets/SidebarLayout-DQ6ickQk.js",
+      "target": "quantflow/assets/CommonTaskProgress-BoDKztJN.js"
+    },
+    {
+      "source": "quantflow/assets/SidebarLayout-DQ6ickQk.js",
+      "target": "quantflow/assets/Header-ByqjsPNw.js"
+    },
+    {
+      "source": "quantflow/assets/SidebarLayout-DQ6ickQk.js",
+      "target": "quantflow/assets/PandaAISidebar-D4-Pxs5p.js"
+    },
+    {
+      "source": "quantflow/assets/SidebarLayout-DQ6ickQk.js",
+      "target": "quantflow/assets/PlanWarningModal-D8K4D6Rx.js"
+    },
+    {
+      "source": "quantflow/assets/SidebarLayout-DQ6ickQk.js",
+      "target": "quantflow/assets/TQX-logo-full-CN4hDnX1.js"
+    },
+    {
+      "source": "quantflow/assets/SidebarLayout-DQ6ickQk.js",
+      "target": "quantflow/assets/UiLoading-aPmBkIsg.js"
+    },
+    {
+      "source": "quantflow/assets/SidebarLayout-DQ6ickQk.js",
+      "target": "quantflow/assets/WorkflowNameDialog-Y1m-Dsia.js"
+    },
+    {
+      "source": "quantflow/assets/SidebarLayout-DQ6ickQk.js",
+      "target": "quantflow/assets/aiagentclose-BbDCWpYy.js"
+    },
+    {
+      "source": "quantflow/assets/SidebarLayout-DQ6ickQk.js",
+      "target": "quantflow/assets/api-factor-BvWgc3OH.js"
+    },
+    {
+      "source": "quantflow/assets/SidebarLayout-DQ6ickQk.js",
+      "target": "quantflow/assets/authService-DsRwB072.js"
+    },
+    {
+      "source": "quantflow/assets/SidebarLayout-DQ6ickQk.js",
+      "target": "quantflow/assets/cache-ka5600P8.js"
+    },
+    {
+      "source": "quantflow/assets/SidebarLayout-DQ6ickQk.js",
+      "target": "quantflow/assets/close-BtR9jCNX.js"
+    },
+    {
+      "source": "quantflow/assets/SidebarLayout-DQ6ickQk.js",
+      "target": "quantflow/assets/jinzi-3TCLNY_G.js"
+    },
+    {
+      "source": "quantflow/assets/SidebarLayout-DQ6ickQk.js",
+      "target": "quantflow/assets/ks2sd-Btp3d9YK.js"
+    },
+    {
+      "source": "quantflow/assets/SidebarLayout-DQ6ickQk.js",
+      "target": "quantflow/assets/main-C0byxrRt.js"
+    },
+    {
+      "source": "quantflow/assets/SidebarLayout-DQ6ickQk.js",
+      "target": "quantflow/assets/memberLevelManager-Du1-w06U.js"
+    },
+    {
+      "source": "quantflow/assets/SidebarLayout-DQ6ickQk.js",
+      "target": "quantflow/assets/no-data-BmKTbyD_.js"
+    },
+    {
+      "source": "quantflow/assets/SidebarLayout-DQ6ickQk.js",
+      "target": "quantflow/assets/not-open-MJGCGB5e.js"
+    },
+    {
+      "source": "quantflow/assets/SidebarLayout-DQ6ickQk.js",
+      "target": "quantflow/assets/numberFormat-D2cX1O8b.js"
+    },
+    {
+      "source": "quantflow/assets/SidebarLayout-DQ6ickQk.js",
+      "target": "quantflow/assets/right-arrow-DSNnrW8y.js"
+    },
+    {
+      "source": "quantflow/assets/SidebarLayout-DQ6ickQk.js",
+      "target": "quantflow/assets/tag-outlined@3x-DxfHwDM2.js"
+    },
+    {
+      "source": "quantflow/assets/SidebarLayout-DQ6ickQk.js",
+      "target": "quantflow/assets/useLocaleImage-CvV9M_0e.js"
+    },
+    {
+      "source": "quantflow/assets/SidebarLayout-DQ6ickQk.js",
+      "target": "quantflow/assets/useTqxBacktestLimitPopup-Bpixu_my.js"
+    },
+    {
+      "source": "quantflow/assets/SidebarLayout-DQ6ickQk.js",
+      "target": "quantflow/assets/walletFetcher-iIHP3DEy.js"
+    },
+    {
+      "source": "quantflow/assets/TqxHelpDocs-BdJkiJIa.js",
+      "target": "quantflow/assets/TQX-logo-full-CN4hDnX1.js"
+    },
+    {
+      "source": "quantflow/assets/TqxHelpDocs-BdJkiJIa.js",
+      "target": "quantflow/assets/main-C0byxrRt.js"
+    },
+    {
+      "source": "quantflow/assets/TqxPay-sdZcWYPB.js",
+      "target": "quantflow/assets/CommonTaskProgress-BoDKztJN.js"
+    },
+    {
+      "source": "quantflow/assets/TqxPay-sdZcWYPB.js",
+      "target": "quantflow/assets/Header-ByqjsPNw.js"
+    },
+    {
+      "source": "quantflow/assets/TqxPay-sdZcWYPB.js",
+      "target": "quantflow/assets/PlanWarningModal-D8K4D6Rx.js"
+    },
+    {
+      "source": "quantflow/assets/TqxPay-sdZcWYPB.js",
+      "target": "quantflow/assets/TQX-logo-full-CN4hDnX1.js"
+    },
+    {
+      "source": "quantflow/assets/TqxPay-sdZcWYPB.js",
+      "target": "quantflow/assets/WorkflowNameDialog-Y1m-Dsia.js"
+    },
+    {
+      "source": "quantflow/assets/TqxPay-sdZcWYPB.js",
+      "target": "quantflow/assets/back-arrow-xsXBwf_O.js"
+    },
+    {
+      "source": "quantflow/assets/TqxPay-sdZcWYPB.js",
+      "target": "quantflow/assets/close-BtR9jCNX.js"
+    },
+    {
+      "source": "quantflow/assets/TqxPay-sdZcWYPB.js",
+      "target": "quantflow/assets/jinzi-3TCLNY_G.js"
+    },
+    {
+      "source": "quantflow/assets/TqxPay-sdZcWYPB.js",
+      "target": "quantflow/assets/main-C0byxrRt.js"
+    },
+    {
+      "source": "quantflow/assets/TqxPay-sdZcWYPB.js",
+      "target": "quantflow/assets/memberLevelManager-Du1-w06U.js"
+    },
+    {
+      "source": "quantflow/assets/TqxPay-sdZcWYPB.js",
+      "target": "quantflow/assets/no-data1-de8XL9tU.js"
+    },
+    {
+      "source": "quantflow/assets/TqxPay-sdZcWYPB.js",
+      "target": "quantflow/assets/not-open-MJGCGB5e.js"
+    },
+    {
+      "source": "quantflow/assets/TqxPay-sdZcWYPB.js",
+      "target": "quantflow/assets/numberFormat-D2cX1O8b.js"
+    },
+    {
+      "source": "quantflow/assets/TqxPay-sdZcWYPB.js",
+      "target": "quantflow/assets/right-arrow-DSNnrW8y.js"
+    },
+    {
+      "source": "quantflow/assets/TqxPay-sdZcWYPB.js",
+      "target": "quantflow/assets/tag-outlined@3x-DxfHwDM2.js"
+    },
+    {
+      "source": "quantflow/assets/TqxPay-sdZcWYPB.js",
+      "target": "quantflow/assets/tqxPaymentErrorI18n-BWcfBm_Q.js"
+    },
+    {
+      "source": "quantflow/assets/TqxPay-sdZcWYPB.js",
+      "target": "quantflow/assets/useLocaleImage-CvV9M_0e.js"
+    },
+    {
+      "source": "quantflow/assets/TqxPay-sdZcWYPB.js",
+      "target": "quantflow/assets/walletFetcher-iIHP3DEy.js"
+    },
+    {
+      "source": "quantflow/assets/TqxPayCancel-C5aaDbv9.js",
+      "target": "quantflow/assets/CommonTaskProgress-BoDKztJN.js"
+    },
+    {
+      "source": "quantflow/assets/TqxPayCancel-C5aaDbv9.js",
+      "target": "quantflow/assets/Header-ByqjsPNw.js"
+    },
+    {
+      "source": "quantflow/assets/TqxPayCancel-C5aaDbv9.js",
+      "target": "quantflow/assets/PlanWarningModal-D8K4D6Rx.js"
+    },
+    {
+      "source": "quantflow/assets/TqxPayCancel-C5aaDbv9.js",
+      "target": "quantflow/assets/TQX-logo-full-CN4hDnX1.js"
+    },
+    {
+      "source": "quantflow/assets/TqxPayCancel-C5aaDbv9.js",
+      "target": "quantflow/assets/WorkflowNameDialog-Y1m-Dsia.js"
+    },
+    {
+      "source": "quantflow/assets/TqxPayCancel-C5aaDbv9.js",
+      "target": "quantflow/assets/close-BtR9jCNX.js"
+    },
+    {
+      "source": "quantflow/assets/TqxPayCancel-C5aaDbv9.js",
+      "target": "quantflow/assets/jinzi-3TCLNY_G.js"
+    },
+    {
+      "source": "quantflow/assets/TqxPayCancel-C5aaDbv9.js",
+      "target": "quantflow/assets/main-C0byxrRt.js"
+    },
+    {
+      "source": "quantflow/assets/TqxPayCancel-C5aaDbv9.js",
+      "target": "quantflow/assets/memberLevelManager-Du1-w06U.js"
+    },
+    {
+      "source": "quantflow/assets/TqxPayCancel-C5aaDbv9.js",
+      "target": "quantflow/assets/not-open-MJGCGB5e.js"
+    },
+    {
+      "source": "quantflow/assets/TqxPayCancel-C5aaDbv9.js",
+      "target": "quantflow/assets/numberFormat-D2cX1O8b.js"
+    },
+    {
+      "source": "quantflow/assets/TqxPayCancel-C5aaDbv9.js",
+      "target": "quantflow/assets/right-arrow-DSNnrW8y.js"
+    },
+    {
+      "source": "quantflow/assets/TqxPayCancel-C5aaDbv9.js",
+      "target": "quantflow/assets/tag-outlined@3x-DxfHwDM2.js"
+    },
+    {
+      "source": "quantflow/assets/TqxPayCancel-C5aaDbv9.js",
+      "target": "quantflow/assets/tqxPaymentErrorI18n-BWcfBm_Q.js"
+    },
+    {
+      "source": "quantflow/assets/TqxPayCancel-C5aaDbv9.js",
+      "target": "quantflow/assets/useLocaleImage-CvV9M_0e.js"
+    },
+    {
+      "source": "quantflow/assets/TqxPayCancel-C5aaDbv9.js",
+      "target": "quantflow/assets/useTqxPaymentResultNavigation-BR_hmlW3.js"
+    },
+    {
+      "source": "quantflow/assets/TqxPayCancel-C5aaDbv9.js",
+      "target": "quantflow/assets/walletFetcher-iIHP3DEy.js"
+    },
+    {
+      "source": "quantflow/assets/TqxPaySuccess-2ltTOfSA.js",
+      "target": "quantflow/assets/CommonTaskProgress-BoDKztJN.js"
+    },
+    {
+      "source": "quantflow/assets/TqxPaySuccess-2ltTOfSA.js",
+      "target": "quantflow/assets/Header-ByqjsPNw.js"
+    },
+    {
+      "source": "quantflow/assets/TqxPaySuccess-2ltTOfSA.js",
+      "target": "quantflow/assets/PlanWarningModal-D8K4D6Rx.js"
+    },
+    {
+      "source": "quantflow/assets/TqxPaySuccess-2ltTOfSA.js",
+      "target": "quantflow/assets/TQX-logo-full-CN4hDnX1.js"
+    },
+    {
+      "source": "quantflow/assets/TqxPaySuccess-2ltTOfSA.js",
+      "target": "quantflow/assets/WorkflowNameDialog-Y1m-Dsia.js"
+    },
+    {
+      "source": "quantflow/assets/TqxPaySuccess-2ltTOfSA.js",
+      "target": "quantflow/assets/close-BtR9jCNX.js"
+    },
+    {
+      "source": "quantflow/assets/TqxPaySuccess-2ltTOfSA.js",
+      "target": "quantflow/assets/jinzi-3TCLNY_G.js"
+    },
+    {
+      "source": "quantflow/assets/TqxPaySuccess-2ltTOfSA.js",
+      "target": "quantflow/assets/main-C0byxrRt.js"
+    },
+    {
+      "source": "quantflow/assets/TqxPaySuccess-2ltTOfSA.js",
+      "target": "quantflow/assets/memberLevelManager-Du1-w06U.js"
+    },
+    {
+      "source": "quantflow/assets/TqxPaySuccess-2ltTOfSA.js",
+      "target": "quantflow/assets/not-open-MJGCGB5e.js"
+    },
+    {
+      "source": "quantflow/assets/TqxPaySuccess-2ltTOfSA.js",
+      "target": "quantflow/assets/numberFormat-D2cX1O8b.js"
+    },
+    {
+      "source": "quantflow/assets/TqxPaySuccess-2ltTOfSA.js",
+      "target": "quantflow/assets/right-arrow-DSNnrW8y.js"
+    },
+    {
+      "source": "quantflow/assets/TqxPaySuccess-2ltTOfSA.js",
+      "target": "quantflow/assets/tag-outlined@3x-DxfHwDM2.js"
+    },
+    {
+      "source": "quantflow/assets/TqxPaySuccess-2ltTOfSA.js",
+      "target": "quantflow/assets/tqxPaymentErrorI18n-BWcfBm_Q.js"
+    },
+    {
+      "source": "quantflow/assets/TqxPaySuccess-2ltTOfSA.js",
+      "target": "quantflow/assets/useLocaleImage-CvV9M_0e.js"
+    },
+    {
+      "source": "quantflow/assets/TqxPaySuccess-2ltTOfSA.js",
+      "target": "quantflow/assets/useTqxPaymentResultNavigation-BR_hmlW3.js"
+    },
+    {
+      "source": "quantflow/assets/TqxPaySuccess-2ltTOfSA.js",
+      "target": "quantflow/assets/walletFetcher-iIHP3DEy.js"
+    },
+    {
+      "source": "quantflow/assets/UiLoading-aPmBkIsg.js",
+      "target": "quantflow/assets/main-C0byxrRt.js"
+    },
+    {
+      "source": "quantflow/assets/UploadFile-D_R7HAxx.js",
+      "target": "quantflow/assets/main-C0byxrRt.js"
+    },
+    {
+      "source": "quantflow/assets/UploadFileExample-DWwXSRFs.js",
+      "target": "quantflow/assets/UploadFile-D_R7HAxx.js"
+    },
+    {
+      "source": "quantflow/assets/UploadFileExample-DWwXSRFs.js",
+      "target": "quantflow/assets/main-C0byxrRt.js"
+    },
+    {
+      "source": "quantflow/assets/Workflow-CA6TBoMa.js",
+      "target": "quantflow/assets/CommonTaskProgress-BoDKztJN.js"
+    },
+    {
+      "source": "quantflow/assets/Workflow-CA6TBoMa.js",
+      "target": "quantflow/assets/main-C0byxrRt.js"
+    },
+    {
+      "source": "quantflow/assets/WorkflowCreated-B3Eo3dWl.js",
+      "target": "quantflow/assets/CopyrightNotice-se2xNzrO.js"
+    },
+    {
+      "source": "quantflow/assets/WorkflowCreated-B3Eo3dWl.js",
+      "target": "quantflow/assets/back-arrow-xsXBwf_O.js"
+    },
+    {
+      "source": "quantflow/assets/WorkflowCreated-B3Eo3dWl.js",
+      "target": "quantflow/assets/main-C0byxrRt.js"
+    },
+    {
+      "source": "quantflow/assets/WorkflowCreated-B3Eo3dWl.js",
+      "target": "quantflow/assets/no-data-BmKTbyD_.js"
+    },
+    {
+      "source": "quantflow/assets/WorkflowCreated-B3Eo3dWl.js",
+      "target": "quantflow/assets/not-open-MJGCGB5e.js"
+    },
+    {
+      "source": "quantflow/assets/WorkflowCreated-B3Eo3dWl.js",
+      "target": "quantflow/assets/right-arrow-DSNnrW8y.js"
+    },
+    {
+      "source": "quantflow/assets/WorkflowNameDialog-Y1m-Dsia.js",
+      "target": "quantflow/assets/CommonTaskProgress-BoDKztJN.js"
+    },
+    {
+      "source": "quantflow/assets/WorkflowNameDialog-Y1m-Dsia.js",
+      "target": "quantflow/assets/main-C0byxrRt.js"
+    },
+    {
+      "source": "quantflow/assets/WorkflowNameDialog-Y1m-Dsia.js",
+      "target": "quantflow/assets/tag-outlined@3x-DxfHwDM2.js"
+    },
+    {
+      "source": "quantflow/assets/WorkflowSubscribed-F-toamFE.js",
+      "target": "quantflow/assets/CopyrightNotice-se2xNzrO.js"
+    },
+    {
+      "source": "quantflow/assets/WorkflowSubscribed-F-toamFE.js",
+      "target": "quantflow/assets/jinzi-3TCLNY_G.js"
+    },
+    {
+      "source": "quantflow/assets/WorkflowSubscribed-F-toamFE.js",
+      "target": "quantflow/assets/main-C0byxrRt.js"
+    },
+    {
+      "source": "quantflow/assets/WorkflowSubscribed-F-toamFE.js",
+      "target": "quantflow/assets/no-data-BmKTbyD_.js"
+    },
+    {
+      "source": "quantflow/assets/WorkflowSubscribed-F-toamFE.js",
+      "target": "quantflow/assets/walletFetcher-iIHP3DEy.js"
+    },
+    {
+      "source": "quantflow/assets/agent-trade-BDA-Vfe3.js",
+      "target": "quantflow/assets/PlanWarningModal-D8K4D6Rx.js"
+    },
+    {
+      "source": "quantflow/assets/agent-trade-BDA-Vfe3.js",
+      "target": "quantflow/assets/aiagentclose-BbDCWpYy.js"
+    },
+    {
+      "source": "quantflow/assets/agent-trade-BDA-Vfe3.js",
+      "target": "quantflow/assets/main-C0byxrRt.js"
+    },
+    {
+      "source": "quantflow/assets/agent-trade-BDA-Vfe3.js",
+      "target": "quantflow/assets/useLocaleImage-CvV9M_0e.js"
+    },
+    {
+      "source": "quantflow/assets/agent-trade-BDA-Vfe3.js",
+      "target": "quantflow/assets/walletFetcher-iIHP3DEy.js"
+    },
+    {
+      "source": "quantflow/assets/api-factor-BvWgc3OH.js",
+      "target": "quantflow/assets/main-C0byxrRt.js"
+    },
+    {
+      "source": "quantflow/assets/authService-DsRwB072.js",
+      "target": "quantflow/assets/main-C0byxrRt.js"
+    },
+    {
+      "source": "quantflow/assets/cssMode-Cs4AVpeK.js",
+      "target": "quantflow/assets/main-C0byxrRt.js"
+    },
+    {
+      "source": "quantflow/assets/freemarker2-f8IKZzir.js",
+      "target": "quantflow/assets/main-C0byxrRt.js"
+    },
+    {
+      "source": "quantflow/assets/handlebars-DTl34-6O.js",
+      "target": "quantflow/assets/main-C0byxrRt.js"
+    },
+    {
+      "source": "quantflow/assets/html-Dx8ELZF-.js",
+      "target": "quantflow/assets/main-C0byxrRt.js"
+    },
+    {
+      "source": "quantflow/assets/htmlMode-AbjfeRcK.js",
+      "target": "quantflow/assets/main-C0byxrRt.js"
+    },
+    {
+      "source": "quantflow/assets/index-BrZs9L6j.js",
+      "target": "quantflow/assets/authService-DsRwB072.js"
+    },
+    {
+      "source": "quantflow/assets/index-BrZs9L6j.js",
+      "target": "quantflow/assets/main-C0byxrRt.js"
+    },
+    {
+      "source": "quantflow/assets/index-DJLj1khd.js",
+      "target": "quantflow/assets/CopyrightNotice-se2xNzrO.js"
+    },
+    {
+      "source": "quantflow/assets/index-DJLj1khd.js",
+      "target": "quantflow/assets/main-C0byxrRt.js"
+    },
+    {
+      "source": "quantflow/assets/index-GqNeRNXA.js",
+      "target": "quantflow/assets/CommonTaskProgress-BoDKztJN.js"
+    },
+    {
+      "source": "quantflow/assets/index-GqNeRNXA.js",
+      "target": "quantflow/assets/CopyrightNotice-se2xNzrO.js"
+    },
+    {
+      "source": "quantflow/assets/index-GqNeRNXA.js",
+      "target": "quantflow/assets/main-C0byxrRt.js"
+    },
+    {
+      "source": "quantflow/assets/index-GqNeRNXA.js",
+      "target": "quantflow/assets/memberLevelManager-Du1-w06U.js"
+    },
+    {
+      "source": "quantflow/assets/index-GqNeRNXA.js",
+      "target": "quantflow/assets/no-data-BmKTbyD_.js"
+    },
+    {
+      "source": "quantflow/assets/javascript-BNka5auN.js",
+      "target": "quantflow/assets/main-C0byxrRt.js"
+    },
+    {
+      "source": "quantflow/assets/javascript-BNka5auN.js",
+      "target": "quantflow/assets/typescript-C1BBm6aW.js"
+    },
+    {
+      "source": "quantflow/assets/jsonMode-DdhQgGu8.js",
+      "target": "quantflow/assets/main-C0byxrRt.js"
+    },
+    {
+      "source": "quantflow/assets/liquid-R266DASI.js",
+      "target": "quantflow/assets/main-C0byxrRt.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/ApiErrorLogs-C8Nd_y9w.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/ChartsView-BHe3Y_2f.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/ChatPro-DS7erhn_.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/Creator-vrG2pjoB.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/CreatorCreated-6MkKRPS7.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/CreatorEdit-1lm9aQfM.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/CreatorList-BBK5BuDr.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/Exchange-rBbFBhTn.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/NewPay-CqER54fq.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/Quantflow-CFbBdo_1.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/QuantflowTable-hHUPFtu6.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/SidebarLayout-DQ6ickQk.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/TqxHelpDocs-BdJkiJIa.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/TqxPay-sdZcWYPB.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/TqxPayCancel-C5aaDbv9.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/TqxPaySuccess-2ltTOfSA.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/UploadFileExample-DWwXSRFs.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/Workflow-CA6TBoMa.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/WorkflowCreated-B3Eo3dWl.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/WorkflowSubscribed-F-toamFE.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/abap-BEmyWTuu.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/apex-WppCoB7X.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/azcli-mQgr5jfh.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/bat-CJTtRFHi.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/bicep-Cn2JVVhC.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/cameligo-vOnARPnV.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/clojure-CYjZp8Cs.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/coffee-DWywj22Y.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/cpp-CZOmK3c9.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/csharp-DpsmwUPI.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/csp-KjEhg7c5.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/css-CVVx9CO5.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/cssMode-Cs4AVpeK.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/cypher-DPY40gqJ.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/dart-VVTSeB1-.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/dockerfile-DYva5WN7.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/ecl-D1L8KD4V.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/elixir-BK4Ys-Ku.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/flow9-BBVsaG1v.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/freemarker2-f8IKZzir.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/fsharp-Dj_oI-xX.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/go-sVwXq_Ei.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/graphql-2qjgNI9R.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/handlebars-DTl34-6O.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/hcl-BVSfF1Hj.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/html-Dx8ELZF-.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/htmlMode-AbjfeRcK.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/index-BrZs9L6j.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/index-GqNeRNXA.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/ini-D-CelgHn.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/java-CwELrETr.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/javascript-BNka5auN.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/jsonMode-DdhQgGu8.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/julia-Drh_noEa.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/kotlin-BB-eT2U_.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/less-rB00erqD.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/lexon-DuUOKdDb.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/liquid-R266DASI.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/lua-CDlR7pth.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/m3-DgkkDPQd.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/markdown-CnEeiC5w.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/mdx-B7jfYvQy.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/mips-CZ6e_pUT.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/msdax-HwxQoYX4.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/mysql-C822rqGF.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/objective-c-BAmBt3xB.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/pascal-DousasBm.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/pascaligo-DD6shkNS.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/perl-DaCUUSpz.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/pgsql-DrWBB70T.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/php-DWqZhgq9.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/pla-BoO64_DU.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/postiats-bVq3Pavx.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/powerquery-CID-Ea7W.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/powershell-oRbTwEo4.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/protobuf-C0F3jUaX.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/pug-DHUJQLbd.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/python-kTA_KquL.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/qsharp-BWSzh7oN.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/r-BanU7CsF.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/razor-BCMQohYT.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/redis-BSaclKSC.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/redshift-D1_gfQkj.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/restructuredtext-C3G5we8f.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/ruby-CTmW3YEK.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/rust-NqNdpKVZ.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/sb-B8qp1FKa.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/scala-BnEfef3U.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/scheme-Dc1JGcYx.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/scss-B-My4Zvq.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/shell-BhsXm4KR.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/solidity-If5Qu0q7.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/sophia-CiIJuvdC.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/sparql-CSSfzw4u.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/sql-Cs0kX3sc.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/st-3uOu1_UJ.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/swift-Bakemar7.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/systemverilog-B2ifoQ-H.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/tcl-DQ1ZJOtM.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/tsMode-BrzF6g-t.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/twig-t0KXpBvC.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/typescript-C1BBm6aW.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/vb-CBCTJfkU.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/wgsl-CZD5oSoE.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/xml-Mt4valp2.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/yaml-BbK6yBMi.js"
+    },
+    {
+      "source": "quantflow/assets/main-C0byxrRt.js",
+      "target": "quantflow/assets/yz-BVqAcoX2.js"
+    },
+    {
+      "source": "quantflow/assets/mdx-B7jfYvQy.js",
+      "target": "quantflow/assets/main-C0byxrRt.js"
+    },
+    {
+      "source": "quantflow/assets/memberLevelManager-Du1-w06U.js",
+      "target": "quantflow/assets/main-C0byxrRt.js"
+    },
+    {
+      "source": "quantflow/assets/python-kTA_KquL.js",
+      "target": "quantflow/assets/main-C0byxrRt.js"
+    },
+    {
+      "source": "quantflow/assets/quill.snow-DJ_fvi8v.js",
+      "target": "quantflow/assets/main-C0byxrRt.js"
+    },
+    {
+      "source": "quantflow/assets/razor-BCMQohYT.js",
+      "target": "quantflow/assets/main-C0byxrRt.js"
+    },
+    {
+      "source": "quantflow/assets/tqxPaymentErrorI18n-BWcfBm_Q.js",
+      "target": "quantflow/assets/main-C0byxrRt.js"
+    },
+    {
+      "source": "quantflow/assets/tsMode-BrzF6g-t.js",
+      "target": "quantflow/assets/main-C0byxrRt.js"
+    },
+    {
+      "source": "quantflow/assets/typescript-C1BBm6aW.js",
+      "target": "quantflow/assets/main-C0byxrRt.js"
+    },
+    {
+      "source": "quantflow/assets/useLocaleImage-CvV9M_0e.js",
+      "target": "quantflow/assets/TQX-logo-full-CN4hDnX1.js"
+    },
+    {
+      "source": "quantflow/assets/useLocaleImage-CvV9M_0e.js",
+      "target": "quantflow/assets/main-C0byxrRt.js"
+    },
+    {
+      "source": "quantflow/assets/useTqxBacktestLimitPopup-Bpixu_my.js",
+      "target": "quantflow/assets/main-C0byxrRt.js"
+    },
+    {
+      "source": "quantflow/assets/useTqxPaymentResultNavigation-BR_hmlW3.js",
+      "target": "quantflow/assets/close-BtR9jCNX.js"
+    },
+    {
+      "source": "quantflow/assets/useTqxPaymentResultNavigation-BR_hmlW3.js",
+      "target": "quantflow/assets/main-C0byxrRt.js"
+    },
+    {
+      "source": "quantflow/assets/useTqxPaymentResultNavigation-BR_hmlW3.js",
+      "target": "quantflow/assets/tqxPaymentErrorI18n-BWcfBm_Q.js"
+    },
+    {
+      "source": "quantflow/assets/walletFetcher-iIHP3DEy.js",
+      "target": "quantflow/assets/main-C0byxrRt.js"
+    },
+    {
+      "source": "quantflow/assets/xml-Mt4valp2.js",
+      "target": "quantflow/assets/main-C0byxrRt.js"
+    },
+    {
+      "source": "quantflow/assets/yaml-BbK6yBMi.js",
+      "target": "quantflow/assets/main-C0byxrRt.js"
+    },
+    {
+      "source": "quantflow/assets/yz-BVqAcoX2.js",
+      "target": "quantflow/assets/AIComputingResult-CPwch0FA.js"
+    },
+    {
+      "source": "quantflow/assets/yz-BVqAcoX2.js",
+      "target": "quantflow/assets/ChatPro-BkrqzZmp.js"
+    },
+    {
+      "source": "quantflow/assets/yz-BVqAcoX2.js",
+      "target": "quantflow/assets/CopyrightNotice-se2xNzrO.js"
+    },
+    {
+      "source": "quantflow/assets/yz-BVqAcoX2.js",
+      "target": "quantflow/assets/FactorCorrelation-mrU7RIDo.js"
+    },
+    {
+      "source": "quantflow/assets/yz-BVqAcoX2.js",
+      "target": "quantflow/assets/TQX-logo-full-CN4hDnX1.js"
+    },
+    {
+      "source": "quantflow/assets/yz-BVqAcoX2.js",
+      "target": "quantflow/assets/api-factor-BvWgc3OH.js"
+    },
+    {
+      "source": "quantflow/assets/yz-BVqAcoX2.js",
+      "target": "quantflow/assets/cache-ka5600P8.js"
+    },
+    {
+      "source": "quantflow/assets/yz-BVqAcoX2.js",
+      "target": "quantflow/assets/close-BtR9jCNX.js"
+    },
+    {
+      "source": "quantflow/assets/yz-BVqAcoX2.js",
+      "target": "quantflow/assets/index-DJLj1khd.js"
+    },
+    {
+      "source": "quantflow/assets/yz-BVqAcoX2.js",
+      "target": "quantflow/assets/main-C0byxrRt.js"
+    },
+    {
+      "source": "quantflow/assets/yz-BVqAcoX2.js",
+      "target": "quantflow/assets/useLocaleImage-CvV9M_0e.js"
+    },
+    {
+      "source": "quantflow/assets/yz-BVqAcoX2.js",
+      "target": "quantflow/assets/walletFetcher-iIHP3DEy.js"
+    }
+  ]
+}
