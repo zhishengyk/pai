@@ -1,0 +1,156 @@
+{
+  "base_url": "/pandaApi/agent_quant",
+  "source": "apps/agent_quant/assets/chat-api-BkRzIk_k.js",
+  "endpoints": [
+    {
+      "method": "GET",
+      "path": "/api/chat/models",
+      "purpose": "可用模型列表"
+    },
+    {
+      "method": "GET",
+      "path": "/api/chat/conversations",
+      "purpose": "会话列表（分页/归档过滤）"
+    },
+    {
+      "method": "POST",
+      "path": "/api/chat/conversations",
+      "purpose": "新建会话"
+    },
+    {
+      "method": "PATCH",
+      "path": "/api/chat/conversations/{conversation_id}",
+      "purpose": "重命名/更新会话"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/chat/conversations/{conversation_id}",
+      "purpose": "删除会话"
+    },
+    {
+      "method": "GET",
+      "path": "/api/chat/conversations/{conversation_id}/messages",
+      "purpose": "历史消息（before_sequence 分页）"
+    },
+    {
+      "method": "POST",
+      "path": "/api/chat/runs",
+      "purpose": "创建一次 Agent run"
+    },
+    {
+      "method": "POST",
+      "path": "/api/chat/runs/{run_id}/retry",
+      "purpose": "重试 run"
+    },
+    {
+      "method": "POST",
+      "path": "/api/chat/runs/{run_id}/cancel",
+      "purpose": "取消 run"
+    },
+    {
+      "method": "POST",
+      "path": "/api/chat/messages/{message_id}/resend",
+      "purpose": "编辑后重发"
+    },
+    {
+      "method": "PUT",
+      "path": "/api/chat/messages/{message_id}/feedback",
+      "purpose": "点赞/点踩"
+    },
+    {
+      "method": "GET",
+      "path": "/api/chat/conversations/{conversation_id}/artifacts",
+      "purpose": "会话产物"
+    },
+    {
+      "method": "POST",
+      "path": "/api/chat/conversations/{conversation_id}/artifacts",
+      "purpose": "新增产物"
+    },
+    {
+      "method": "DELETE",
+      "path": "/api/chat/conversations/{conversation_id}/artifacts/{artifact_type}/{artifact_id}",
+      "purpose": "删除产物"
+    },
+    {
+      "method": "GET",
+      "path": "/api/strategy-drafts/{draft_id}",
+      "purpose": "读取策略草稿"
+    },
+    {
+      "method": "GET",
+      "path": "/api/chat/strategy-transcription/platforms",
+      "purpose": "策略转写平台状态"
+    },
+    {
+      "method": "GET",
+      "path": "/api/quant-skills",
+      "purpose": "QuantSkill 搜索"
+    },
+    {
+      "method": "GET",
+      "path": "/api/quant-skill-runs/page",
+      "purpose": "QuantSkill 运行记录"
+    },
+    {
+      "method": "GET",
+      "path": "/api/quant-skill-runs/{run_id}",
+      "purpose": "QuantSkill 运行详情"
+    },
+    {
+      "method": "POST",
+      "path": "/api/chat/conversations/{conversation_id}/completion/read",
+      "purpose": "标记完成已读"
+    },
+    {
+      "method": "POST",
+      "path": "/api/chat/conversations/{conversation_id}/failure/read",
+      "purpose": "标记失败已读"
+    },
+    {
+      "method": "POST",
+      "path": "/api/chat/runs/{run_id}/strategy-create-approvals/{approval_id}/resolve",
+      "purpose": "策略创建审批"
+    },
+    {
+      "method": "GET",
+      "path": "/api/chat/runs/{run_id}/strategy-create-approvals/{approval_id}/draft",
+      "purpose": "策略创建审批草稿"
+    },
+    {
+      "method": "POST",
+      "path": "/api/chat/runs/{run_id}/strategy-run-approvals/{approval_id}/resolve",
+      "purpose": "策略回测审批"
+    },
+    {
+      "method": "GET",
+      "path": "/api/chat/runs/{run_id}/strategy-mutation-approvals/{approval_id}/detail",
+      "purpose": "策略变更审批详情"
+    },
+    {
+      "method": "POST",
+      "path": "/api/chat/runs/{run_id}/strategy-mutation-approvals/{approval_id}/resolve",
+      "purpose": "策略变更审批"
+    },
+    {
+      "method": "GET",
+      "path": "/api/chat/runs/{run_id}/strategy-version-approvals/{approval_id}/detail",
+      "purpose": "策略版本审批详情"
+    },
+    {
+      "method": "POST",
+      "path": "/api/chat/runs/{run_id}/strategy-version-approvals/{approval_id}/resolve",
+      "purpose": "策略版本审批"
+    },
+    {
+      "method": "POST",
+      "path": "/api/chat/runs/{run_id}/factor-create-approvals/{approval_id}/resolve",
+      "purpose": "因子创建审批"
+    },
+    {
+      "method": "GET",
+      "path": "/api/chat/runs/{run_id}/factor-create-approvals/{approval_id}/draft",
+      "purpose": "因子创建审批草稿"
+    }
+  ]
+}

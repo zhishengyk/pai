@@ -1,0 +1,98 @@
+{
+  "rea_version": "6.8.0",
+  "node": "24.22.1",
+  "artifacts": [
+    {
+      "file": "captures/docs-qube-app-evidence.json",
+      "bytes": 102878952,
+      "sha256": "e9eff468c0fb570d4a844705388580e430cd83cde553dc52dde9a3544906abb0",
+      "evidence_id": "ev_04f7e3763d7c94290543ad1ea345e0848efe6efeae6f054158a3d64a4fb8b631",
+      "view_evidence_id": "ev_d6051c208006f58145aa6fc8a37d9d4c572365df8f750d5a6a00769c229bb81f",
+      "routes": {
+        "status": "page",
+        "examined": 54,
+        "total": 54,
+        "next_offset": null,
+        "exhausted": true
+      }
+    },
+    {
+      "file": "captures/docs-qube-app-summary.json",
+      "bytes": 35409,
+      "sha256": "111198b9b63f596f0b7af98ca195e38a0d86e95b27a4fec64e0b22c5586ad54e",
+      "evidence_id": "ev_d6051c208006f58145aa6fc8a37d9d4c572365df8f750d5a6a00769c229bb81f"
+    },
+    {
+      "file": "captures/quantflow-app-evidence.json",
+      "bytes": 235456467,
+      "sha256": "31183ec303da5abb1d39f21d8474e48df5c4960e01d0f7029d3e89f78e919fb7",
+      "evidence_id": "ev_12bfd1c6aa70ebd7606a826b613f6413fd18dd257a4f4b21a77f2e5f1457a1fa",
+      "view_evidence_id": "ev_6a99dfd3ec5a842c26689d2707ef059ffaacd6377736892524d0f264293355ec",
+      "routes": {
+        "status": "page",
+        "examined": 2,
+        "total": 2,
+        "next_offset": null,
+        "exhausted": true
+      }
+    },
+    {
+      "file": "captures/quantflow-app-summary.json",
+      "bytes": 13706,
+      "sha256": "566212bbec5edcb9fe9236ed39716a05de86ae0d4d27540186c158efc8dddebb",
+      "evidence_id": "ev_6a99dfd3ec5a842c26689d2707ef059ffaacd6377736892524d0f264293355ec"
+    },
+    {
+      "file": "captures/agent-quant-api-evidence.json",
+      "bytes": 12872895,
+      "sha256": "4ab206f71dbf92a9d1712b04cd88dc12d5e06238e826982e788d335fbf353b5e",
+      "evidence_id": "ev_65157905a88f355e0d9b0efad038bfc6d040ded155d7e1ee4110e5bb1989335a",
+      "view_evidence_id": "ev_4640d27050c09f4a94e991bfacae838a27d8a75da9c1a97beda03dc100974039",
+      "routes": {
+        "status": "empty",
+        "examined": 0,
+        "total": 0,
+        "next_offset": null,
+        "exhausted": true
+      }
+    },
+    {
+      "file": "captures/agent-quant-api-summary.json",
+      "bytes": 5553,
+      "sha256": "e53ded53a96a4803a9936fdc674f7439608bda58c7a829efe615de52ddb8e481",
+      "evidence_id": "ev_4640d27050c09f4a94e991bfacae838a27d8a75da9c1a97beda03dc100974039"
+    },
+    {
+      "file": "captures/agent_quant-page.json",
+      "bytes": 540658,
+      "sha256": "0459789e9573136ed35476d5ea6aaeb6406618c7315a475d048e6bdaad0c0056",
+      "evidence_id": "ev_1a936c556d32958d6ea580b8e99108e4f8ddac5b84bce6e2ec73f4b8477a759f"
+    },
+    {
+      "file": "captures/docs-qube-page.json",
+      "bytes": 1490407,
+      "sha256": "aa92d67c463b872f5f289128f4a66d8f9b62dd98c2a601bc9c8d2fd772191c3e",
+      "evidence_id": "ev_caba301bedf0e639869f143cb788ddb8afdd62c60248bba5f3c830f15fc2ea59"
+    },
+    {
+      "file": "captures/docs-evo-page.json",
+      "bytes": 1356415,
+      "sha256": "c4d24ec7e33d5a8c5c446322b4ad20e518d5bcc6aea5c9e8eef6242e5d22bda7",
+      "evidence_id": "ev_30efc90e0ea324d93744525dd371da3da7e7c5f2795e75e390b673eebfaefc15"
+    },
+    {
+      "file": "captures/docs-a2a-page.json",
+      "bytes": 1420378,
+      "sha256": "03ecb5e1fbfb03953d46df967d61c770599cbb1758beb50c940618177a4961ad",
+      "evidence_id": "ev_eca4aaba17a9dbb35a9b306f1b031cffc4d0fde85c8ed1abf065352a9b84c120"
+    },
+    {
+      "file": "captures/agent-quant-shell-summary.json",
+      "bytes": 61523281,
+      "sha256": "cbb2055a2cc32684f0f066ed2e0ab6c81ae5ea0cfd4ae518b96fe3f9ad9b1a90",
+      "evidence_id": "ev_0408a96dcec05cd3f2d45fb8c1a61bdd39c50418d5c7483251c5ca1364e3e2ce",
+      "status": "provider_timeout",
+      "note": "full Qube app analysis hit 300s provider timeout; partial observation retained"
+    }
+  ]
+}
